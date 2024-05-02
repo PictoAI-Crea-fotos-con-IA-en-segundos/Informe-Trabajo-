@@ -2,7 +2,7 @@
 
 **DE CIENCIAS APLICADAS**
 
-![Logotipo Descripción generada automáticamente](media/7943e8dd4ed8f5002ac097150ab79dbe.png)
+![Logotipo Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714691535/gmplcgrlsv9sihpusivm.png)
 
 **SI728 Arquitecturas De Software Emergentes**
 
