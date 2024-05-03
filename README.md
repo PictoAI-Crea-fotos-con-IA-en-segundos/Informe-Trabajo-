@@ -340,21 +340,21 @@ A continuación, te presento algunas estrategias y prácticas que los competidor
 
 **Segmento objetivo 1:** El usuario profesional
 
-![Diagrama, Escala de tiempo Descripción generada automáticamente](media/0baca919e98c55580860fe9427663eef.jpeg)
+![Diagrama, Escala de tiempo Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714701488/gz9yqdyurbq5dmgbt4r9.jpg)
 
 **Segmento Objetivo 2:** El usuario entusiasta
 
-![Escala de tiempo Descripción generada automáticamente](media/8206b5cb94835a8eb2e7b28ce89b89eb.jpeg)
+![Escala de tiempo Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714701568/hq2mptlgrrvy4qetmhdf.jpg)
 
 ### As-is Scenario Mapping
 
 **Segmento objetivo 1:** El usuario profesional
 
-![Escala de tiempo Descripción generada automáticamente](media/40271077924664e3815a6744428ce37a.jpeg)
+![Escala de tiempo Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714701625/nctaynkudlor7l1ytovv.jpg)
 
 **Segmento Objetivo 2:** El usuario entusiasta
 
-![Diagrama, Calendario Descripción generada automáticamente](media/77796ea35e7cacb1a8e1be551a9d11d4.jpeg)
+![Diagrama, Calendario Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714701690/vmbwxgorwletmzmg9lew.jpg)
 
 ## Ubiquitous Language
 
