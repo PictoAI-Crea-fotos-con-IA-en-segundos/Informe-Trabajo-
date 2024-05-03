@@ -211,8 +211,8 @@ A continuación, te presento algunas estrategias y prácticas que los competidor
 -   ¿Qué tecnología suele usar en su día a día?
 -   ¿Para usted aprender a utilizar aplicaciones nuevas es sencillo o tiene alguna dificultad?
 -   ¿Cuáles son sus aplicaciones, páginas web y marcas favoritas? ¿Por qué?
--   ¿Se considera introvertido o extrovertido?
--   ¿Cuáles son sus dispositivos preferidos?
+-   ¿Se considera introvertido o extrovertido.?
+-   ¿Cuáles son sus dispositivos preferidos.?
 
 **Preguntas Específicas**
 
