@@ -30,95 +30,51 @@ Lino Abraham Quenta Leon (U20211F978)
 
 Contenido
 
-[Capítulo I: Introducción](#_Toc165013622)
-
-[Startup Profile](#startup-profile)
-
-[Descripción de Startup](#descripción-de-startup)
-
-[Perfiles de integrantes del equipo](#perfiles-de-integrantes-del-equipo)
-
-[Solution Profile](#solution-profile)
-
-[Antecedentes y Problemática](#antecedentes-y-problemática)
-
-[Lean UX Process](#lean-ux-process)
-
-[Segmento Objetivo](#segmento-objetivo)
-
-[Segmento Objetivo 1: El Usuario Entusiasta](#segmento-objetivo-1-el-usuario-entusiasta)
-
-[Segmento Objetivo 2: El Usuario Profesional](#segmento-objetivo-2-el-usuario-profesional)
-
-[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-
-[Competidores](#competidores)
-
-[Análisis competitivo](#análisis-competitivo)
-
-[Estrategias y tácticas frente a competidores](#estrategias-y-tácticas-frente-a-competidores)
-
-[Entrevistas](#entrevistas)
-
-[Diseño de entrevistas.](#diseño-de-entrevistas)
-
-[Registro de entrevistas](#registro-de-entrevistas)
-
-[Needfinding](#needfinding)
-
-[User Personas](#user-personas)
-
-[User Task Matrix](#user-task-matrix)
-
-[Empathy Mapping](#empathy-mapping)
-
-[As-is Scenario Mapping](#as-is-scenario-mapping)
-
-[Ubiquitous Language](#ubiquitous-language)
-
-[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-
-[To-Be Scenario Mapping](#to-be-scenario-mapping)
-
-[User Stories](#user-stories)
-
-[Impact Mapping](#impact-mapping)
-
-[Product Backlog](#product-backlog)
-
-[Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
-
-[Strategic-Level Attribute-Driven Design](#strategic-level-attribute-driven-design)
-
-[Design Purpose](#design-purpose)
-
-[Attribute-Driven Design Inputs](#attribute-driven-design-inputs)
-
-[Architectural Drivers Backlog](#architectural-drivers-backlog)
-
-[Architectural Design Decisions](#architectural-design-decisions)
-
-[Quality Attribute Scenario Refinements](#quality-attribute-scenario-refinements)
-
-[Strategic-Level Domain-Driven Design](#strategic-level-domain-driven-design)
-
-[EventStorming](#eventstorming)
-
-[Candidate Context Discovery](#candidate-context-discovery)
-
-[Domain Message Flows Modeling](#domain-message-flows-modeling)
-
-[Context Mapping](#context-mapping)
-
-[Software Architecture](#software-architecture)
-
-[Software Architecture System Landscape Diagram](#software-architecture-system-landscape-diagram)
-
-[Software Architecture Context Level Diagrams](#software-architecture-context-level-diagrams)
-
-[Software Architecture Container Level Diagrams](#software-architecture-container-level-diagrams)
-
-[Software Architecture Deployment Diagrams](#software-architecture-deployment-diagrams)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [Startup Profile](#startup-profile)
+    - [Descripción de Startup](#descripción-de-startup)
+    - [Perfiles de integrantes del equipo](#perfiles-de-integrantes-del-equipo)
+  - [Solution Profile](#solution-profile)
+    - [Antecedentes y Problemática](#antecedentes-y-problemática)
+    - [Lean UX Process](#lean-ux-process)
+  - [Segmento Objetivo](#segmento-objetivo)
+    - [Segmento Objetivo 1: El Usuario Entusiasta](#segmento-objetivo-1-el-usuario-entusiasta)
+    - [Segmento Objetivo 2: El Usuario Profesional](#segmento-objetivo-2-el-usuario-profesional)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [Competidores](#competidores)
+    - [Análisis competitivo](#análisis-competitivo)
+    - [Estrategias y tácticas frente a competidores](#estrategias-y-tácticas-frente-a-competidores)
+  - [Entrevistas](#entrevistas)
+    - [Diseño de entrevistas.](#diseño-de-entrevistas)
+    - [Registro de entrevistas](#registro-de-entrevistas)
+  - [Needfinding](#needfinding)
+    - [User Personas](#user-personas)
+    - [User Task Matrix](#user-task-matrix)
+    - [Empathy Mapping](#empathy-mapping)
+    - [As-is Scenario Mapping](#as-is-scenario-mapping)
+  - [Ubiquitous Language](#ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [To-Be Scenario Mapping](#to-be-scenario-mapping)
+  - [User Stories](#user-stories)
+  - [Impact Mapping](#impact-mapping)
+  - [Product Backlog](#product-backlog)
+- [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
+  - [Strategic-Level Attribute-Driven Design](#strategic-level-attribute-driven-design)
+    - [Design Purpose](#design-purpose)
+    - [Attribute-Driven Design Inputs](#attribute-driven-design-inputs)
+    - [Architectural Drivers Backlog](#architectural-drivers-backlog)
+    - [Architectural Design Decisions](#architectural-design-decisions)
+    - [Quality Attribute Scenario Refinements](#quality-attribute-scenario-refinements)
+  - [Strategic-Level Domain-Driven Design](#strategic-level-domain-driven-design)
+    - [EventStorming](#eventstorming)
+    - [Candidate Context Discovery](#candidate-context-discovery)
+    - [Domain Message Flows Modeling](#domain-message-flows-modeling)
+    - [Context Mapping](#context-mapping)
+  - [Software Architecture](#software-architecture)
+    - [Software Architecture System Landscape Diagram](#software-architecture-system-landscape-diagram)
+    - [Software Architecture Context Level Diagrams](#software-architecture-context-level-diagrams)
+    - [Software Architecture Container Level Diagrams](#software-architecture-container-level-diagrams)
+    - [Software Architecture Deployment Diagrams](#software-architecture-deployment-diagrams)
 
 # Capítulo I: Introducción
 
