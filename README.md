@@ -107,6 +107,8 @@ Contenido
     - [6.4. Applications UX/UI Design.](#64-applications-uxui-design)
       - [6.4.1. Applications Wireframes.](#641-applications-wireframes)
       - [6.4.2. Applications Wireflow Diagrams.](#642-applications-wireflow-diagrams)
+        
+- [ANEXO.](#anexo)
 
 # Capítulo I: Introducción
 
@@ -775,4 +777,4 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 
   ![Captura de pantalla 2024-04-28 174143](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/213b9fc7-14f1-4614-b802-17cf19d31acd)
 
-  
+  # Anexo
