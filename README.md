@@ -1,6 +1,4 @@
-**UNIVERSIDAD PERUANA**
-
-**DE CIENCIAS APLICADAS**
+**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**
 
 ![Logotipo Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714691535/gmplcgrlsv9sihpusivm.png)
 
