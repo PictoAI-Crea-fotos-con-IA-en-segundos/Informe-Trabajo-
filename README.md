@@ -22,7 +22,7 @@ Richar Varoni Romero Cacha (U20201B428)
 
 Ángel Gustavo Chuco Michel (U20201B193)
 
-Frank Yaml Alva Cordova (U202020026)
+Frank Yamil Alva Cordova (U202020026)
 
 Lino Abraham Quenta Leon (U20211F978)
 
@@ -585,6 +585,9 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
     Los usuarios pueden introducir términos para buscar tipos específicos de plantillas o estilos de edición, con resultados que aparecen de forma instantánea.
 
   ### 6.2.5. Navigation Systems.
+  - **Landing Page:** 
+  
+    Enlaces directos a las funcionalidades clave como "Inicio", "Nosotros" y "Crea tu retrato con IA". Botones y links en la página principal conducirán a los usuarios directamente a las secciones deseadas, mejorando la experiencia de usuario y facilitando el acceso a las herramientas. Asimismo, se implementaran otros botones para facilitar la navegacion al usuario.
   ### 6.3. Landing Page UI Design.
   ### 6.3.1. Landing Page Wireframe.
   
