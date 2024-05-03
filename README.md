@@ -773,7 +773,7 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 
   #### 6.4.2. Applications Wireflow Diagrams.
 
-  ![Captura de pantalla 2024-05-03 093300](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/1edc8128-7276-408b-a8ce-edd2b8e15ea3)
+  ![Captura de pantalla 2024-05-03 094709](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/978aafcb-9fe4-4a2b-ad34-a5b9d3c3875c)
 
   # Anexo
 [Video-Trabajo-Parcial](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201910655_upc_edu_pe/EV5FVST-UNhMs1xvbvul0EsBwaugmjjlN6v8xq5TNrkbXQ?e=7ogAKe)
