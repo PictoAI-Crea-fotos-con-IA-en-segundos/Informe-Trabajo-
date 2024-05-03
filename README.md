@@ -22,7 +22,7 @@ Richar Varoni Romero Cacha (U20201B428)
 
 Ángel Gustavo Chuco Michel (U20201B193)
 
-Frank Alva Cordova (U202113432)
+Frank Yaml Alva Cordova (U202020026)
 
 Lino Abraham Quenta Leon (U20211F978)
 
@@ -80,6 +80,12 @@ Contenido
     - [6.2.3. SEO Tags and Meta Tags.](#623-seo-tags-and-meta-tags)
     - [6.2.4. Searching Systems.](#624-searching-systems)
     - [6.2.5. Navigation Systems.](#625-navigation-systems)
+    - [6.3. Landing Page UI Design.](#63-landing-page-ui-design)
+    - [6.3.1. Landing Page Wireframe.](#631-landing-page-wireframe)
+    - [6.3.2. Landing Page Mock-up.](#632-landing-page-mock-up)
+    - [6.4. Applications UX/UI Design.](#64-applications-uxui-design)
+      - [6.4.1. Applications Wireframes.](#641-applications-wireframes)
+      - [6.4.2. Applications Wireflow Diagrams.](#642-applications-wireflow-diagrams)
 
 # Capítulo I: Introducción
 
