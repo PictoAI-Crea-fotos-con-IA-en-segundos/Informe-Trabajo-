@@ -77,27 +77,25 @@ Contenido
     - [Software Architecture Deployment Diagrams](#software-architecture-deployment-diagrams)
 - [Capítulo V: Tactical-Level Software ![Interfaz de usuario gráfica Descripción generada automáticamente con confianza baja](media/b083affb6155b5203b7a589180585271.png)Design.](#capítulo-v-tactical-level-software-design)
 
-[5.1. Bounded Context: PhotoRepository](#51-bounded-context-photorepository)
+    - [5.1. Bounded Context: PhotoRepository](#51-bounded-context-photorepository)
 
-[5.1.1. Domain Layer.](#511-domain-layer)
+      - [5.1.1. Domain Layer.](#511-domain-layer)
 
-[5.1.2. Interface Layer.](#512-interface-layer)
+      - [5.1.2. Interface Layer.](#512-interface-layer)
 
-[5.1.3. Application Layer.](#513-application-layer)
+      - [5.1.3. Application Layer.](#513-application-layer)
 
-[5.1.4. Infrastructure Layer.](#514-infrastructure-layer)
+      - [5.1.4. Infrastructure Layer.](#514-infrastructure-layer)
 
-[5.1.6. Bounded Context Software Architecture Component Level Diagrams.](#516-bounded-context-software-architecture-component-level-diagrams)
+      - [5.1.6. Bounded Context Software Architecture Component Level Diagrams.](#516-bounded-context-software-architecture-component-level-diagrams)
 
-[5.1.7. Bounded Context Software Architecture Code Level Diagrams.](#517-bounded-context-software-architecture-code-level-diagrams)
+      - [5.1.7. Bounded Context Software Architecture Code Level Diagrams.](#517-bounded-context-software-architecture-code-level-diagrams)
 
 - [Capítulo VI: Solution UX Design.](#capítulo-vi-solution-ux-design)
 
-[6.1. Style Guidelines.](#61-style-guidelines)
-
-[6.1.1. General Style Guidelines.](#611-general-style-guidelines)
-
-[6.1.2. Web, Mobile & Devices Style Guidelines.](#612-web-mobile--devices-style-guidelines)
+  - [6.1. Style Guidelines.](#61-style-guidelines)
+    - [6.1.1. General Style Guidelines.](#611-general-style-guidelines)
+    - [6.1.2. Web, Mobile & Devices Style Guidelines.](#612-web-mobile--devices-style-guidelines)
   - [6.2. Information Architecture](#62-information-architecture)
     - [6.2.2. Labeling Systems.](#622-labeling-systems)
     - [6.2.3. SEO Tags and Meta Tags.](#623-seo-tags-and-meta-tags)
