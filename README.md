@@ -323,9 +323,9 @@ A continuación, te presento algunas estrategias y prácticas que los competidor
 
 ### User Personas
 
-![Interfaz de usuario gráfica, Aplicación Descripción generada automáticamente](media/aea34c97ee427eef8309f63826e27b91.png)
+![Interfaz de usuario gráfica, Aplicación Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714701488/gz9yqdyurbq5dmgbt4r9.jpg)
 
-![](media/f754ecdb067e4b91ef28b72d7ceabd75.png)
+![](https://res.cloudinary.com/daassyisd/image/upload/v1714701568/hq2mptlgrrvy4qetmhdf.jpg)
 
 ### User Task Matrix
 
@@ -340,21 +340,21 @@ A continuación, te presento algunas estrategias y prácticas que los competidor
 
 **Segmento objetivo 1:** El usuario profesional
 
-![Diagrama, Escala de tiempo Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714701488/gz9yqdyurbq5dmgbt4r9.jpg)
+![Diagrama, Escala de tiempo Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714701625/nctaynkudlor7l1ytovv.jpg)
 
 **Segmento Objetivo 2:** El usuario entusiasta
 
-![Escala de tiempo Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714701568/hq2mptlgrrvy4qetmhdf.jpg)
+![Escala de tiempo Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714701690/vmbwxgorwletmzmg9lew.jpg)
 
 ### As-is Scenario Mapping
 
 **Segmento objetivo 1:** El usuario profesional
 
-![Escala de tiempo Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714701625/nctaynkudlor7l1ytovv.jpg)
+![Escala de tiempo Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714702035/ofr7opkbysatz9gvbrhu.jpg)
 
 **Segmento Objetivo 2:** El usuario entusiasta
 
-![Diagrama, Calendario Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714701690/vmbwxgorwletmzmg9lew.jpg)
+![Diagrama, Calendario Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714702057/dpfacsyspbd6kpcxensi.jpg)
 
 ## Ubiquitous Language
 
@@ -425,7 +425,7 @@ El desarrollo del lenguaje ubicuo permitirá establecer una terminología común
 
 ## Impact Mapping
 
-![Diagrama Descripción generada automáticamente](media/a9510b546e66b211433e386d05e786be.jpeg)
+![Diagrama Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714702118/rzwo4pxw5lubi0ndtpv0.jpg)
 
 ## Product Backlog
 
@@ -556,22 +556,22 @@ Se seleccionó los user stories con mayor relevancia para llevar a cabo esta sol
 
 Este diagrama muestra una vista panorámica de todo el sistema, incluyendo sus componentes principales y cómo se interconectan. Es útil para comprender la estructura general del sistema y las relaciones entre sus partes
 
-![Diagrama Descripción generada automáticamente](media/83e4069b19988313d7abfb60600afcc0.png)
+![Diagrama Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714702510/yplhwpajesblsziyfyv9.jpg)
 
 ### Software Architecture Context Level Diagrams
 
 Estos diagramas proporcionan una vista de alto nivel de las interacciones entre el sistema y sus entornos externos, como otros sistemas, usuarios.
 
-![Diagrama Descripción generada automáticamente](media/3425e588cb7a2f13e277c741961a9bdb.png)
+![Diagrama Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714702564/oqlfa0dvhts3kkmxblbp.jpg)
 
 ### Software Architecture Container Level Diagrams
 
 Estos diagramas muestran la estructura interna del sistema, dividiéndolo en contenedores o módulos principales y describiendo las relaciones entre ellos. Ayudan a visualizar cómo se organiza el software en componentes lógicos y cómo se comunican entre sí.
 
-![Diagrama Descripción generada automáticamente](media/f79f431d58a441b4b8a54dedf32845c0.png)
+![Diagrama Descripción generada automáticamente](https://res.cloudinary.com/daassyisd/image/upload/v1714702583/wb5rrmd0tetonpqndeg3.jpg)
 
 ### Software Architecture Deployment Diagrams
 
 Estos diagramas representan la configuración física del sistema, mostrando cómo se distribuyen los contenedores y sus instancias en diferentes nodos de hardware o entornos de ejecución.
 
-![Interfaz de usuario gráfica Descripción generada automáticamente con confianza baja](media/b083affb6155b5203b7a589180585271.png)
+![Interfaz de usuario gráfica Descripción generada automáticamente con confianza baja](https://res.cloudinary.com/daassyisd/image/upload/v1714702600/inibydsvy3jww8dhhwmp.jpg)
