@@ -75,6 +75,11 @@ Contenido
     - [Software Architecture Context Level Diagrams](#software-architecture-context-level-diagrams)
     - [Software Architecture Container Level Diagrams](#software-architecture-container-level-diagrams)
     - [Software Architecture Deployment Diagrams](#software-architecture-deployment-diagrams)
+  - [6.2. Information Architecture](#62-information-architecture)
+    - [6.2.2. Labeling Systems.](#622-labeling-systems)
+    - [6.2.3. SEO Tags and Meta Tags.](#623-seo-tags-and-meta-tags)
+    - [6.2.4. Searching Systems.](#624-searching-systems)
+    - [6.2.5. Navigation Systems.](#625-navigation-systems)
 
 # Capítulo I: Introducción
 
@@ -531,3 +536,49 @@ Estos diagramas muestran la estructura interna del sistema, dividiéndolo en con
 Estos diagramas representan la configuración física del sistema, mostrando cómo se distribuyen los contenedores y sus instancias en diferentes nodos de hardware o entornos de ejecución.
 
 ![Interfaz de usuario gráfica Descripción generada automáticamente con confianza baja](https://res.cloudinary.com/daassyisd/image/upload/v1714702600/inibydsvy3jww8dhhwmp.jpg)
+
+
+
+
+ ## 6.2. Information Architecture
+ ### 6.2.2. Labeling Systems.
+ **Encabezados (headings):**  Estas etiquetas son cruciales para guiar a los usuarios a través de la plataforma, facilitando la comprensión inmediata de las secciones de generación y edición de imágenes.
+
+- **Etiquetas textuales:** Utilizadas para señalar características específicas de la plataforma, como "Crear retrato", "Editar imagen", y "Ver galería".
+
+-  **Etiquetas icónicas (iconic labels):** El empleo de iconos claros para funciones como subir una imagen, ajustar configuraciones de edición o descargar imágenes, generalmente acompañados de texto para evitar confusiones.
+
+Estos dos tipos de etiquetas se hacen visibles en la barra de navegación de nuestro prototipo.
+### 6.2.3. SEO Tags and Meta Tags.
+
+Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online de una página mediante la optimización para motores de búsqueda. Aunque no son visibles directamente para los visitantes de la página, los navegadores y los motores de búsqueda las utilizan para interpretar y clasificar el contenido de los sitios web. Estas etiquetas facilitan la interpretación de los contenidos de los archivos HTML y son fundamentales para una gestión eficiente del mismo. Así, las etiquetas meta no solo ayudan a organizar la información de forma más efectiva, sino que también son determinantes para posicionar mejor la página en los resultados de búsqueda, lo que atrae a más visitantes al sitio.
+
+ - **Titulo:** Esta etiqueta se cuenta entre las más importantes y suele ubicarse antes que cualquier otra etiqueta meta.
+  
+       ``` <title>Crea retratos realistas con nuestra herramienta de IA</title> ```
+
+
+- **Codificación de caracteres:** Esta etiqueta ayudará a que muestre correctamente los caracteres especiales de nuestra pagina. 
+  
+      ``` <meta charset="utf-8"/> ```
+
+- **Descripcion:** Esta meta etiqueta nos sirve para proporcionar un resumen del contenido de la página web.
+  
+      ``` <meta name="description" content="Transforma tus fotos en obras de arte con nuestra avanzada herramienta de inteligencia artificial. Crea, edita y personaliza imágenes como nunca antes."/> ```
+
+- **Palabras Clave:** En esta etiqueta se pone las palabras claves relacionadas con el tema o contenido de la página web.
+
+        ``` <meta name="keywords" content="inteligencia artificial, edición de fotos, generación de imágenes, retratos IA"/>  ```
+
+- **Autor y Derechos de Autor:** Se utiliza para registrar la información del autor de la página web y la propiedad y derechos de autor.
+
+       ``` <meta name="author" content="PictoAI" /><meta name="copyright" content="Copyright 2024 PictoAI"/> ```
+
+  ### 6.2.4. Searching Systems.
+
+    Los usuarios pueden introducir términos para buscar tipos específicos de plantillas o estilos de edición, con resultados que aparecen de forma instantánea.
+
+  ### 6.2.5. Navigation Systems.
+     - **Landing Page:** 
+  
+        Enlaces directos a las funcionalidades clave como "Inicio", "Nosotros" y "Crea tu retrato con IA". Botones y links en la página principal conducirán a los usuarios directamente a las secciones deseadas, mejorando la experiencia de usuario y facilitando el acceso a las herramientas. Asimismo, se implementaran otros botones para facilitar la navegacion al usuario.
