@@ -75,7 +75,7 @@ Contenido
     - [Software Architecture Context Level Diagrams](#software-architecture-context-level-diagrams)
     - [Software Architecture Container Level Diagrams](#software-architecture-container-level-diagrams)
     - [Software Architecture Deployment Diagrams](#software-architecture-deployment-diagrams)
-  [Capítulo V: Tactical-Level Software ![Interfaz de usuario gráfica Descripción generada automáticamente con confianza baja](media/b083affb6155b5203b7a589180585271.png)Design.](#capítulo-v-tactical-level-software-design)
+- [Capítulo V: Tactical-Level Software ![Interfaz de usuario gráfica Descripción generada automáticamente con confianza baja](media/b083affb6155b5203b7a589180585271.png)Design.](#capítulo-v-tactical-level-software-design)
 
 [5.1. Bounded Context: PhotoRepository](#51-bounded-context-photorepository)
 
@@ -91,7 +91,7 @@ Contenido
 
 [5.1.7. Bounded Context Software Architecture Code Level Diagrams.](#517-bounded-context-software-architecture-code-level-diagrams)
 
-[Capítulo VI: Solution UX Design.](#capítulo-vi-solution-ux-design)
+- [Capítulo VI: Solution UX Design.](#capítulo-vi-solution-ux-design)
 
 [6.1. Style Guidelines.](#61-style-guidelines)
 
