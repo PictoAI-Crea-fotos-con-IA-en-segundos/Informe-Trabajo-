@@ -579,6 +579,38 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
     Los usuarios pueden introducir términos para buscar tipos específicos de plantillas o estilos de edición, con resultados que aparecen de forma instantánea.
 
   ### 6.2.5. Navigation Systems.
-     - **Landing Page:** 
+  ### 6.3. Landing Page UI Design.
+  ### 6.3.1. Landing Page Wireframe.
   
-        Enlaces directos a las funcionalidades clave como "Inicio", "Nosotros" y "Crea tu retrato con IA". Botones y links en la página principal conducirán a los usuarios directamente a las secciones deseadas, mejorando la experiencia de usuario y facilitando el acceso a las herramientas. Asimismo, se implementaran otros botones para facilitar la navegacion al usuario.
+  ![Captura de pantalla 2024-04-28 164006](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/bec06a15-dd53-46af-bac8-d7f1c0910c23)
+  
+  ### 6.3.2. Landing Page Mock-up.
+  
+  Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su versión para Desktop Web Browser como Mobile Web Browser. 
+  
+  **Desktop Web Browser**
+
+  En esta sección, se muestra como se ve la landing page en navegadores web.
+
+  ![Captura de pantalla 2024-04-27 234535](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/395e9f05-269f-45f6-981e-3fc1c5fa47f1)
+
+  **Mobile Web Browser**
+
+  En esta sección, se muestra como se ve la landing page en dispositivos móviles, para tablets y celulares.
+
+  ![Captura de pantalla 2024-04-27 234717](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/d65b5205-da34-45f5-af01-c1048569064a)
+  
+  ### 6.4. Applications UX/UI Design.
+
+  #### 6.4.1. Applications Wireframes.
+
+  ![Captura de pantalla 2024-04-28 173842](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/498240e9-4ce6-4766-b2da-1bc246a4945d)
+  ![Captura de pantalla 2024-04-28 173856](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/845dd76a-5a9f-4f46-96be-313798074a6b)
+  ![Captura de pantalla 2024-04-28 173912](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/d13ad618-73c9-408d-8b97-481ff3741998)
+
+
+  #### 6.4.2. Applications Wireflow Diagrams.
+
+  ![Captura de pantalla 2024-04-28 174143](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/213b9fc7-14f1-4614-b802-17cf19d31acd)
+
+  
