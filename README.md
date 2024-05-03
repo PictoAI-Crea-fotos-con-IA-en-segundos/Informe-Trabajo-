@@ -6,7 +6,7 @@
 
 **SI728 Arquitecturas De Software Emergentes**
 
-Informe del trabajo TB1P
+Informe del trabajo TP
 
 **Profesor:** Royer Edelwer Rojas Malasquez
 
