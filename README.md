@@ -75,6 +75,29 @@ Contenido
     - [Software Architecture Context Level Diagrams](#software-architecture-context-level-diagrams)
     - [Software Architecture Container Level Diagrams](#software-architecture-container-level-diagrams)
     - [Software Architecture Deployment Diagrams](#software-architecture-deployment-diagrams)
+  [Capítulo V: Tactical-Level Software ![Interfaz de usuario gráfica Descripción generada automáticamente con confianza baja](media/b083affb6155b5203b7a589180585271.png)Design.](#capítulo-v-tactical-level-software-design)
+
+[5.1. Bounded Context: PhotoRepository](#51-bounded-context-photorepository)
+
+[5.1.1. Domain Layer.](#511-domain-layer)
+
+[5.1.2. Interface Layer.](#512-interface-layer)
+
+[5.1.3. Application Layer.](#513-application-layer)
+
+[5.1.4. Infrastructure Layer.](#514-infrastructure-layer)
+
+[5.1.6. Bounded Context Software Architecture Component Level Diagrams.](#516-bounded-context-software-architecture-component-level-diagrams)
+
+[5.1.7. Bounded Context Software Architecture Code Level Diagrams.](#517-bounded-context-software-architecture-code-level-diagrams)
+
+[Capítulo VI: Solution UX Design.](#capítulo-vi-solution-ux-design)
+
+[6.1. Style Guidelines.](#61-style-guidelines)
+
+[6.1.1. General Style Guidelines.](#611-general-style-guidelines)
+
+[6.1.2. Web, Mobile & Devices Style Guidelines.](#612-web-mobile--devices-style-guidelines)
   - [6.2. Information Architecture](#62-information-architecture)
     - [6.2.2. Labeling Systems.](#622-labeling-systems)
     - [6.2.3. SEO Tags and Meta Tags.](#623-seo-tags-and-meta-tags)
@@ -542,7 +565,136 @@ Estos diagramas muestran la estructura interna del sistema, dividiéndolo en con
 Estos diagramas representan la configuración física del sistema, mostrando cómo se distribuyen los contenedores y sus instancias en diferentes nodos de hardware o entornos de ejecución.
 
 ![Interfaz de usuario gráfica Descripción generada automáticamente con confianza baja](https://res.cloudinary.com/daassyisd/image/upload/v1714702600/inibydsvy3jww8dhhwmp.jpg)
+# Capítulo V: Tactical-Level Software ![Interfaz de usuario gráfica Descripción generada automáticamente con confianza baja](media/b083affb6155b5203b7a589180585271.png)Design.
 
+## 5.1. Bounded Context: PhotoRepository
+
+### 5.1.1. Domain Layer.
+
+Esta capa representa el corazón del modelo de dominio de PictoAI, incluyendo las entidades, objetos de valor, y agregados. Estos son críticos para reflejar las reglas de negocio y el comportamiento de la aplicación.
+
+![](media/c2c090354aef621d229c5e2e384fbdee.png)
+
+### 5.1.2. Interface Layer.
+
+En esta capa se manejan las interacciones externas con el sistema, gestiona la interacción entre el usuario y el sistema, facilitando las operaciones a través de interfaces gráficas o API.
+
+*![](media/8a08a337cf8a51b26109dee5c99caeac.png)*
+
+*![Diagrama Descripción generada automáticamente](media/bc8514cfbe85bdda664bd715a88e2c5a.png)*
+
+### 5.1.3. Application Layer.
+
+La Application Layer juega un papel crucial en la integración de la interfaz de usuario con las operaciones de dominio, asegurando que las acciones de los usuarios se traduzcan efectivamente en cambios significativos en el sistema.
+
+*Command Handlers*
+
+*Métodos:*
+
+handle(EditPhotoCommand): Este método recibe un comando de edición de foto, que incluye especificaciones de qué ediciones aplicar y a qué foto donde se describe cómo desea que la imagen quede. El manejador valida el comando, asegura que la foto existe y aplica las ediciones necesarias llamando a métodos específicos en la capa de dominio.
+
+*Event Handlers*
+
+*Métodos:* handle(PhotoEditedEvent): Este método es llamado cuando un evento de edición de foto es emitido por la capa de dominio. Puede realizar varias acciones, dependiendo de las necesidades del negocio, como registrar la edición en un sistema de análisis, actualizar la interfaz del usuario para reflejar los cambios, o preparar la imagen para exportación.
+
+![Diagrama Descripción generada automáticamente](media/15c509752c681f057dea3993fdea28bc.png)
+
+### 5.1.4. Infrastructure Layer.
+
+La Capa de Infraestructura de nuestro proyecto de generación de fotos con IA es la fundación tecnológica que soporta todas las operaciones de nuestra aplicación. En esta capa, las clases y componentes se encargan de la comunicación con servicios externos, tales como bases de datos para almacenar información persistente, sistemas de mensajería para la gestión de colas y procesamiento asincrónico, y servicios de correo electrónico para la interacción con los usuarios.
+
+*Componentes Clave*
+
+-   Usuario: Clase central que representa a los usuarios finales, manejando la identidad y acciones que pueden realizar dentro del sistema.
+-   Foto: Clase que encapsula los datos de las imágenes y su metainformación, permitiendo operaciones de procesamiento y gestión.
+-   Sesión de Fotos: Gestiona el conjunto de imágenes que un usuario puede manejar en una sesión activa, facilitando operaciones como subir, editar y organizar fotos.
+-   Repositorio de Fotos: Implementa la lógica de acceso y manipulación de los datos de fotos, comunicándose con la base de datos.
+
+*Conexiones Externas*
+
+-   Bases de Datos (Bases de Datos): Almacena y recupera la información persistente de los usuarios y las fotos.
+-   Sistemas de Mensajería (Mensajería): Proporciona la infraestructura para enviar y recibir mensajes asincrónicos, facilitando tareas como la confirmación de acciones o la ejecución de trabajos en segundo plano.
+-   Servicios de Correo (Correo): Permite enviar notificaciones y comunicaciones a los usuarios, como confirmaciones de registro o notificaciones de cambios en sus fotos.
+
+![Diagrama Descripción generada automáticamente](media/a9fa0e5e7f1678bd37aece1f7131f3c9.png)
+
+El diagrama muestra de manera simplificada cómo las clases definidas interactúan con los servicios externos:
+
+-   Los Usuarios se autentican y realizan acciones que requieren interactuar con Bases de Datos para guardar o consultar información.
+-   Los cambios en Fotos pueden desencadenar eventos que son manejados por los Sistemas de Mensajería, permitiendo procesos como la generación de miniaturas o la indexación para búsquedas.
+-   Sesiones de Fotos mantienen el estado temporal de las interacciones del usuario, con un posible almacenamiento en caché para mejorar el rendimiento.
+
+### 5.1.6. Bounded Context Software Architecture Component Level Diagrams.
+
+### 5.1.7. Bounded Context Software Architecture Code Level Diagrams.
+
+![Diagrama Descripción generada automáticamente](media/e1e19925c954a16735afe733d49e41eb.png)
+
+5.1.7.1. Bounded Context Domain Layer Class Diagrams.
+
+![Diagrama Descripción generada automáticamente](media/246adb768cfe03b2bdf61554d0c58c59.png)
+
+# Capítulo VI: Solution UX Design.
+
+## 6.1. Style Guidelines.
+
+### 6.1.1. General Style Guidelines.
+
+*Branding:*
+
+Logotipo: Uso del logotipo con espacio adecuado alrededor para garantizar visibilidad.
+
+Paleta de Colores: Colores primarios y secundarios de la marca que evocan el tono de comunicación.
+
+Imaginería: Estilo de fotografías e ilustraciones que reflejan la personalidad de la marca.
+
+*Tipografía:*
+
+Fuente Principal: Para títulos y encabezados, que sea legible y alinee con la identidad de marca.
+
+Fuente Secundaria: Para cuerpo de texto, asegurando legibilidad en diferentes tamaños y dispositivos.
+
+Jerarquía: Uso consistente de tamaños de fuente para establecer una clara jerarquía visual.
+
+*Colores:*
+
+Uso de Color: Para llamar la atención sobre elementos importantes y guiar al usuario a través de la interfaz.
+
+Contraste: Suficiente contraste entre el texto y el fondo para la accesibilidad y la legibilidad.
+
+*Espaciado:*
+
+Padding y Margins: Definir espaciado estándar para crear diseños limpios y organizados.
+
+Alineación: Uso de una cuadrícula para mantener consistencia en el diseño.
+
+*Tono de Comunicación:*
+
+Voz de la Marca: Divertido/Serio, Formal/Casual, Respetuoso/Irreverente, Entusiasta/Sereno.
+
+Lenguaje Aplicado: Elegir un lenguaje que refuerce la voz de la marca y conecte con la audiencia.
+
+### 6.1.2. Web, Mobile & Devices Style Guidelines.
+
+*Interfaces Web Responsivas:*
+
+-   Adaptabilidad: Diseños que se ajustan a diferentes tamaños de pantalla, desde móviles hasta escritorios.
+-   Navegación: Menús y botones que son fáciles de usar en cualquier dispositivo.
+
+*Interfaces Nativas para Móviles:*
+
+-   Tamaño de Toque: Áreas de interacción que se adaptan al tamaño del dedo.
+-   Gestos: Implementación de gestos naturales para la interacción con la aplicación.
+
+*Consistencia:*
+
+-   Elementos de UI: Mantener una consistencia visual y de interacción a través de todas las plataformas.
+-   Patrones de Diseño: Seguir patrones de diseño conocidos para mejorar la usabilidad.
+
+*Feedback Visual:*
+
+-   Animaciones: Uso de animaciones sutiles para ofrecer retroalimentación y mejorar la experiencia del usuario.
+-   Estado de los Elementos: Diseños claros para indicar el estado activo, inactivo o interactuable de los elementos de UI.
 
 
 
