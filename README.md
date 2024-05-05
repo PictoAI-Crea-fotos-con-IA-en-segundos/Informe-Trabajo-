@@ -15,7 +15,6 @@ Informe del trabajo TP
 **Integrantes:**
 
 Josef Cesar Romero Florida (U201910655)
-![bleach-tybw_98](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/47ebf4ae-058a-4637-b0d3-455d9dad7166)
 
 Richar Varoni Romero Cacha (U20201B428)
 
