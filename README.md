@@ -18,7 +18,7 @@ Josef Cesar Romero Florida (U201910655)
 
 Richar Varoni Romero Cacha (U20201B428)
 
-Ángel Gustavo Chuco Michel (U20201B193)
+Ángel Gustavo Chuco Michel (U201613694)
 
 Frank Yamil Alva Cordova (U202020026)
 
