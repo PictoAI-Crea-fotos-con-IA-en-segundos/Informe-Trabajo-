@@ -774,6 +774,323 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
   #### 6.4.2. Applications Wireflow Diagrams.
 
   ![Captura de pantalla 2024-05-03 094709](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/978aafcb-9fe4-4a2b-ad34-a5b9d3c3875c)
+  # 7.1 Software Configuration Management
+
+## 7.1.1 Software Development Environment Configuration
+
+**Descripción del entorno de Desarrollo**  
+
+### Backend - Java con Spring Boot
+- Lenguaje y Framework: Java 21, Spring Boot.
+- IDE: IntelliJ IDEA.
+- Build Tool: Maven.
+- Base de Datos: MySQL
+- Deploy: Railway.app
+
+### Frontend - TypeScript, JavaScript, y CSS
+- Lenguajes: TypeScript, JavaScript, HTML5, CSS3.
+- Frameworks y Librerías: React.js.
+- IDE: Visual Studio Code.
+- Package Manager: npm/yarn.
+- Deploy: Vercel
+
+### Móvil - Dart con Flutter
+- Lenguaje y Framework: Dart, Flutter.
+- IDE: Android Studio
+- Emuladores: Android Emulator
+- Deploy: (Pendiente)
+
+**Descripción del entorno de Desarrollo**  
+
+### Backend
+- Maven: Archivo `pom.xml` para gestionar dependencias.
+
+### Frontend
+- `package.json` para gestionar dependencias de JavaScript y TypeScript.
+
+### Móvil
+- Archivo `pubspec.yaml` para gestionar dependencias de Flutter.
+
+## 7.1.2 Source Code Management
+
+**Repositorio de Código Fuente**
+- Plataforma: GitHub
+- URL del Repositorio: Se debe incluir la URL del repositorio de GitHub correspondiente al proyecto. Ejemplo:
+- Backend: [https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/PictoAI-BackEnd](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/PictoAI-BackEnd)
+- Frontend: [https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/picto.ia-web-app](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/picto.ia-web-app)
+- Móvil: [https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/PICTOIA_MOVIL](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/PICTOIA_MOVIL)
+
+**Herramientas de Control de Versiones**
+- Git: Se hizo uso de esta herramienta para el control del proyecto y utilizando la plataforma GitHub para almacenarlo.
+
+**Estructura del Repositorio**
+- Organización del Código: Se crearon 4 repositorios para que se distribuyen de la siguiente forma: 
+  - Main Branch: `main`
+    - Rama principal contiene el código listo para producción.
+  - Development Branch: `develop`
+    - Rama de desarrollo donde se integran las nuevas características y correcciones de errores antes de ser lanzadas a producción.
+  - Feature Branches: `feature/*`
+    - Ramas para el desarrollo de nuevas características. Cada nueva característica se desarrolla en una rama separada.
+
+**Integración Continua y Deploy Automático**
+- Para gestionar el código fuente de manera eficiente y segura se utilizan las siguientes herramientas y prácticas:
+  - Integración Continua (CI): GitHub Actions
+  - Pipelines:
+    - Backend: Compilación, pruebas unitarias, análisis estático, despliegue en Railway.app.
+    - Frontend: Compilación, pruebas unitarias, análisis estático, despliegue en Vercel.
+    - Móvil: Compilación, pruebas unitarias, generación de APK/IPA.
+
+## 7.1.3 Source Code Style Guide & Conventions
+
+**BackEnd**
+
+### Estructura del Proyecto
+- En el proyecto backend de PictoAI utilizando Spring Boot se sigue un patrón de diseño de arquitectura en capas. Este patrón divide la aplicación en capas con responsabilidades específicas promoviendo la separación de preocupaciones y facilitando el mantenimiento y la escalabilidad del sistema. A continuación se describe la estructura del proyecto y el propósito de los diferentes componentes.
+    - Patrón de Diseño Utilizado: Arquitectura en Capas
+    - Controller Layer: Maneja las solicitudes HTTP, realiza la validación inicial y delega las llamadas al servicio adecuado.
+    - Service Layer: Contiene la lógica de negocio principal y se comunica con la capa de repositorios para acceder a los datos.
+    - Repository Layer: Maneja la interacción con la base de datos proporcionando métodos para realizar operaciones CRUD.
+    - Model Layer: Define las entidades de datos que representan las tablas de la base de datos.
+    - DTO Layer: Define los objetos de transferencia de datos que se utilizan para encapsular los datos enviados entre las capas.
+
+### Nomenclatura y Convenciones
+- Nombres de las clases: Se utiliza PascalCase.
+- Nombre de los métodos: Se utiliza camelCase.
+- Constantes: Se utiliza UPPPER_SNAKE_CASE.
+
+**FrontEnd**
+
+### Estructura del Proyecto
+- El proyecto frontend de PictoAI utiliza Next.js, un framework basado en React. La estructura del proyecto está organizada de manera que facilita el desarrollo, la colaboración y el mantenimiento. A continuación se describe la estructura del proyecto y el propósito de los diferentes componentes.
+    - Patrón de Diseño Utilizado: Component-Based Architecture
+    - Pages: Define las rutas de la aplicación donde cada archivo en el directorio pages representa una ruta.
+    - Components: Contiene componentes reutilizables que se pueden utilizar en diferentes partes de la aplicación.
+    - Services: Maneja las llamadas a las API y la lógica de negocio del frontend.
+    - Styles: Contiene los archivos de estilo globales y específicos de componentes.
+
+### Nomenclatura y Convenciones
+- Nombres de las clases: Se utiliza PascalCase.
+- Nombre de los métodos: Se utiliza camelCase.
+- Constantes: Se utiliza UPPER_SNAKE_CASE.
+
+**Móvil**
+
+### Estructura del Proyecto
+- El proyecto móvil de PictoAI está desarrollado en Dart utilizando el framework Flutter. La estructura del proyecto está diseñada para ser modular y mantener una clara separación de responsabilidades, facilitando el desarrollo y mantenimiento. A continuación se describe la estructura del proyecto y el propósito de los diferentes componentes.
+- Patrón de Diseño Utilizado: Component-Based Architecture
+- Screens: Define las diferentes pantallas de la aplicación.
+- Widgets: Contiene widgets reutilizables que se pueden utilizar en diferentes partes de la aplicación.
+- Services: Maneja las llamadas a las API y la lógica de negocio del frontend.
+- Assets: Contiene recursos estáticos como imágenes y fuentes.
+
+### Nomenclatura y Convenciones
+- Nombres de las clases: Se utiliza PascalCase.
+- Nombre de los métodos: Se utiliza camelCase.
+- Constantes: Se utiliza UPPER_SNAKE_CASE.
+
+**Referencias para Estilo y Convenciones**
+- Para todos los lenguajes se aplicarán las convenciones de nomenclatura en inglés. Además se adoptarán convenciones estándar para codificación:
+- Java: [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- TypeScript: [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+- Dart: [Effective Dart](https://dart.dev/guides/language/effective-dart)
+- Gherkin (para archivos .feature): [Gherkin Conventions for Readable Specifications](https://cucumber.io/docs/gherkin/reference/)
+
+## 7.1.4 Software Deployment Configuration
+
+### Backend
+- Servidor de Aplicaciones: Railway.app se utiliza para el despliegue.
+- Archivo de Configuración (`application.properties`)
+
+**Pasos para el Despliegue:**
+1. Conectar el repositorio de GitHub a Railway.app.
+2. Configurar las variables de entorno necesarias como `SPRING_DATASOURCE_URL`, `SPRING_DATASOURCE_USERNAME`, y `SPRING_DATASOURCE_PASSWORD`.
+3. Railway.app se encargará de desplegar automáticamente la aplicación basándose en el archivo `pom.xml` y las configuraciones proporcionadas.
+4. Railway.app permite la configuración de bases de datos directamente desde su plataforma, facilitando la integración y el despliegue.
+
+### Frontend
+
+**Pasos para el Despliegue:**
+1. Conectar el repositorio de GitHub a Vercel.
+2. Seleccionar el framework Next.js en la configuración de Vercel.
+3. Establecer las variables de entorno necesarias en el panel de control de Vercel.
+4. Vercel se encargará del despliegue continuo basándose en los cambios realizados en el repositorio.
+
+# 7.2 Solution Implementation
+
+## 7.2.1 Sprint #1
+
+### 7.2.1.1 Sprint Planning
+
+| Item                    | Details                                           |
+|-------------------------|---------------------------------------------------|
+| **Date**                | 30/05/2024                                        |
+| **Time**                | 10:00 p.m                                         |
+| **Location**            | Sala de conferencias virtual de Google Meet       |
+| **Prepared By**         | Josef Romero                                      |
+| **Attendees** (to planning meeting) | Richar Romero, Angel Chuco, Frank Alva, Lino Quenta |
+
+**Sprint n – 1 Review Summary**
+- Durante el Sprint anterior (Sprint 0) se completó la configuración inicial del entorno de desarrollo, la instalación de herramientas necesarias y la creación del repositorio en GitHub. Se realizaron reuniones de familiarización y entrenamiento con las tecnologías que se utilizarán en el proyecto.
+
+**Sprint n – 1 Retrospective Summary**
+- El equipo consideró que el proceso de configuración del entorno fue exitoso, aunque se identificaron algunas áreas de mejora en la documentación de instalación y configuración de herramientas. Se sugirió mejorar la claridad de los pasos en la documentación y establecer puntos de control para asegurarse de que todas las herramientas estén correctamente configuradas.
+
+**Sprint Goal & User Stories**
+
+| Sprint n Goal           | Desarrollar la funcionalidad básica de autenticación y registro de usuarios así como la funcionalidad para subir y descargar fotografías. |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint n Velocity**   | El equipo estima completar 48 horas de trabajo en este sprint.                                                                                  |
+| **Sum of Story Points** | 48 puntos de historia                                                                                                                           |
+
+**User Stories para Sprint 1**
+
+| ID - HU | TÍTULO                          | (Importancia precedencia) | TIPO | ESTIMACIÓN (Story points) | SPRINT |
+|---------|----------------------------------|----------------------------|------|---------------------------|--------|
+| US001   | Registro de usuario              | (Alta Baja)                | RF   | 3                         | 1      |
+| US002   | Cerrar sesión de usuario         | (Media Baja)               | RF   | 2                         | 1      |
+| US004   | Seleccionar un plan              | (Alta Alta)                | RF   | 5                         | 1      |
+| US005   | Gestión de suscripción           | (Alta Alta)                | RF   | 8                         | 1      |
+| US008   | Explorar galería de fotografías  | (Media Alta)               | RF   | 5                         | 1      |
+| US009   | Descargar fotografías            | (Media Baja)               | RF   | 4                         | 1      |
+| US010   | Compartir fotografías            | (Alta Media)               | RF   | 5                         | 1      |
+
+### 7.2.1.2 Sprint Backlog #1
+
+**Introducción**
+- El objetivo principal del Sprint #1 es implementar las funcionalidades básicas de la aplicación de gestión de fotografías, incluyendo el registro de usuario, cierre de sesión, selección de plan, gestión de suscripción, exploración de galería de fotos y descarga de fotografías. A continuación se presenta un screenshot del Board en Trello junto con el URL público del Board.
+  - URL: [https://trello.com/b/iS0ztjoS](https://trello.com/b/iS0ztjoS)
+
+**User Stories Asignadas al Sprint #1**
+
+| User Story | Work-Item / Task          | Id  | Title                      | Description                                | Estimation (Hours) | Assigned To                | Status (To-do / In-Process / To-Review / Done) |
+|------------|---------------------------|-----|----------------------------|--------------------------------------------|--------------------|----------------------------|-----------------------------------------------|
+| US001      | Registro de usuario       | T001| Crear formulario de registro | Implementar formulario de registro en la interfaz | 8                  | Josef Cesar Romero Florida | To-do                                       |
+|            |                           | T002| Validar datos de registro  | Añadir validación de datos para el registro | 4                  | Richar Varoni Romero Cacha | To-do                                       |
+|            |                           | T003| Conectar API de registro   | Integrar backend con el formulario de registro | 6                  | Ángel Gustavo Chuco Michel | To-do                                       |
+| US002      | Cerrar sesión de usuario  | T004| Crear botón de cerrar sesión | Añadir botón de cierre de sesión en la interfaz | 4                  | Frank Yamil Alva Cordova   | To-do                                       |
+|            |                           | T005| Implementar lógica de sesión | Implementar la lógica para cerrar sesión   | 6                  | Lino Abraham Quenta Leon   | To-do                                       |
+| US004      | Seleccionar un plan       | T006| Crear interfaz de selección de plan | Implementar la interfaz para la selección de planes | 6                  | Josef Cesar Romero Florida | To-do                                       |
+|            |                           | T007| Conectar API de planes     | Integrar backend con la funcionalidad de selección de planes | 6                  | Richar Varoni Romero Cacha | To-do                                       |
+| US005      | Gestión de suscripción    | T008| Crear interfaz de gestión de suscripción | Implementar la interfaz para la gestión de suscripciones | 8                  | Ángel Gustavo Chuco Michel | To-do                                       |
+|            |                           | T009| Conectar API de suscripciones | Integrar backend con la funcionalidad de gestión de suscripciones | 6                  | Frank Yamil Alva Cordova   | To-do                                       |
+| US008      | Explorar galería de fotos | T010| Crear interfaz de exploración de galería | Implementar la interfaz para explorar la galería de fotos | 6                  | Lino Abraham Quenta Leon   | To-do                                       |
+|            |                           | T011| Conectar API de galería    | Integrar backend con la funcionalidad de exploración de la galería | 6                  | Josef Cesar Romero Florida | To-do                                       |
+| US009      | Galería de fotos editadas | T012| Crear interfaz de galería de fotos editadas | Implementar la interfaz para la galería de fotos editadas | 6                  | Richar Varoni Romero Cacha | To-do                                       |
+|            |                           | T013| Conectar API de galería editada | Integrar backend con la funcionalidad de galería de fotos editadas | 6                  | Ángel Gustavo Chuco Michel | To-do                                       |
+| US010      | Descargar fotografías     | T014| Crear interfaz de descarga | Implementar la interfaz para la descarga de fotografías | 8                  | Frank Yamil Alva Cordova   | To-do                                       |
+|            |                           | T015| Conectar API de descarga   | Integrar backend con la funcionalidad de descarga | 6                  | Lino Abraham Quenta Leon   | To-do                                       |
+
+### 7.2.1.3 Development Evidence for Sprint Review
+- Durante el Sprint 1 se realizaron avances significativos en el desarrollo de las diferentes partes del proyecto PictoIA. Los commits reflejan las implementaciones y correcciones en las áreas del backend, frontend y la aplicación móvil. A continuación se presenta la tabla con los commits relevantes de cada repositorio.
+
+**Tabla de Commits**
+
+| Repository          | Branch       | Commit Id | Commit Message                          | Commit Message Body                                              | Committed on (Date) |
+|---------------------|--------------|-----------|-----------------------------------------|------------------------------------------------------------------|---------------------|
+| pictoai-backend     | feature/auth | 14ca4e3   | feat: obtiene imágenes del SD           | Implementación de la funcionalidad para obtener imágenes del almacenamiento local | 4/06/2023           |
+| pictoai-backend     | main         | 2f9d1b6   | fix                                     | Corrección de errores menores relacionados con la autenticación de usuarios | 3/06/2023           |
+| pictoai-web-app     | main         | 7bdc72a   | Merge pull request #1 from PictoAI-Crea-fotos-con-IA-en-segundos/feature/auth | Fusionando cambios de autenticación en la rama principal | 4/06/2023           |
+| pictoai-web-app     | feature/connection | 3ac57f1   | feat: connection-to-sd                  | Implementación de la conexión con el almacenamiento local        | 4/06/2023           |
+| pictoai-web-app     | main         | 8cd45b2   | feat: update properties                 | Actualización de propiedades de configuración                    | 1/06/2023           |
+
+### 7.2.1.4 Testing Suite Evidence for Sprint Review
+
+| Repository          | Branch       | Commit Id | Commit Message                          | Commit Message Body                                              | Commited on (Date) |
+|---------------------|--------------|-----------|-----------------------------------------|------------------------------------------------------------------|--------------------|
+| backend             | feature/tests| 7c9d5e3   | test: Add unit tests for AuthController | Added unit tests for login and registration endpoints in AuthController to verify functionality. | 5/06/2024          |
+| frontend            | feature/tests| b1a2f8c   | test: Implement integration tests for User Profile | Implemented integration tests to ensure user profile updates and fetch operations work correctly. | 6/06/2024          |
+
+### 7.2.1.5 Execution Evidence for Sprint Review
+- En este Sprint hemos logrado implementar y probar varias funcionalidades clave de la aplicación. Hemos completado las User Stories US001, US002, US004, US005, US008, US009, US010, cubriendo la creación y gestión de usuarios, la selección y gestión de planes, la exploración de la galería de fotos y la descarga de imágenes. Además, se han corregido errores menores y mejorado la interfaz de usuario.
+
+**FrontEnd**
+
+- Inicio de sesión
+- Registro 
+- Elección de plan 
+
+**Backend**
+
+- Generación de token 
+- Generación de imagen 
+
+**Móvil**
+
+- Main 
+- Profile 
+- Generar Imagen 
+- Favoritos 
+
+### 7.2.1.6 Services Documentation Evidence for Sprint Review  (Falta)
+- En este Sprint se han documentado y desarrollado los siguientes endpoints para los Web Services del proyecto utilizando OpenAPI para asegurar una documentación clara y accesible. A continuación se presenta una tabla con la relación de endpoints desarrollados, indicando las acciones implementadas y proporcionando los enlaces a la documentación correspondiente. Además, se incluye una explicación de las acciones soportadas y ejemplos de interacción.
+
+| Endpoint            | Acción       | Método HTTP | Parámetros                            | Ejemplo de Respuesta                                        |
+|---------------------|--------------|-------------|---------------------------------------|-------------------------------------------------------------|
+| /api/users/register | Registro     | POST        | { "username": "string", "password": "string" } | { "id": 1, "username": "usuario1", "status": "registered" } |
+| /api/users/login    | Login        | POST        | { "username": "string", "password": "string" } | { "token": "jwt_token_string", "username": "usuario1" }     |
+| /api/photos/upload  | Subir Fotos  | POST        | multipart/form-data                   | { "id": 10, "url": "http://server.com/photos/10.jpg", "status": "uploaded" } |
+| /api/photos/edit/{id} | Editar Fotos | PUT        | { "id": "int", "edits": "object" }    | { "id": 10, "url": "http://server.com/photos/10_edited.jpg", "status": "edited" } |
+| /api/photos/{id}    | Ver Foto     | GET         | { "id": "int" }                       | { "id": 10, "url": "http://server.com/photos/10.jpg", "created_at": "2023-06-05T12:00:00Z" } |
+
+### 7.2.1.7 Software Deployment Evidence for Sprint Review
+- Durante este Sprint se han realizado varias actividades relacionadas con el despliegue de las diferentes partes de nuestra aplicación. A continuación se detallan los procesos realizados, las herramientas utilizadas y las configuraciones establecidas para asegurar el correcto funcionamiento del backend, frontend y la aplicación móvil.
+
+**Procesos Realizados**
+
+**Backend**
+- Plataforma: Railway
+- Configuración de Cuenta: Se creó una cuenta en Railway y se vinculó con el repositorio de GitHub del proyecto.
+- Se configuró la base de datos MySQL en Railway.
+
+**Despliegue:**
+- Configuración del archivo `application.properties` para apuntar a la base de datos desplegada en Railway.
+- Automatización del despliegue continuo mediante el pipeline CI/CD de Railway.
+- Verificación del correcto funcionamiento de los endpoints desplegados.
+
+**Frontend**
+- Plataforma: Vercel
+- Configuración de Cuenta: Se creó una cuenta en Vercel y se vinculó con el repositorio de GitHub del proyecto.
+
+**Despliegue:**
+- Configuración del proyecto Next.js para despliegue en Vercel.
+- Automatización del despliegue continuo mediante el pipeline CI/CD de Vercel.
+- Verificación de la correcta visualización y funcionalidad de la interfaz web desplegada.
+
+**Aplicación Móvil**
+- Plataforma: Android Studio
+- Configuración de Emuladores: Configuración de emuladores de Android para pruebas.
+
+**Despliegue:**
+- Preparación del entorno de desarrollo en Android Studio.
+- Generación de archivos APK para pruebas internas.
+- Verificación de la correcta ejecución de la aplicación en diferentes dispositivos.
+
+**Capturas**
+- **BackEnd**
+- **FrontEnd**
+- **Móvil**
+
+### 7.2.1.8 Team Collaboration Insights for Sprint Review
+- Durante este Sprint el equipo ha colaborado de manera efectiva en las diferentes tareas y funcionalidades asignadas. A continuación se presenta un resumen de las actividades de colaboración y los analíticos de commits en GitHub realizados por los miembros del equipo:
+
+**Colaboración y Comunicación**
+- Herramientas de colaboración: Se utilizó Google Meet para la comunicación instantánea y Trello para la gestión de tareas y el seguimiento del Sprint Backlog.
+- Par de programación: Se implementó la técnica de par de programación en varias tareas críticas para fomentar el aprendizaje y reducir errores.
+
+**Commits (pide evidencia de que todos participamos en los repos)**
+
+**Principales contribuciones:**
+- Josef Cesar Romero Florida: Implementación de la funcionalidad de obtención de imágenes desde el almacenamiento del dispositivo.
+- Richar Varoni Romero Cacha: Corrección de errores y commits iniciales de configuración del proyecto.
+- Ángel Gustavo Chuco Michel: Implementación de conexiones adicionales y actualizaciones de propiedades.
+- Frank Yamil Alva Cordova: Integración y pruebas de funciones de la aplicación móvil.
+- Lino Abraham Quenta Leon: Desarrollo de funcionalidades adicionales y mejoras en la interfaz de usuario.
+
+**Validation Interviews (Pendiente)**
+- Registro de Entrevistas (6 Entrevistas mínimo pendiente)
+- Evaluaciones según heurísticas (Pendiente)
+
+
 
   # Anexo
 [Video-Trabajo-Parcial](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201910655_upc_edu_pe/EV5FVST-UNhMs1xvbvul0EsBwaugmjjlN6v8xq5TNrkbXQ?e=7ogAKe)
