@@ -1119,11 +1119,100 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 ![19](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/4498487b-cad9-4a04-9752-45f4d5ac19b6)
 ![20](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/8fea1794-54d9-4b49-a019-3541334e1e83)
 
-**Validation Interviews (Pendiente)**
-- Registro de Entrevistas (6 Entrevistas mínimo pendiente)
-- Evaluaciones según heurísticas (Pendiente)
+# 7.3 Validation Interviews
 
+## 7.3.1 Diseño de entrevistas
+Para este apartado se dividieron las preguntas en 5 secciones para el usuario entusiastas y 6 para el profesional buscando así obtener una retroalimentación adecuada para cada apartando.
 
+### Preguntas para el Usuario Entusiasta
+**Registro y Inicio de Sesión:**
+- ¿Fue fácil para ti registrarte en la aplicación? ¿Qué parte del proceso encontraste más sencilla o más complicada?
+- ¿Qué opinas de la opción de iniciar sesión con Google/GitHub? ¿La utilizaste? ¿Por qué?
+
+**Elección de Planes:**
+- ¿Qué te parece la oferta de los diferentes planes (Gratis, Pro, Empresarial)? ¿Cuál elegirías y por qué?
+- ¿Encontraste claras las diferencias entre cada plan?
+
+**Exploración y Generación de Imágenes:**
+- ¿Cómo fue tu experiencia explorando la galería de imágenes? ¿Pudiste encontrar fácilmente lo que buscabas?
+- ¿Qué te pareció la funcionalidad de generar imágenes con IA? ¿La encontraste útil y fácil de usar?
+- ¿Qué tipos de imágenes generaste? ¿Cómo evaluarías la calidad de las imágenes generadas?
+
+**Interacción con la App Móvil:**
+- ¿Qué te pareció la navegación en la aplicación móvil? ¿Fue intuitiva?
+- ¿Usaste la funcionalidad de subir fotos por lotes? ¿Cómo fue tu experiencia?
+- ¿Qué opinas de las herramientas básicas de edición en la app móvil? ¿Las encontraste adecuadas para tus necesidades?
+
+**Usabilidad y Diseño:**
+- ¿Cómo describirías la apariencia y el diseño de la aplicación? ¿Fue atractivo y fácil de entender?
+- ¿Qué mejorarías en términos de usabilidad y diseño?
+
+### Preguntas para el Usuario Profesional
+**Registro y Inicio de Sesión:**
+- ¿Tuviste algún problema al registrarte o iniciar sesión en la aplicación?
+- ¿Qué opinas de la seguridad del proceso de registro e inicio de sesión?
+
+**Elección de Planes:**
+- ¿Cuál de los planes (Gratis, Pro, Empresarial) te parece más adecuado para tus necesidades profesionales?
+- ¿Qué funcionalidades adicionales te gustaría ver en los planes de pago?
+
+**Exploración y Generación de Imágenes:**
+- ¿Cómo fue tu experiencia explorando la galería de imágenes y utilizando la función de búsqueda?
+- ¿Cómo evaluarías la calidad y la personalización de las imágenes generadas por la IA en términos de uso profesional?
+- ¿Qué tipos de proyectos podrías realizar con las imágenes generadas por la IA?
+
+**Interacción con la App Móvil:**
+- ¿Qué tan fácil fue para ti usar la aplicación móvil para tus necesidades profesionales?
+- ¿Qué opinas de la funcionalidad de subir fotos por lotes en términos de eficiencia para proyectos grandes?
+- ¿Las herramientas de edición básicas en la app móvil cumplen con tus expectativas de calidad profesional?
+
+**Usabilidad y Diseño:**
+- ¿Cómo describirías la apariencia y el diseño de la aplicación en términos de profesionalismo?
+- ¿Qué mejorarías en términos de usabilidad y diseño para hacer la aplicación más adecuada para profesionales?
+
+**Integraciones y Exportación:**
+- ¿Te gustaría ver alguna integración específica (por ejemplo, con Adobe Photoshop, Lightroom, etc.)?
+- ¿Qué tan importante es para ti la funcionalidad de exportar imágenes en formatos profesionales?
+
+## 7.3.2 Registro de Entrevistas
+
+### Entrevistas Usuario Entusiasta
+**Entrevista 1:**
+- URL: [https://www.youtube.com/watch?v=7t5MDzijHx4](https://www.youtube.com/watch?v=7t5MDzijHx4)
+![en 1](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/910bfcea-c7de-41a9-a616-d2e3d9fb1681)
+
+**Resumen:**
+
+**Entrevista 2:**
+- URL: [https://drive.google.com/file/d/1SSnxj55udGbJuOagI30QUYRHJ8_rfOuL/view](https://drive.google.com/file/d/1SSnxj55udGbJuOagI30QUYRHJ8_rfOuL/view)
+![en2](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/5e3530cf-2a80-42b6-94a4-395a3cdc7eca)
+
+**Resumen:**
+
+**Entrevista 3:**
+- URL: [https://www.youtube.com/watch?v=qrtojmZB9xI](https://www.youtube.com/watch?v=qrtojmZB9xI)
+![en4](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/bab566d6-fddc-401b-ad73-25f081442bb3)
+
+**Resumen:**
+
+### Entrevistas Usuario Profesional
+**Entrevista 1:**
+- URL: [https://www.youtube.com/watch?v=PyFTTX_CbeA](https://www.youtube.com/watch?v=PyFTTX_CbeA)
+![en4](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/47e781f3-3c02-4edb-8449-79e16046bc19)
+
+**Resumen:**
+
+**Entrevista 2:**
+- URL: [https://www.youtube.com/watch?v=E9dwS9rgGAU](https://www.youtube.com/watch?v=E9dwS9rgGAU)
+![en6](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/64944330-5559-4ced-981c-141e95b40f96)
+
+**Resumen:**
+
+**Entrevista 3:**
+- URL:
+**Resumen:**
+
+## 7.3.3 Evaluación según Heurísticas
 
   # Anexo
 [Video-Trabajo-Parcial](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201910655_upc_edu_pe/EV5FVST-UNhMs1xvbvul0EsBwaugmjjlN6v8xq5TNrkbXQ?e=7ogAKe)
