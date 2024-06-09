@@ -1187,7 +1187,7 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 # 7.3 Validation Interviews
 
 ## 7.3.1 Diseño de entrevistas
-Para este apartado se dividieron las preguntas en 5 secciones para el usuario entusiastas y 6 para el profesional buscando así obtener una retroalimentación adecuada para cada apartando.
+Para este apartado se dividieron las preguntas en 5 secciones para el usuario entusiastas y 6 para el profesional buscando así obtener una retroalimentación adecuada para cada apartado.
 
 ### Preguntas para el Usuario Entusiasta
 **Registro y Inicio de Sesión:**
