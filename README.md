@@ -1289,6 +1289,7 @@ En el video se habla sobre la experiencia de un usuario entusiasta, Luciano Ruiz
 
 ## 7.3.3 Evaluación según Heurísticas
 Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive diseño de la experiencia propuesta. Para esto, la sección debe contener la estructura del formato para evaluaciones de heurísticas indicado en el Anexo D.
+
 ####Proceso de Evaluación.
 
 1. **Selección de Heurísticas**:
