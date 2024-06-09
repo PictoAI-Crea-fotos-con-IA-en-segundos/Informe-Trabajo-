@@ -1332,6 +1332,7 @@ Link: [YouTube Video](https://youtu.be/9y2EqP8bJX4)
 
 [Video on SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201910655_upc_edu_pe/EdTz1pZgaXdHjxMDs8mo6GMBjIvwnyTAD2StWq3ciOXk9g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GNXLeB)
 
+![prduct](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/6f7613fb-fd5a-442f-8513-b793dcd81693)
 
 ### Conclusiones y recomendaciones
 
@@ -1368,6 +1369,7 @@ En esta sección, el equipo enuncia las conclusiones sobre el trabajo, incluyend
 ## Video About-the-Team.
 Link: [Video on SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201910655_upc_edu_pe/ERuYsP1xrCJKjPcsGULj78UBN9n5YNUCEzmJVOggTCWHXQ?e=i1zlfl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+![about the team](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/85928341-7e4e-429b-b5c2-5f5d9a3fdbc1)
 
 ### Bibliografía
 
