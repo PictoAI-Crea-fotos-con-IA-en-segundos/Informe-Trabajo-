@@ -1247,18 +1247,23 @@ Para este apartado se dividieron las preguntas en 5 secciones para el usuario en
 ![en 1](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/910bfcea-c7de-41a9-a616-d2e3d9fb1681)
 
 **Resumen:**
+En el video, el cliente expresa que la aplicación le parece muy fácil de usar, especialmente en los procesos de iniciar sesión y registrarse, sin encontrar dificultades significativas. Destaca la opción intuitiva de iniciar sesión con una cuenta de Google. En cuanto a los planes y precios, se muestra satisfecho con las opciones ofrecidas, prefiriendo inicialmente el plan básico y considerando un posible upgrade en el futuro. Al probar la generación de imágenes, el cliente encuentra que los resultados cumplen con sus expectativas y aprecia la calidad de las imágenes generadas, así como la funcionalidad de agregar fondos a sus fotos. También valora positivamente la función de agregar imágenes a favoritos para facilitar su acceso. En general, considera que la aplicación móvil es correcta, original y entretenida, y sugiere como mejora la posibilidad de crear pequeñas animaciones o GIFs a partir de las imágenes generadas.
 
 **Entrevista 2:**
 - URL: [https://drive.google.com/file/d/1SSnxj55udGbJuOagI30QUYRHJ8_rfOuL/view](https://drive.google.com/file/d/1SSnxj55udGbJuOagI30QUYRHJ8_rfOuL/view)
 ![en2](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/5e3530cf-2a80-42b6-94a4-395a3cdc7eca)
 
 **Resumen:**
+En el video, Leonel Alfaro comparte su experiencia utilizando la aplicación Big to Agile. Leonel destaca que el proceso de registro e inicio de sesión es muy intuitivo y fácil de usar. Utilizó su cuenta de Google, lo cual encontró conveniente.
+Sobre los planes ofrecidos, considera que los precios son razonables. Empezó con el plan gratuito y luego se cambió al plan pro debido a su experiencia satisfactoria.
+Leonel quedó impresionado con la funcionalidad de generación de imágenes, valorando la calidad y precisión de las imágenes generadas. Describió la interfaz de la aplicación como moderna y clara, y apreció la facilidad de navegación. En general, su experiencia con Big to Agile fue muy positiva.
 
 **Entrevista 3:**
 - URL: [https://www.youtube.com/watch?v=qrtojmZB9xI](https://www.youtube.com/watch?v=qrtojmZB9xI)
 ![en4](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/bab566d6-fddc-401b-ad73-25f081442bb3)
 
 **Resumen:**
+En el video se habla sobre la experiencia de un cliente, quien es un estudiante, con la aplicación. El cliente menciona que el proceso de registro e inicio de sesión le pareció fácil e intuitivo, destacando la opción de iniciar sesión con Google como la más conveniente. Al explorar los diferentes planes ofrecidos, considera que el plan pro es el más adecuado para usos académicos, mientras que utilizaría el plan gratuito para diversión. En cuanto a la galería de imágenes y la generación de imágenes con inteligencia artificial, el cliente la encuentra útil y fácil de usar, valorando positivamente la calidad de las imágenes generadas. Además, encuentra intuitiva la barra de menús y menciona que la función de guardar en favoritos es útil para acceder rápidamente a imágenes frecuentes. Aunque no llegó a utilizar la función de subir fotos por lotes, le parece interesante. Finalmente, describe el diseño de la aplicación como atractivo, aunque sugiere que los colores podrían ser más suaves.
 
 ### Entrevistas Usuario Profesional
 **Entrevista 1:**
@@ -1266,16 +1271,21 @@ Para este apartado se dividieron las preguntas en 5 secciones para el usuario en
 ![en4](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/47e781f3-3c02-4edb-8449-79e16046bc19)
 
 **Resumen:**
-
+En el video se habla sobre la experiencia de una usuaria profesional, contadora pública de Puno, con la aplicación. La usuaria encuentra la aplicación muy interesante, especialmente útil para generar y editar imágenes para su CV y LinkedIn. Considera que el proceso de registro e inicio de sesión es sencillo y accesible, destacando la importancia de contar con imágenes profesionales en sus documentos. En cuanto a los planes, menciona que comenzaría con el plan básico y consideraría un upgrade dependiendo de sus necesidades. La usuaria encuentra la generación de imágenes con inteligencia artificial muy útil, generando principalmente imágenes para su CV con fondo blanco, y valora positivamente la calidad de las imágenes. Respecto a la interfaz de usuario, la considera atractiva y fácil de usar, aunque sugiere algunos cambios en el tamaño de las letras para mejorar la visibilidad. En general, la usuaria encuentra la aplicación sencilla y accesible de utilizar.
 **Entrevista 2:**
 - URL: [https://www.youtube.com/watch?v=E9dwS9rgGAU](https://www.youtube.com/watch?v=E9dwS9rgGAU)
 ![en6](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/64944330-5559-4ced-981c-141e95b40f96)
 
 **Resumen:**
+En el video se habla sobre la experiencia de un usuario profesional, Gustavo Siancas, fotógrafo, con la plataforma Picto. El usuario destaca que la aplicación es interesante y útil para generar y mejorar fotografías con inteligencia artificial, especialmente para CVs y LinkedIn. Gustavo no tuvo problemas al registrarse o iniciar sesión y se siente seguro con el proceso de registro. Considera adecuado el plan empresarial y recomienda el plan Pro para pequeños fotógrafos. Valora la calidad y personalización de las imágenes generadas, aunque menciona que a veces la IA no cumple completamente con las expectativas. Sugiere que se añadan proyectos generados por la IA en la página de inicio y una integración con Photoshop para mejorar la funcionalidad de exportación. En general, encuentra la aplicación atractiva y profesional, con la combinación de colores adecuada, y considera importante la funcionalidad de exportar imágenes para su trabajo profesional.
 
 **Entrevista 3:**
-- URL:
+- URL:[Video en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201910655_upc_edu_pe/EZBGSt0V7FlPtUJAohi3-YgBd-OWrxKLzu8-jCOAPTGBSA?e=eSfQ8d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+  ![aaaaaaa2](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/560be759-ad89-4fea-8a4c-2e48bb461205)
+
 **Resumen:**
+En el video se habla sobre la experiencia de un usuario entusiasta, Luciano Ruiz Blas, con la aplicación Big to Agile. Luciano encontró el proceso de registro e inicio de sesión muy intuitivo y sin dificultades, siguiendo los estándares comunes. Usó su cuenta de GitHub para iniciar sesión, lo cual le resultó cómodo. Respecto a los planes ofrecidos (gratis, pro y empresarial), considera que los precios son justos y claros. Inicialmente, optó por el plan gratuito para probar la aplicación y luego eligió el plan pro, que satisface sus necesidades. Al probar la funcionalidad de generar imágenes, Luciano la encontró muy útil y fácil de usar, similar a un buscador que proporciona imágenes de alta calidad. Valora positivamente el diseño de la aplicación, describiéndolo como atractivo y fácil de entender, aunque sugiere pequeñas mejoras en el diseño. En general, su experiencia con la aplicación fue positiva y satisfactoria.
 
 ## 7.3.3 Evaluación según Heurísticas
 Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive diseño de la experiencia propuesta. Para esto, la sección debe contener la estructura del formato para evaluaciones de heurísticas indicado en el Anexo D. Formato para Evaluación de User Experience según Heurísticas.
