@@ -1336,7 +1336,7 @@ Link: [YouTube Video](https://youtu.be/9y2EqP8bJX4)
 
 ### Conclusiones y recomendaciones
 
-En esta sección, el equipo enuncia las conclusiones sobre el trabajo, incluyendo los resultados a los que ha llegado en relación a los Problem Statements especificados, los assumptions realizados frente al comportamiento real de los segmentos, los Hypotheses Statements establecidos y los criterios de éxito especificados en el proceso de Lean UX, en contraste con los resultados obtenidos en el ciclo de vida. Igualmente, incluye recomendaciones sobre los siguientes pasos en relación a Roadmap de los productos digitales que forman parte del alcance del modelo de negocio digital.
+
 
 #### Conclusiones
 
