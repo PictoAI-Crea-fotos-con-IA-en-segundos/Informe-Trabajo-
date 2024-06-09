@@ -804,12 +804,16 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 
 ### Backend
 - Maven: Archivo `pom.xml` para gestionar dependencias.
+![1](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/4cd9aa74-fee0-4706-82d6-32353377b789)
 
 ### Frontend
 - `package.json` para gestionar dependencias de JavaScript y TypeScript.
+![2](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/5f2667a7-9955-4a85-94d9-88e09d0e835b)
 
 ### Móvil
 - Archivo `pubspec.yaml` para gestionar dependencias de Flutter.
+  
+![3](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/522eb585-8d60-4ae8-a9be-78355bb00302)
 
 ## 7.1.2 Source Code Management
 
@@ -824,7 +828,9 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 - Git: Se hizo uso de esta herramienta para el control del proyecto y utilizando la plataforma GitHub para almacenarlo.
 
 **Estructura del Repositorio**
-- Organización del Código: Se crearon 4 repositorios para que se distribuyen de la siguiente forma: 
+- Organización del Código: Se crearon 4 repositorios para que se distribuyen de la siguiente forma:
+![4](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/fe760319-5e83-416d-abe1-58268be11665)
+
   - Main Branch: `main`
     - Rama principal contiene el código listo para producción.
   - Development Branch: `develop`
@@ -959,6 +965,8 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 **Introducción**
 - El objetivo principal del Sprint #1 es implementar las funcionalidades básicas de la aplicación de gestión de fotografías, incluyendo el registro de usuario, cierre de sesión, selección de plan, gestión de suscripción, exploración de galería de fotos y descarga de fotografías. A continuación se presenta un screenshot del Board en Trello junto con el URL público del Board.
   - URL: [https://trello.com/b/iS0ztjoS](https://trello.com/b/iS0ztjoS)
+    ![5](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/a83b7b7c-bdf5-43cf-b4c8-115a9b5fe236)
+
 
 **User Stories Asignadas al Sprint #1**
 
@@ -1004,22 +1012,37 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 - En este Sprint hemos logrado implementar y probar varias funcionalidades clave de la aplicación. Hemos completado las User Stories US001, US002, US004, US005, US008, US009, US010, cubriendo la creación y gestión de usuarios, la selección y gestión de planes, la exploración de la galería de fotos y la descarga de imágenes. Además, se han corregido errores menores y mejorado la interfaz de usuario.
 
 **FrontEnd**
+  ![6](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/63de5db9-97bc-4736-a1bc-7307d346e769)
 
 - Inicio de sesión
-- Registro 
+  ![7](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/298165b5-2dc0-4864-aa37-adf859b0b17e)
+
+- Registro
+  ![8](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/674ce508-70ba-4b88-ab03-63a0f1d2445c)
+
 - Elección de plan 
+  ![9](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/a8680b71-09d0-47a3-8d4e-6814b7b35977)
 
 **Backend**
 
-- Generación de token 
+- Generación de token
+  ![10](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/09a23950-6089-4a9e-b6bf-d4379f1834fe)
+
 - Generación de imagen 
+  ![11](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/bf2a8b59-1e67-4ab5-9143-1fed94419d18)
 
 **Móvil**
+- Main
+  ![12](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/71d46d47-d87e-4a1a-a9ef-32bb9d2db33e)
 
-- Main 
-- Profile 
-- Generar Imagen 
+- Profile
+  ![13](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/d0f9bbd9-691f-4acb-a628-22f5a0cce5e8)
+
+- Generar Imagen
+  ![14](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/f79a571e-62df-47da-b5e1-52f786e0024c)
+
 - Favoritos 
+  ![15](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/eac6aa7e-cc13-41a9-8227-771307baac9d)
 
 ### 7.2.1.6 Services Documentation Evidence for Sprint Review  (Falta)
 - En este Sprint se han documentado y desarrollado los siguientes endpoints para los Web Services del proyecto utilizando OpenAPI para asegurar una documentación clara y accesible. A continuación se presenta una tabla con la relación de endpoints desarrollados, indicando las acciones implementadas y proporcionando los enlaces a la documentación correspondiente. Además, se incluye una explicación de las acciones soportadas y ejemplos de interacción.
@@ -1067,8 +1090,15 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 
 **Capturas**
 - **BackEnd**
+![20](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/488f63fc-46a8-4340-8cd3-59121922c3ac)
+
 - **FrontEnd**
+  
+![21](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/14784d22-a5e5-430f-814e-39da5dacb69c)
+
+
 - **Móvil**
+![22](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/abb5a035-a2d2-4d45-a540-9bda86a11a5e)
 
 ### 7.2.1.8 Team Collaboration Insights for Sprint Review
 - Durante este Sprint el equipo ha colaborado de manera efectiva en las diferentes tareas y funcionalidades asignadas. A continuación se presenta un resumen de las actividades de colaboración y los analíticos de commits en GitHub realizados por los miembros del equipo:
@@ -1085,6 +1115,9 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 - Ángel Gustavo Chuco Michel: Implementación de conexiones adicionales y actualizaciones de propiedades.
 - Frank Yamil Alva Cordova: Integración y pruebas de funciones de la aplicación móvil.
 - Lino Abraham Quenta Leon: Desarrollo de funcionalidades adicionales y mejoras en la interfaz de usuario.
+![18](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/bf042785-b6ad-4825-87f6-43ead5794ddd)
+![19](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/4498487b-cad9-4a04-9752-45f4d5ac19b6)
+![20](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/8fea1794-54d9-4b49-a019-3541334e1e83)
 
 **Validation Interviews (Pendiente)**
 - Registro de Entrevistas (6 Entrevistas mínimo pendiente)
