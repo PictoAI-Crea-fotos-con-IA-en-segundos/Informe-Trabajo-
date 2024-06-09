@@ -775,6 +775,71 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 
   ![Captura de pantalla 2024-05-03 094709](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/978aafcb-9fe4-4a2b-ad34-a5b9d3c3875c)
   # 7.1 Software Configuration Management
+  ### 6.4.2. Applications Mock-ups
+  ![mcp 1](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/540ddae5-e398-4f75-a220-c3413893edec)
+  ![mck 2](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/cf845ca3-7f41-4379-abd1-8fd1605d539d)
+  ![mck 3](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/6658823f-939e-4489-b6e8-9d4d89aec267)
+  
+  ![mck 4](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/50476f9d-0c7b-4c28-892d-2d134966094f)
+  ![cmk 5](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/5ae2b30f-f2e0-46ac-a370-8553adcd0ae1)
+  ![mck 6](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/e236dd37-fca5-4678-920d-07abec02d00e)
+  
+  ![mck 7](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/0659f6dc-1754-4c22-ab54-f2f93d693c1d)
+
+  ### 6.4.3. Applications User Flow Diagrams.
+
+  
+1. **User Goal**: Registro de usuario en la aplicación móvil.
+
+   **User Persona**: Juan Pérez, 30 años, usuario habitual de aplicaciones móviles para gestionar sus tareas diarias.
+
+   ### **Flujos**:
+     - **Happy Path**:
+       1. El usuario abre la aplicación y selecciona "Registrarse".
+       2. Introduce sus datos personales (nombre, correo electrónico, contraseña).
+       3. Confirma los datos y selecciona "Enviar".
+       4. Recibe una confirmación de registro exitoso y es redirigido a la pantalla principal de la aplicación.
+  
+          ![aaaa](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/71df9f70-573e-4b08-914b-87231af1b287)
+
+        **Unhappy Path**:
+       1. El usuario abre la aplicación y selecciona "Registrarse".
+       2. Introduce sus datos personales, pero comete un error en la dirección de correo electrónico.
+       3. Recibe un mensaje de error indicando que la dirección de correo electrónico es inválida.
+       4. Corrige la dirección de correo electrónico y vuelve a intentar registrarse.
+       5. Completa el registro correctamente.
+
+      **User Persona**: Laura Martínez, 35 años, gerente de proyectos en una empresa tecnológica.
+
+     ### **Flujos**:
+     - **Happy Path**:
+       1. El usuario profesional abre la aplicación y selecciona "Registrarse".
+       2. Introduce sus datos profesionales 
+       3. Sube un documento de verificación profesional.
+       4. Confirma los datos y selecciona "Registrarse".
+       5. Recibe un mensaje de éxito en el registro y es redirigido al panel de control profesional.
+      
+        ![aaaa](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/329399fd-cd42-4fda-8941-ef7b54187b27)
+
+     
+        **Unhappy Path**:
+       1. El usuario abre la aplicación y selecciona "Registrarse".
+       2. Introduce sus datos personales, pero comete un error en la dirección de correo electrónico.
+       3. Recibe un mensaje de error indicando que la dirección de correo electrónico es inválida.
+       4. Corrige la dirección de correo electrónico y vuelve a intentar registrarse.
+       5. Completa el registro correctamente.     
+  
+    
+          
+  ### 6.5. Applications Prototyping
+
+  Para el prototipo se utilizo figma:
+  Link: [Professional User Flow Design on Figma](https://www.figma.com/design/T5SUxWQSfjQem0eSIFw2iv/Untitled?node-id=0-1&t=sdqJQr0qNip4fuCW-1)
+
+  
+
+
+  
 
 ## 7.1.1 Software Development Environment Configuration
 
@@ -1044,7 +1109,7 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 - Favoritos 
   ![15](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/eac6aa7e-cc13-41a9-8227-771307baac9d)
 
-### 7.2.1.6 Services Documentation Evidence for Sprint Review  (Falta)
+### 7.2.1.6 Services Documentation Evidence for Sprint Review  
 - En este Sprint se han documentado y desarrollado los siguientes endpoints para los Web Services del proyecto utilizando OpenAPI para asegurar una documentación clara y accesible. A continuación se presenta una tabla con la relación de endpoints desarrollados, indicando las acciones implementadas y proporcionando los enlaces a la documentación correspondiente. Además, se incluye una explicación de las acciones soportadas y ejemplos de interacción.
 
 | Endpoint            | Acción       | Método HTTP | Parámetros                            | Ejemplo de Respuesta                                        |
@@ -1213,6 +1278,99 @@ Para este apartado se dividieron las preguntas en 5 secciones para el usuario en
 **Resumen:**
 
 ## 7.3.3 Evaluación según Heurísticas
+Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive diseño de la experiencia propuesta. Para esto, la sección debe contener la estructura del formato para evaluaciones de heurísticas indicado en el Anexo D. Formato para Evaluación de User Experience según Heurísticas.
+####Proceso de Evaluación.
+
+1. **Selección de Heurísticas**:
+   - Heurísticas de Nielsen: visibilidad del estado del sistema, correspondencia entre el sistema y el mundo real, control del usuario, consistencia, prevención de errores, reconocimiento en lugar del recuerdo, flexibilidad y eficiencia de uso, diseño estético y minimalista, ayuda y documentación.
+
+2. **Reclutamiento de Evaluadores**:
+   - De 3 a 5 evaluadores con experiencia en usabilidad y diseño de interfaces.
+
+3. **Briefing**:
+   - Sesión de introducción con guion de tareas específicas para los evaluadores.
+
+4. **Evaluación Individual**:
+   - Cada evaluador identifica problemas de usabilidad y anota:
+     - Descripción del problema.
+     - Heurística violada.
+     - Gravedad del problema (leve, moderado, grave, crítico).
+     - Sugerencias para solucionar el problema.
+
+5. **Reunión de Consenso**:
+   - Discusión y priorización de problemas según su impacto.
+
+6. **Informe de Evaluación**:
+   - Resumen de problemas, heurísticas violadas, gravedad y recomendaciones.
+
+#### 3. Resultados de la Evaluación
+
+- **Problema 1**:
+  - **Descripción**: El botón de "Enviar" no es visible en la pantalla de registro.
+  - **Heurística Violada**: Visibilidad del estado del sistema.
+  - **Gravedad**: Crítico.
+  - **Recomendación**: Reubicar el botón en una posición más visible o cambiar su color para que destaque más.
+
+- **Problema 2**:
+  - **Descripción**: No hay retroalimentación cuando se envía un formulario.
+  - **Heurística Violada**: Visibilidad del estado del sistema.
+  - **Gravedad**: Grave.
+  - **Recomendación**: Agregar un mensaje de confirmación o una animación que indique que el formulario se ha enviado correctamente.
+  - 
+## 7.4. Video About-the-Product
+Link: [YouTube Video](https://youtu.be/9y2EqP8bJX4)
+
+[Video on SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201910655_upc_edu_pe/EdTz1pZgaXdHjxMDs8mo6GMBjIvwnyTAD2StWq3ciOXk9g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GNXLeB)
+
+
+### Conclusiones y recomendaciones
+
+En esta sección, el equipo enuncia las conclusiones sobre el trabajo, incluyendo los resultados a los que ha llegado en relación a los Problem Statements especificados, los assumptions realizados frente al comportamiento real de los segmentos, los Hypotheses Statements establecidos y los criterios de éxito especificados en el proceso de Lean UX, en contraste con los resultados obtenidos en el ciclo de vida. Igualmente, incluye recomendaciones sobre los siguientes pasos en relación a Roadmap de los productos digitales que forman parte del alcance del modelo de negocio digital.
+
+#### Conclusiones
+
+1. **Problem Statements**:
+   - **Resultado**: Se identificaron y abordaron correctamente los problemas clave de usabilidad y eficiencia en el sistema, cumpliendo con los objetivos planteados en los Problem Statements.
+   
+2. **Assumptions y comportamiento real**:
+   - **Observación**: Las assumptions iniciales sobre el comportamiento de los usuarios fueron en gran parte precisas, aunque algunos segmentos mostraron diferencias significativas en sus interacciones, lo que requirió ajustes en el diseño.
+
+3. **Hypotheses Statements**:
+   - **Evaluación**: Las hipótesis planteadas fueron validadas a través de pruebas y retroalimentación de los usuarios, confirmando que las mejoras propuestas eran efectivas para mejorar la usabilidad y satisfacción del usuario.
+
+4. **Criterios de éxito**:
+   - **Cumplimiento**: Los criterios de éxito definidos se alcanzaron en su mayoría, con mejoras notables en la experiencia del usuario y la eficiencia operativa del sistema.
+
+#### Recomendaciones
+
+1. **Mejoras Continuas**:
+   - **Sugerencia**: Implementar un ciclo continuo de retroalimentación y mejora basado en las evaluaciones heurísticas y la retroalimentación de los usuarios para mantener y mejorar la calidad del sistema.
+
+2. **Roadmap de Productos Digitales**:
+   - **Próximos pasos**: Definir y priorizar las siguientes fases de desarrollo en el roadmap del producto, enfocándose en las áreas de mayor impacto identificadas durante el proceso de evaluación.
+
+3. **Adopción de Lean UX**:
+   - **Recomendación**: Continuar utilizando el enfoque Lean UX para futuros desarrollos, asegurando que las soluciones se alineen con las necesidades reales de los usuarios y los objetivos de negocio.
+
+4. **Monitoreo y Análisis**:
+   - **Estrategia**: Establecer métricas claras y herramientas de monitoreo para evaluar continuamente el desempeño del sistema y la satisfacción del usuario, permitiendo ajustes rápidos y efectivos.
+
+## Video About-the-Team.
+Link: [Video on SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201910655_upc_edu_pe/ERuYsP1xrCJKjPcsGULj78UBN9n5YNUCEzmJVOggTCWHXQ?e=i1zlfl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+### Bibliografía
+
+1. Nielsen, J. (1994). *Usability Engineering*. Academic Press.
+2. Norman, D. A. (2013). *The Design of Everyday Things: Revised and Expanded Edition*. Basic Books.
+3. Shneiderman, B., Plaisant, C., Cohen, M., Jacobs, S., Elmqvist, N., & Diakopoulos, N. (2017). *Designing the User Interface: Strategies for Effective Human-Computer Interaction* (6th ed.). Pearson.
+4. International Organization for Standardization. (2018). *ISO 9241-11:2018 Ergonomics of human-system interaction – Part 11: Usability: Definitions and concepts*. ISO.
+5. Krug, S. (2014). *Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability* (3rd ed.). New Riders.
+6. Tullis, T., & Albert, B. (2013). *Measuring the User Experience: Collecting, Analyzing, and Presenting Usability Metrics* (2nd ed.). Morgan Kaufmann.
+7. Benyon, D. (2014). *Designing Interactive Systems: A Comprehensive Guide to HCI, UX, and Interaction Design* (3rd ed.). Pearson.
+8. ISO/IEC 25010. (2011). *Systems and software engineering – Systems and software Quality Requirements and Evaluation (SQuaRE) – System and software quality models*. ISO/IEC.
+9. Holtzblatt, K., & Beyer, H. (2017). *Contextual Design: Design for Life* (2nd ed.). Morgan Kaufmann.
+10. Garrett, J. J. (2011). *The Elements of User Experience: User-Centered Design for the Web and Beyond* (2nd ed.). New Riders.
 
   # Anexo
 [Video-Trabajo-Parcial](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201910655_upc_edu_pe/EV5FVST-UNhMs1xvbvul0EsBwaugmjjlN6v8xq5TNrkbXQ?e=7ogAKe)
