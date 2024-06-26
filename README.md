@@ -720,63 +720,68 @@ El diagrama muestra de manera simplificada cómo las clases definidas interactú
 
 ## 6.1. Style Guidelines.
 
-### 6.1.1. General Style Guidelines.
+### 6.1.2. Web, Mobile & Devices Style Guidelines
 
-*Branding:*
+#### Interfaces Web Responsivas:
 
-Logotipo: Uso del logotipo con espacio adecuado alrededor para garantizar visibilidad.
+- **Adaptabilidad:** Diseños que se ajustan a diferentes tamaños de pantalla, desde móviles hasta escritorios.
+- **Navegación:** Menús y botones que son fáciles de usar en cualquier dispositivo.
 
-Paleta de Colores: Colores primarios y secundarios de la marca que evocan el tono de comunicación.
+#### Interfaces Nativas para Móviles:
 
-Imaginería: Estilo de fotografías e ilustraciones que reflejan la personalidad de la marca.
+- **Tamaño de Toque:** Áreas de interacción que se adaptan al tamaño del dedo.
+- **Gestos:** Implementación de gestos naturales para la interacción con la aplicación.
 
-*Tipografía:*
+#### Consistencia:
 
-Fuente Principal: Para títulos y encabezados, que sea legible y alinee con la identidad de marca.
+- **Elementos de UI:** Mantener una consistencia visual y de interacción a través de todas las plataformas.
+- **Patrones de Diseño:** Seguir patrones de diseño conocidos para mejorar la usabilidad.
 
-Fuente Secundaria: Para cuerpo de texto, asegurando legibilidad en diferentes tamaños y dispositivos.
+#### Feedback Visual:
 
-Jerarquía: Uso consistente de tamaños de fuente para establecer una clara jerarquía visual.
+- **Animaciones:** Uso de animaciones sutiles para ofrecer retroalimentación y mejorar la experiencia del usuario.
+- **Estado de los Elementos:** Diseños claros para indicar el estado activo, inactivo o interactuable de los elementos de UI.
 
-*Colores:*
+### Tipografía y Iconografía
 
-Uso de Color: Para llamar la atención sobre elementos importantes y guiar al usuario a través de la interfaz.
+#### Tipografía
 
-Contraste: Suficiente contraste entre el texto y el fondo para la accesibilidad y la legibilidad.
+| Tipo de Letra | Uso              | URL de Descarga                            |
+|---------------|------------------|--------------------------------------------|
+| Roboto        | Web y Móvil      | [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto) |
 
-*Espaciado:*
+#### Iconografía
 
-Padding y Margins: Definir espaciado estándar para crear diseños limpios y organizados.
+| Tipo de Icono | Uso              | URL de Descarga                            |
+|---------------|------------------|--------------------------------------------|
+| Material Icons| General          | [Material Icons](https://fonts.google.com/icons) |
 
-Alineación: Uso de una cuadrícula para mantener consistencia en el diseño.
+### Paleta de Colores
 
-*Tono de Comunicación:*
+| Color   | Código HEX | Muestra             |
+|---------|------------|---------------------|
+| Morado  | `#6A0DAD`  | ![#6A0DAD](https://via.placeholder.com/15/6A0DAD/000000?text=+) `#6A0DAD` |
+| Negro   | `#000000`  | ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `#000000` |
+| Blanco  | `#FFFFFF`  | ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF` |
 
-Voz de la Marca: Divertido/Serio, Formal/Casual, Respetuoso/Irreverente, Entusiasta/Sereno.
+### Detalles de Diseño
 
-Lenguaje Aplicado: Elegir un lenguaje que refuerce la voz de la marca y conecte con la audiencia.
+#### Colores Primarios
 
-### 6.1.2. Web, Mobile & Devices Style Guidelines.
+- **Morado (`#6A0DAD`):** Utilizado para botones principales, enlaces y elementos interactivos destacados.
+- **Negro (`#000000`):** Texto principal y elementos de fondo en ciertos contextos.
+- **Blanco (`#FFFFFF`):** Fondos y texto en fondos oscuros para contraste.
 
-*Interfaces Web Responsivas:*
+#### Animaciones y Feedback Visual
 
--   Adaptabilidad: Diseños que se ajustan a diferentes tamaños de pantalla, desde móviles hasta escritorios.
--   Navegación: Menús y botones que son fáciles de usar en cualquier dispositivo.
+- **Animaciones:**
+  - **Transiciones:** Animaciones sutiles en cambios de estado, como al pasar de inactivo a activo.
+  - **Carga:** Indicadores de carga animados para mantener al usuario informado.
 
-*Interfaces Nativas para Móviles:*
-
--   Tamaño de Toque: Áreas de interacción que se adaptan al tamaño del dedo.
--   Gestos: Implementación de gestos naturales para la interacción con la aplicación.
-
-*Consistencia:*
-
--   Elementos de UI: Mantener una consistencia visual y de interacción a través de todas las plataformas.
--   Patrones de Diseño: Seguir patrones de diseño conocidos para mejorar la usabilidad.
-
-*Feedback Visual:*
-
--   Animaciones: Uso de animaciones sutiles para ofrecer retroalimentación y mejorar la experiencia del usuario.
--   Estado de los Elementos: Diseños claros para indicar el estado activo, inactivo o interactuable de los elementos de UI.
+- **Estado de los Elementos:**
+  - **Activo:** Resaltado con el color morado.
+  - **Inactivo:** Tonos de gris claros.
+  - **Interactuable:** Cambio de color al pasar el cursor o al tocar en dispositivos móviles.
 
 
 
