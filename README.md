@@ -1184,6 +1184,212 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 ![19](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/4498487b-cad9-4a04-9752-45f4d5ac19b6)
 ![20](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/8fea1794-54d9-4b49-a019-3541334e1e83)
 
+
+
+# 7.2.2 Sprint 2 
+
+### 7.2.2.1 Sprint Planning
+
+| Item                    | Details                                           |
+|-------------------------|---------------------------------------------------|
+| **Date**                | 01/06/2024                                        |
+| **Time**                | 10:00 a.m                                         |
+| **Location**            | Sala de conferencias virtual de Google Meet       |
+| **Prepared By**         | Josef Romero                                      |
+| **Attendees** (to planning meeting) | Richar Romero, Angel Chuco, Frank Alva, Lino Quenta |
+
+**Sprint n – 2 Review Summary**
+- Durante el Sprint 2 se hizo mejoras con respecto al sprint anterior y adicionalmente se implementaron nuevas funciones.
+
+**Sprint n – 2 Retrospective Summary**
+- El equipo consideró que el proceso de desarrollo fue exitoso, aunque se identificaron áreas de mejora en la documentación y en las pruebas automatizadas.
+
+**Sprint Goal & User Stories**
+
+| Sprint n Goal           | Desarrollar la funcionalidad avanzada de edición de fotos y mejorar la interfaz de usuario. |
+|-------------------------|---------------------------------------------------------------------------------------------|
+| **Sprint n Velocity**   | El equipo estima completar 50 horas de trabajo en este sprint.                              |
+| **Sum of Story Points** | 50 puntos de historia                                                                       |
+
+**User Stories para Sprint 2**
+
+| ID - HU | TÍTULO                                | (Importancia precedencia) | TIPO | ESTIMACIÓN (Story points) | SPRINT |
+|---------|----------------------------------------|----------------------------|------|---------------------------|--------|
+| US003   | Editar fotografía                      | (Alta Alta)                | RF   | 8                         | 2      |
+| US006   | Subir fotografías por unidad y por lotes | (Alta Media)               | RF   | 6                         | 2      |
+| US007   | Realizar ediciones rápidas a las fotografías | (Media Alta)               | RF   | 5                         | 2      |
+| US011   | Compartir fotografías favoritas        | (Media Baja)               | RF   | 4                         | 2      |
+| US012   | Guardar fotografías favoritas          | (Media Baja)               | RF   | 4                         | 2      |
+| US013   | Suscripción a contenido premium        | (Alta Alta)                | RF   | 8                         | 2      |
+| US014   | Actualización de información de perfil de usuario | (Media Alta)               | RF   | 5                         | 2      |
+| US015   | Gestión de ajustes de la cuenta        | (Media Alta)               | RF   | 6                         | 2      |
+| **Total**|                                        |                            |      | **46**                    |        |
+
+### 7.2.2.2 Sprint Backlog #2
+
+**Introducción**
+- El objetivo principal del Sprint #2 es implementar las funcionalidades avanzadas de edición de fotografías y mejorar la interfaz de usuario. A continuación se presenta un screenshot del Board en Trello junto con el URL público del Board.
+  - URL: [https://trello.com/b/iS0ztjoS](https://trello.com/b/iS0ztjoS)
+
+![Sprint 2 Board](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/a83b7b7c-bdf5-43cf-b4c8-115a9b5fe236)
+
+**User Stories Asignadas al Sprint #2**
+
+| User Story | Work-Item / Task          | Id  | Title                      | Description                                | Estimation (Hours) | Assigned To                | Status (To-do / In-Process / To-Review / Done) |
+|------------|---------------------------|-----|----------------------------|--------------------------------------------|--------------------|----------------------------|-----------------------------------------------|
+| US003      | Editar fotografía         | T016| Crear interfaz de edición de fotos | Implementar la interfaz para editar fotos | 8                  | Josef Cesar Romero Florida | To-do                                       |
+|            |                           | T017| Implementar filtros de edición | Añadir funcionalidad de filtros de edición | 6                  | Richar Varoni Romero Cacha | To-do                                       |
+|            |                           | T018| Conectar API de edición    | Integrar backend con la funcionalidad de edición | 6                  | Ángel Gustavo Chuco Michel | To-do                                       |
+| US006      | Subir fotografías por unidad y por lotes | T019| Crear interfaz de subida de fotos | Implementar la interfaz para subir fotos por unidad y por lotes | 6                  | Frank Yamil Alva Cordova   | To-do                                       |
+|            |                           | T020| Conectar API de subida     | Integrar backend con la funcionalidad de subida de fotos | 6                  | Lino Abraham Quenta Leon   | To-do                                       |
+| US007      | Realizar ediciones rápidas a las fotografías | T021| Crear interfaz de edición rápida | Implementar la interfaz para realizar ediciones rápidas | 5                  | Josef Cesar Romero Florida | To-do                                       |
+| US011      | Compartir fotografías favoritas | T022| Crear interfaz de compartir fotos favoritas | Implementar la interfaz para compartir fotos favoritas | 4                  | Richar Varoni Romero Cacha | To-do                                       |
+|            |                           | T023| Conectar API de compartir  | Integrar backend con la funcionalidad de compartir fotos | 4                  | Ángel Gustavo Chuco Michel | To-do                                       |
+| US012      | Guardar fotografías favoritas | T024| Crear interfaz de guardar fotos favoritas | Implementar la interfaz para guardar fotos favoritas | 4                  | Frank Yamil Alva Cordova   | To-do                                       |
+|            |                           | T025| Conectar API de guardar    | Integrar backend con la funcionalidad de guardar fotos | 4                  | Lino Abraham Quenta Leon   | To-do                                       |
+| US013      | Suscripción a contenido premium | T026| Crear interfaz de suscripción | Implementar la interfaz para la suscripción a contenido premium | 8                  | Josef Cesar Romero Florida | To-do                                       |
+|            |                           | T027| Conectar API de suscripción | Integrar backend con la funcionalidad de suscripción | 6                  | Richar Varoni Romero Cacha | To-do                                       |
+| US014      | Actualización de información de perfil de usuario | T028| Crear interfaz de actualización de perfil | Implementar la interfaz para la actualización de perfil de usuario | 5                  | Ángel Gustavo Chuco Michel | To-do                                       |
+|            |                           | T029| Conectar API de perfil     | Integrar backend con la funcionalidad de actualización de perfil | 4                  | Frank Yamil Alva Cordova   | To-do                                       |
+| US015      | Gestión de ajustes de la cuenta | T030| Crear interfaz de gestión de ajustes | Implementar la interfaz para la gestión de ajustes de la cuenta | 6                  | Lino Abraham Quenta Leon   | To-do                                       |
+|            |                           | T031| Conectar API de ajustes    | Integrar backend con la funcionalidad de gestión de ajustes | 6                  | Josef Cesar Romero Florida | To-do                                       |
+
+
+### 7.2.2.3 Development Evidence for Sprint Review
+
+- Durante el Sprint 2 se realizaron avances significativos en el desarrollo de las funcionalidades avanzadas y mejoras de la interfaz de usuario. Los commits reflejan las implementaciones y correcciones en las áreas del backend, frontend y la aplicación móvil. A continuación se presenta la tabla con los commits relevantes de cada repositorio.
+
+**Tabla de Commits**
+
+| Repository          | Branch       | Commit Id | Commit Message                          | Commit Message Body                                              | Committed on (Date) |
+|---------------------|--------------|-----------|-----------------------------------------|------------------------------------------------------------------|---------------------|
+| pictoai-backend     | feature/edit | 27cb4e3   | feat: añade filtros de edición          | Implementación de filtros de edición para fotografías            | 15/06/2023           |
+| pictoai-backend     | main         | 3d9e1b6   | fix: errores menores                    | Corrección de errores menores relacionados con la edición de fotos | 16/06/2023           |
+| pictoai-web-app     | main         | 9bdc72a   | Merge pull request #2 from feature/edit | Fusionando cambios de edición en la rama principal               | 17/06/2023           |
+| pictoai-web-app     | feature/upload | 5ac57f1   | feat: subida por lotes                  | Implementación de la funcionalidad de subida de fotos por lotes  | 18/06/2023           |
+| pictoai-web-app     | main         | 1cd45b2   | feat: actualización de perfil           | Actualización de funcionalidad de perfil de usuario              | 19/06/2023           |
+
+
+### 7.2.2.4 Testing Suite Evidence for Sprint Review
+
+![Imagen 1](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/147676ac-b105-4640-b8e3-d022d49569b1)
+
+
+### 7.2.2.5 Execution Evidence for Sprint Review
+- En este Sprint hemos logrado implementar y probar varias funcionalidades clave de la aplicación. Hemos completado las User Stories US001, US002, US004, US005, US008, US009, US010, cubriendo la creación y gestión de usuarios, la selección y gestión de planes, la exploración de la galería de fotos y la descarga de imágenes. Además, se han corregido errores menores y mejorado la interfaz de usuario.
+
+**FrontEnd**
+  ![6](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/63de5db9-97bc-4736-a1bc-7307d346e769)
+
+- Inicio de sesión
+  ![7](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/298165b5-2dc0-4864-aa37-adf859b0b17e)
+
+- Registro
+  ![8](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/674ce508-70ba-4b88-ab03-63a0f1d2445c)
+
+- Elección de plan 
+  ![9](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/a8680b71-09d0-47a3-8d4e-6814b7b35977)
+
+**Backend**
+
+- Generación de token
+  ![10](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/09a23950-6089-4a9e-b6bf-d4379f1834fe)
+
+- Generación de imagen 
+  ![11](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/bf2a8b59-1e67-4ab5-9143-1fed94419d18)
+
+**Móvil**
+- Generar imagen 
+  -<img width="218" alt="generar imagen" src="https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/093a11b3-b6d2-4b5e-b5f7-c15e7bd82d0f">
+
+- Mis favoritos
+  -<img width="218" alt="mis favoritos" src="https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/2ba51142-18e0-4c72-bd27-0344aa8427d2">
+
+- Eliminar favoritos
+  -<img width="157" alt="eliminar favorito" src="https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/179cc7a2-45ad-4771-81c7-bf00e66ae058">
+
+  
+
+### 7.2.2.6 Services Documentation Evidence for Sprint Review  
+
+- En este Sprint se han documentado y desarrollado los siguientes endpoints para los Web Services del proyecto utilizando OpenAPI para asegurar una documentación clara y accesible. A continuación se presenta una tabla con la relación de endpoints desarrollados, indicando las acciones implementadas y proporcionando los enlaces a la documentación correspondiente. Además, se incluye una explicación de las acciones soportadas y ejemplos de interacción.
+
+| Endpoint            | Acción       | Método HTTP | Parámetros                            | Ejemplo de Respuesta                                        |
+|---------------------|--------------|-------------|---------------------------------------|-------------------------------------------------------------|
+| /api/users/register | Registro     | POST        | { "username": "string", "password": "string" } | { "id": 1, "username": "usuario1", "status": "registered" } |
+| /api/users/login    | Login        | POST        | { "username": "string", "password": "string" } | { "token": "jwt_token_string", "username": "usuario1" }     |
+| /api/photos/upload  | Subir Fotos  | POST        | multipart/form-data                   | { "id": 10, "url": "http://server.com/photos/10.jpg", "status": "uploaded" } |
+| /api/photos/edit/{id} | Editar Fotos | PUT        | { "id": "int", "edits": "object" }    | { "id": 10, "url": "http://server.com/photos/10_edited.jpg", "status": "edited" } |
+| /api/photos/{id}    | Ver Foto     | GET         | { "id": "int" }                       | { "id": 10, "url": "http://server.com/photos/10.jpg", "created_at": "2023-06-05T12:00:00Z" } |
+
+### 7.2.2.7 Software Deployment Evidence for Sprint Review
+- Durante este Sprint se han realizado varias actividades relacionadas con el despliegue de las diferentes partes de nuestra aplicación. A continuación se detallan los procesos realizados, las herramientas utilizadas y las configuraciones establecidas para asegurar el correcto funcionamiento del backend, frontend y la aplicación móvil.
+
+**Procesos Realizados**
+
+**Backend**
+- Plataforma: Railway
+- Configuración de Cuenta: Se creó una cuenta en Railway y se vinculó con el repositorio de GitHub del proyecto.
+- Se configuró la base de datos MySQL en Railway.
+
+**Despliegue:**
+- Configuración del archivo `application.properties` para apuntar a la base de datos desplegada en Railway.
+- Automatización del despliegue continuo mediante el pipeline CI/CD de Railway.
+- Verificación del correcto funcionamiento de los endpoints desplegados.
+
+**Frontend**
+- Plataforma: Vercel
+- Configuración de Cuenta: Se creó una cuenta en Vercel y se vinculó con el repositorio de GitHub del proyecto.
+
+**Despliegue:**
+- Configuración del proyecto Next.js para despliegue en Vercel.
+- Automatización del despliegue continuo mediante el pipeline CI/CD de Vercel.
+- Verificación de la correcta visualización y funcionalidad de la interfaz web desplegada.
+
+**Aplicación Móvil**
+- Plataforma: Android Studio
+- Configuración de Emuladores: Configuración de emuladores de Android para pruebas.
+
+**Despliegue:**
+- Preparación del entorno de desarrollo en Android Studio.
+- Generación de archivos APK para pruebas internas.
+- Verificación de la correcta ejecución de la aplicación en diferentes dispositivos.
+
+**Capturas**
+- **BackEnd**
+![20](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/488f63fc-46a8-4340-8cd3-59121922c3ac)
+
+- **FrontEnd**
+  
+![21](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/14784d22-a5e5-430f-814e-39da5dacb69c)
+
+
+- **Móvil**
+![22](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/abb5a035-a2d2-4d45-a540-9bda86a11a5e)
+
+### 7.2.2.8 Team Collaboration Insights for Sprint Review
+- Durante este Sprint el equipo ha colaborado de manera efectiva en las diferentes tareas y funcionalidades asignadas. A continuación se presenta un resumen de las actividades de colaboración y los analíticos de commits en GitHub realizados por los miembros del equipo:
+
+**Colaboración y Comunicación**
+- Herramientas de colaboración: Se utilizó Google Meet para la comunicación instantánea y Trello para la gestión de tareas y el seguimiento del Sprint Backlog.
+- Par de programación: Se implementó la técnica de par de programación en varias tareas críticas para fomentar el aprendizaje y reducir errores.
+
+**Commits (pide evidencia de que todos participamos en los repos)**
+
+**Principales contribuciones:**
+- Josef Cesar Romero Florida: Implementación de la funcionalidad de obtención de imágenes desde el almacenamiento del dispositivo.
+- Richar Varoni Romero Cacha: Corrección de errores y commits iniciales de configuración del proyecto.
+- Ángel Gustavo Chuco Michel: Implementación de conexiones adicionales y actualizaciones de propiedades.
+- Frank Yamil Alva Cordova: Integración y pruebas de funciones de la aplicación móvil.
+- Lino Abraham Quenta Leon: Desarrollo de funcionalidades adicionales y mejoras en la interfaz de usuario.
+![18](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/bf042785-b6ad-4825-87f6-43ead5794ddd)
+![19](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/4498487b-cad9-4a04-9752-45f4d5ac19b6)
+![20](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/8fea1794-54d9-4b49-a019-3541334e1e83)
+<img width="425" alt="evidencia" src="https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/15f5f35d-9d9c-450f-a2bf-534a0c9363d6">
+
+
+
+
 # 7.3 Validation Interviews
 
 ## 7.3.1 Diseño de entrevistas
