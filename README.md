@@ -1338,6 +1338,7 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
   ![9](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/a8680b71-09d0-47a3-8d4e-6814b7b35977)
 - Entrenamiento de rostro
   ![10](https://media.discordapp.net/attachments/1255409286146687043/1255575798232907886/image.png?ex=667da195&is=667c5015&hm=44c7e246e1dd36bb526375d1ba60c4c0ffe2f1a27f7a4cc63809bf69ceb570cb&=&format=webp&quality=lossless&width=793&height=417)
+
 **Backend**
 - Generación de token
   ![11](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/09a23950-6089-4a9e-b6bf-d4379f1834fe)
