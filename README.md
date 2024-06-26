@@ -30,17 +30,16 @@ Lino Abraham Quenta Leon (U20211F978)
 
 | Versión | Fecha | Autor | Descripción de modificación |
 |---------|-------|-------|---------------------------|
-| 1.0 | 2024-03-15 | Josef Romero | Versión inicial del informe |
-| 1.1 | 2024-03-20 | Richar Romero | Adición de la sección "Lean UX Process" |
-| 1.2 | 2024-03-25 | Ángel Chuco | Corrección de errores en la sección "Competidores" |
+| 1.0 | 2024-03-20 | Josef Romero | Versión inicial del informe |
+| 1.1 | 2024-03-25 | Richar Romero | Adición de la sección "Lean UX Process" |
+| 1.2 | 2024-03-30 | Ángel Chuco | Corrección de errores en la sección "Competidores" |
 | 1.3 | 2024-04-02 | Frank Alva | Mejora de la sección "User Personas" basada en retroalimentación del docente |
 | 1.4 | 2024-04-10 | Lino Quenta | Adición de la sección "Impact Mapping" |
 | 2.0 | 2024-04-15 | Josef Romero | Reestructuración completa del informe para mejorar la coherencia |
 | 2.1 | 2024-04-22 | Richar Romero | Actualización de la sección "Software Architecture" |
-| 2.2 | 2024-04-28 | Ángel Chuco | Mejora de la sección "Tactical-Level Software Design" basada en autocrítica del equipo |
 | 2.3 | 2024-05-05 | Frank Alva | Adición de la sección "Solution UX Design" |
-| 2.4 | 2024-05-12 | Lino Quenta | Actualización de la sección "Product Implementation" con nuevos sprints |
-| 3.0 | 2024-05-20 | Josef Romero | Revisión final y correcciones menores en todo el documento |
+| 2.4 | 2024-05-20 | Lino Quenta | Actualización de la sección "Product Implementation" con nuevos sprints |
+| 3.0 | 2024-05-25 | Josef Romero | Revisión final y correcciones menores en todo el documento |
 
 Contenido
 
