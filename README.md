@@ -700,7 +700,7 @@ La Capa de Infraestructura de nuestro proyecto de generación de fotos con IA es
 -   Sistemas de Mensajería (Mensajería): Proporciona la infraestructura para enviar y recibir mensajes asincrónicos, facilitando tareas como la confirmación de acciones o la ejecución de trabajos en segundo plano.
 -   Servicios de Correo (Correo): Permite enviar notificaciones y comunicaciones a los usuarios, como confirmaciones de registro o notificaciones de cambios en sus fotos.
 
-![Diagrama Descripción generada automáticamente](media/a9fa0e5e7f1678bd37aece1f7131f3c9.png)
+![](https://cdn.discordapp.com/attachments/1255409286146687043/1255585446709297203/-C4_Context_1.jpg?ex=667daa92&is=667c5912&hm=45a209b1b97655f95863318503286c8f72e9214fe277ad385b97cee8df3b9aa1&)
 
 El diagrama muestra de manera simplificada cómo las clases definidas interactúan con los servicios externos:
 
