@@ -634,24 +634,54 @@ Esta capa representa el corazón del modelo de dominio de PictoAI, incluyendo la
 ### 5.1.2. Interface Layer.
 
 En esta capa se manejan las interacciones externas con el sistema, gestiona la interacción entre el usuario y el sistema, facilitando las operaciones a través de interfaces gráficas o API.
+| Componente                | Tipo       | Descripción                                                                                         |
+|---------------------------|------------|-----------------------------------------------------------------------------------------------------|
+| **User Interface (UI)**   | Atributo   | Componente gráfico que permite a los usuarios interactuar con el sistema a través de la aplicación. |
+| **API**                   | Atributo   | Punto de entrada que permite a los sistemas externos interactuar con el sistema.                    |
+| **Controlador**           | Agregado   | Gestiona las solicitudes entrantes y coordina la interacción con los servicios del dominio.         |
+| **DTO (Data Transfer Object)** | Atributo   | Estructura de datos utilizada para transferir información entre la UI y el backend.                  |
 
 *![](https://cdn.discordapp.com/attachments/1255409286146687043/1255585471564873728/-C4_Context.jpg?ex=667daa98&is=667c5918&hm=495f54c528b186f9a8050acff13f5845fc7f7077249d3a21f41c6e1b0776871f&)*
 
-### 5.1.3. Application Layer.
+### 5.1.3. Application Layer
 
 La Application Layer juega un papel crucial en la integración de la interfaz de usuario con las operaciones de dominio, asegurando que las acciones de los usuarios se traduzcan efectivamente en cambios significativos en el sistema.
 
-*Command Handlers*
+#### Command Handlers
 
-*Métodos:*
+| Método                    | Descripción                                                                                                                     |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| `handle(EditPhotoCommand)`| Este método recibe un comando de edición de foto, que incluye especificaciones de qué ediciones aplicar y a qué foto. Valida el comando, asegura que la foto existe y aplica las ediciones necesarias llamando a métodos específicos en la capa de dominio. |
 
-handle(EditPhotoCommand): Este método recibe un comando de edición de foto, que incluye especificaciones de qué ediciones aplicar y a qué foto donde se describe cómo desea que la imagen quede. El manejador valida el comando, asegura que la foto existe y aplica las ediciones necesarias llamando a métodos específicos en la capa de dominio.
+#### Event Handlers
 
-*Event Handlers*
+| Método                        | Descripción                                                                                                                           |
+|-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| `handle(PhotoEditedEvent)`    | Este método es llamado cuando un evento de edición de foto es emitido por la capa de dominio. Puede realizar varias acciones, como registrar la edición en un sistema de análisis, actualizar la interfaz del usuario, o preparar la imagen para exportación. |
 
-*Métodos:* handle(PhotoEditedEvent): Este método es llamado cuando un evento de edición de foto es emitido por la capa de dominio. Puede realizar varias acciones, dependiendo de las necesidades del negocio, como registrar la edición en un sistema de análisis, actualizar la interfaz del usuario para reflejar los cambios, o preparar la imagen para exportación.
+### Detalles de los Componentes
 
-![Diagrama Descripción generada automáticamente](media/15c509752c681f057dea3993fdea28bc.png)
+#### EditPhotoCommand
+
+| Atributo             | Tipo     | Descripción                                                |
+|----------------------|----------|------------------------------------------------------------|
+| `photoId`            | `String` | Identificador único de la foto a editar.                   |
+| `edits`              | `List<Edit>` | Lista de ediciones que se deben aplicar a la foto.        |
+
+#### PhotoEditedEvent
+
+| Atributo             | Tipo     | Descripción                                                |
+|----------------------|----------|------------------------------------------------------------|
+| `photoId`            | `String` | Identificador único de la foto que ha sido editada.        |
+| `timestamp`          | `Date`   | Fecha y hora en que se realizó la edición.                 |
+
+#### Edit
+
+| Atributo             | Tipo     | Descripción                                                |
+|----------------------|----------|------------------------------------------------------------|
+| `type`               | `String` | Tipo de edición (e.g., `crop`, `filter`, `resize`).        |
+| `parameters`         | `Map<String, Object>` | Parámetros específicos de la edición.                        |
+
 
 ### 5.1.4. Infrastructure Layer.
 
