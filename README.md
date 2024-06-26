@@ -1278,10 +1278,10 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 | US003   | Editar fotografía                      | (Alta Alta)                | RF   | 8                         | 2      |
 | US006   | Subir fotografías por unidad y por lotes | (Alta Media)               | RF   | 6                         | 2      |
 | US007   | Realizar ediciones rápidas a las fotografías | (Media Alta)               | RF   | 5                         | 2      |
-| US011   | Compartir fotografías favoritas        | (Media Baja)               | RF   | 4                         | 2      |
+| US011   | Funcion De favoritos movile        | (Media Baja)               | RF   | 4                         | 2      |
 | US012   | Guardar fotografías favoritas          | (Media Baja)               | RF   | 4                         | 2      |
 | US013   | Suscripción a contenido premium        | (Alta Alta)                | RF   | 8                         | 2      |
-| US014   | Actualización de información de perfil de usuario | (Media Alta)               | RF   | 5                         | 2      |
+| US014   | Mejorar diseño Web y movile | (Media Alta)               | RF   | 5                         | 2      |
 | US015   | Gestión de ajustes de la cuenta        | (Media Alta)               | RF   | 6                         | 2      |
 | **Total**|                                        |                            |      | **46**                    |        |
 
