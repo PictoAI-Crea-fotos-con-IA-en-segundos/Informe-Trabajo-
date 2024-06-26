@@ -715,9 +715,6 @@ El diagrama muestra de manera simplificada cómo las clases definidas interactú
 ![](https://cdn.discordapp.com/attachments/1255409286146687043/1255585543698251806/Untitled_Diagram.jpg?ex=667daaa9&is=667c5929&hm=070c3dfe39156cb1b185e7d9007fb6b27d310991fa7e19926d7b840b66d6243d&)
 -  Bounded Context: Image Generation
 ![](https://cdn.discordapp.com/attachments/1255409286146687043/1255585512769720422/Account_Context.jpg?ex=667daaa1&is=667c5921&hm=0d11bb2b9092acdef2ff1cb23c5b37a0c4e36f337fb9dc2ee2d798ddd3cc0215&)
-5.1.7.1. Bounded Context Domain Layer Class Diagrams.
-
-![Diagrama Descripción generada automáticamente](media/246adb768cfe03b2bdf61554d0c58c59.png)
 
 # Capítulo VI: Solution UX Design.
 
