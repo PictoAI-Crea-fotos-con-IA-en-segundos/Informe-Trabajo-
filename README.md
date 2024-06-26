@@ -1237,7 +1237,7 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 
 | Item                    | Details                                           |
 |-------------------------|---------------------------------------------------|
-| **Date**                | 01/06/2024                                        |
+| **Date**                | 25/06/2024                                        |
 | **Time**                | 10:00 a.m                                         |
 | **Location**            | Sala de conferencias virtual de Google Meet       |
 | **Prepared By**         | Josef Romero                                      |
@@ -1317,8 +1317,10 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 
 ### 7.2.2.4 Testing Suite Evidence for Sprint Review
 
-![Imagen 1](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/147676ac-b105-4640-b8e3-d022d49569b1)
-
+![Testing 1](https://media.discordapp.net/attachments/1255409286146687043/1255573483610570802/image.png?ex=667d9f6d&is=667c4ded&hm=79f90aa61eda3ef7399793ca90229d6731e073af1275ed4fe8059962fd79d1c6&=&format=webp&quality=lossless&width=801&height=417)
+![Testing 2](https://media.discordapp.net/attachments/1255409286146687043/1255573671913980025/image.png?ex=667d9f9a&is=667c4e1a&hm=e6cc2049781931533ef8f542f552cd0872578d3e11bf7e7dd9392022a585660b&=&format=webp&quality=lossless&width=840&height=417)
+![Testing 3](https://media.discordapp.net/attachments/1255409286146687043/1255573943658741830/image.png?ex=667d9fdb&is=667c4e5b&hm=57f4ae68c3cfe7c83140c23782b36062653a957a9bc1590990f3b576b8d44f24&=&format=webp&quality=lossless)
+![Testing 4](https://media.discordapp.net/attachments/1255409286146687043/1255574253894369492/image.png?ex=667da025&is=667c4ea5&hm=74523558186bf62a099380d4971abe0033174b910ad7c6ca748383eea22cdd42&=&format=webp&quality=lossless)
 
 ### 7.2.2.5 Execution Evidence for Sprint Review
 - En este Sprint hemos logrado implementar y probar varias funcionalidades clave de la aplicación. Hemos completado las User Stories US001, US002, US004, US005, US008, US009, US010, cubriendo la creación y gestión de usuarios, la selección y gestión de planes, la exploración de la galería de fotos y la descarga de imágenes. Además, se han corregido errores menores y mejorado la interfaz de usuario.
@@ -1334,14 +1336,14 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 
 - Elección de plan 
   ![9](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/a8680b71-09d0-47a3-8d4e-6814b7b35977)
-
+- Entrenamiento de rostro
+  ![10](https://media.discordapp.net/attachments/1255409286146687043/1255575798232907886/image.png?ex=667da195&is=667c5015&hm=44c7e246e1dd36bb526375d1ba60c4c0ffe2f1a27f7a4cc63809bf69ceb570cb&=&format=webp&quality=lossless&width=793&height=417)
 **Backend**
-
 - Generación de token
-  ![10](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/09a23950-6089-4a9e-b6bf-d4379f1834fe)
+  ![11](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/09a23950-6089-4a9e-b6bf-d4379f1834fe)
 
 - Generación de imagen 
-  ![11](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/bf2a8b59-1e67-4ab5-9143-1fed94419d18)
+  ![12](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/bf2a8b59-1e67-4ab5-9143-1fed94419d18)
 
 **Móvil**
 - Generar imagen 
@@ -1352,7 +1354,8 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 
 - Eliminar favoritos
   -<img width="157" alt="eliminar favorito" src="https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/179cc7a2-45ad-4771-81c7-bf00e66ae058">
-
+- Descargar Imagen
+   ![13](https://media.discordapp.net/attachments/1255409286146687043/1255576367731310602/image.png?ex=667da21d&is=667c509d&hm=8cae232a43715089f3328fcf6cd9350d5c092b523af0c331b95d41c033f0f74c&=&format=webp&quality=lossless&width=183&height=417)
   
 
 ### 7.2.2.6 Services Documentation Evidence for Sprint Review  
