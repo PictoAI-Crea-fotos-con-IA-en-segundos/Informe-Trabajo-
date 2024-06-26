@@ -1334,10 +1334,12 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 - Registro
   ![8](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/674ce508-70ba-4b88-ab03-63a0f1d2445c)
 
-- Elección de plan 
+- Elección de plan
+  
   ![9](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/a8680b71-09d0-47a3-8d4e-6814b7b35977)
   
 - Entrenamiento de rostro
+  
   ![10](https://media.discordapp.net/attachments/1255409286146687043/1255575798232907886/image.png?ex=667da195&is=667c5015&hm=44c7e246e1dd36bb526375d1ba60c4c0ffe2f1a27f7a4cc63809bf69ceb570cb&=&format=webp&quality=lossless&width=793&height=417)
 
 **Backend**
@@ -1359,7 +1361,8 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 
 
 - Descargar Imagen
-  - ![13](https://media.discordapp.net/attachments/1255409286146687043/1255576367731310602/image.png?ex=667da21d&is=667c509d&hm=8cae232a43715089f3328fcf6cd9350d5c092b523af0c331b95d41c033f0f74c&=&format=webp&quality=lossless&width=183&height=417)
+  
+      ![13](https://media.discordapp.net/attachments/1255409286146687043/1255576367731310602/image.png?ex=667da21d&is=667c509d&hm=8cae232a43715089f3328fcf6cd9350d5c092b523af0c331b95d41c033f0f74c&=&format=webp&quality=lossless&width=183&height=417)
   
 
 ### 7.2.2.6 Services Documentation Evidence for Sprint Review  
