@@ -1423,14 +1423,18 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 
 
 - **Móvil**
-![22](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/abb5a035-a2d2-4d45-a540-9bda86a11a5e)
+![22](https://media.discordapp.net/attachments/1255409286146687043/1255579229047754853/image.png?ex=667da4c7&is=667c5347&hm=e63d1e7af320a50ce6b46088d8d808926c7d3d22f4938805d3b0ce3f8766848f&=&format=webp&quality=lossless)
 
 ### 7.2.2.8 Team Collaboration Insights for Sprint Review
 - Durante este Sprint el equipo ha colaborado de manera efectiva en las diferentes tareas y funcionalidades asignadas. A continuación se presenta un resumen de las actividades de colaboración y los analíticos de commits en GitHub realizados por los miembros del equipo:
 
+![22](https://media.discordapp.net/attachments/1255409286146687043/1255579745911836722/image.png?ex=667da542&is=667c53c2&hm=eca49c6efc09606966f1b5f8a1714a2aa575ca43898dc23a96f57f4bd254afc8&=&format=webp&quality=lossless&width=815&height=417)
+
 **Colaboración y Comunicación**
 - Herramientas de colaboración: Se utilizó Google Meet para la comunicación instantánea y Trello para la gestión de tareas y el seguimiento del Sprint Backlog.
 - Par de programación: Se implementó la técnica de par de programación en varias tareas críticas para fomentar el aprendizaje y reducir errores.
+![23](https://media.discordapp.net/attachments/1255409286146687043/1255579913759752213/image.png?ex=667da56a&is=667c53ea&hm=b215f7b3bf6dd14a1fdd819ef2ab84bc6e2c9819d41c85185e765cbf5878b103&=&format=webp&quality=lossless&width=836&height=416)
+
 
 **Commits (pide evidencia de que todos participamos en los repos)**
 
