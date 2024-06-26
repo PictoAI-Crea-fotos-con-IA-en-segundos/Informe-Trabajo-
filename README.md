@@ -6,9 +6,15 @@
 
 Informe del trabajo TP
 
+**Carrera:** Ingeniería de Software
+
+**Ciclo:** 07
+
+**Sección:** SW82
+
 **Profesor:** Royer Edelwer Rojas Malasquez
 
-**Startup:** LooGood
+**Startup:** PictoAI
 
 **Producto:** PictoAI
 
@@ -30,16 +36,16 @@ Lino Abraham Quenta Leon (U20211F978)
 
 | Versión | Fecha | Autor | Descripción de modificación |
 |---------|-------|-------|---------------------------|
-| 1.0 | 2024-03-20 | Josef Romero | Versión inicial del informe |
-| 1.1 | 2024-03-25 | Richar Romero | Adición de la sección "Lean UX Process" |
-| 1.2 | 2024-03-30 | Ángel Chuco | Corrección de errores en la sección "Competidores" |
-| 1.3 | 2024-04-02 | Frank Alva | Mejora de la sección "User Personas" basada en retroalimentación del docente |
-| 1.4 | 2024-04-10 | Lino Quenta | Adición de la sección "Impact Mapping" |
-| 2.0 | 2024-04-15 | Josef Romero | Reestructuración completa del informe para mejorar la coherencia |
+| 1.0 | 2024-04-20 | Josef Romero | Versión inicial del informe |
+| 1.1 | 2024-04-22 | Richar Romero | Adición de la sección "Lean UX Process" |
+| 1.2 | 2024-04-23 | Ángel Chuco | Corrección de errores en la sección "Competidores" |
+| 1.3 | 2024-04-27 | Frank Alva | Mejora de la sección "User Personas" basada en retroalimentación del docente |
+| 1.4 | 2024-04-29 | Lino Quenta | Adición de la sección "Impact Mapping" |
+| 2.0 | 2024-04-30 | Josef Romero | Reestructuración completa del informe para mejorar la coherencia |
 | 2.1 | 2024-04-22 | Richar Romero | Actualización de la sección "Software Architecture" |
 | 2.3 | 2024-05-05 | Frank Alva | Adición de la sección "Solution UX Design" |
 | 2.4 | 2024-05-20 | Lino Quenta | Actualización de la sección "Product Implementation" con nuevos sprints |
-| 3.0 | 2024-05-25 | Josef Romero | Revisión final y correcciones menores en todo el documento |
+| 3.0 | 2024-06-26 | Josef Romero | Revisión final y correcciones menores en todo el documento |
 
 Contenido
 
@@ -122,6 +128,45 @@ Contenido
       - [6.4.2. Applications Wireflow Diagrams.](#642-applications-wireflow-diagrams)
         
 - [ANEXO.](#anexo)
+
+# Project Report Collaboration Insights
+
+URL de nuestro repositorio para el Project Report: [https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos)
+
+## Desarrollo de actividades y colaboración
+
+### Entrega 1 (TB1)
+
+Para la primera entrega, nos enfocamos en establecer la estructura básica del informe y desarrollar los capítulos iniciales. Josef creó el repositorio y la estructura inicial del documento. Richar, Lino, Frank y Josef contribuyeron significativamente en las secciones de Lean UX Process y análisis de competidores. Angel realizó el diseño de las entrevistas.
+
+### Entrega 2 (TP1)
+
+En la segunda entrega, ampliamos considerablemente el contenido del informe. Frank y Richard mejoró la sección de User Personas basándose en la retroalimentación recibida. Lino y Josef agregó la sección de Impact Mapping, fortaleciendo nuestro análisis estratégico. Angel también aplicó feedback en las secciones que se señalaron.
+
+### Entrega 3 (TB2)
+
+Para esta entrega se hicieron los sprints para llevar la aplicación a la realidad. Josef y Frank hicieron el backend. Richard hizo el fronted y Lino la app Móvil. Angel se encargo del informe.
+
+### Entrega 4 (TF1)
+
+En la entrega final, nos enfocamos en complementar las aplicaciones web y mobile añadiendo mejoras que pondremos en el Sprint 2.
+
+## Evidencia de colaboración
+
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/86ae0313-c909-4d9e-ab2c-9668f1cdf426)
+
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/9a16c31c-2758-43d2-8f01-b2f6d4f94a27)
+
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/4991b047-3194-48fc-a8fe-fdad6e6dfe70)
+
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/24e094d9-fd39-4115-8f9a-1282c32e15f9)
+
+# Student Outcome
+
+| Criterio específico | Acciones realizadas | Conclusiones |
+|---------------------|---------------------|--------------|
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | Josef Cesar Romero Florida<br>TB1: Realizó el EventStorming, Candidate Context Discovery y Domain Message Flows Modeling.<br><br>Richar Varoni Romero Cacha<br>TB1: Desarrolló el Design Purpose y Attribute-Driven Design Inputs.<br><br>Ángel Gustavo Chuco Michel<br>TB1: Elaboró Quality Attribute Scenario Refinements, Bounded Context Canvases y Context Mapping.<br><br>Frank Yamil Alva Cordova<br>TB1: Preparó el Architectural Drivers Backlog y Architectural Design Decisions.<br><br>Lino Abraham Quenta Leon<br>TB1: Creó el Software Architecture System Landscape Diagram, Software Architecture Context Level Diagrams, Software Architecture Container Level Diagrams y Software Architecture Deployment Diagrams. | |
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | Josef Cesar Romero Florida<br>TB1: Documentó el proceso de EventStorming, Candidate Context Discovery y Domain Message Flows Modeling.<br><br>Richar Varoni Romero Cacha<br>TB1: Redactó las secciones de Design Purpose y Attribute-Driven Design Inputs.<br><br>Ángel Gustavo Chuco Michel<br>TB1: Documentó los Quality Attribute Scenario Refinements, Bounded Context Canvases y Context Mapping.<br><br>Frank Yamil Alva Cordova<br>TB1: Elaboró el informe del Architectural Drivers Backlog y Architectural Design Decisions.<br><br>Lino Abraham Quenta Leon<br>TB1: Preparó la documentación de los diagramas de arquitectura de software. | |
 
 # Capítulo I: Introducción
 
