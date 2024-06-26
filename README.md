@@ -1351,18 +1351,21 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 
 **Móvil**
 - Generar imagen 
-  -<img width="218" alt="generar imagen" src="https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/093a11b3-b6d2-4b5e-b5f7-c15e7bd82d0f">
+
+  <img width="218" alt="generar imagen" src="https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/093a11b3-b6d2-4b5e-b5f7-c15e7bd82d0f">
 
 - Mis favoritos
-  -<img width="218" alt="mis favoritos" src="https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/2ba51142-18e0-4c72-bd27-0344aa8427d2">
+
+  <img width="218" alt="mis favoritos" src="https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/2ba51142-18e0-4c72-bd27-0344aa8427d2">
 
 - Eliminar favoritos
- -<img width="157" alt="eliminar favorito" src="https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/179cc7a2-45ad-4771-81c7-bf00e66ae058">
+
+ <img width="157" alt="eliminar favorito" src="https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/179cc7a2-45ad-4771-81c7-bf00e66ae058">
 
 
 - Descargar Imagen
-  
-      ![13](https://media.discordapp.net/attachments/1255409286146687043/1255576367731310602/image.png?ex=667da21d&is=667c509d&hm=8cae232a43715089f3328fcf6cd9350d5c092b523af0c331b95d41c033f0f74c&=&format=webp&quality=lossless&width=183&height=417)
+
+  ![13](https://media.discordapp.net/attachments/1255409286146687043/1255576367731310602/image.png?ex=667da21d&is=667c509d&hm=8cae232a43715089f3328fcf6cd9350d5c092b523af0c331b95d41c033f0f74c&=&format=webp&quality=lossless&width=183&height=417)
   
 
 ### 7.2.2.6 Services Documentation Evidence for Sprint Review  
