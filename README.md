@@ -576,10 +576,10 @@ Se seleccionó los user stories con mayor relevancia para llevar a cabo esta sol
 ![Diagrama Descripción generada automáticamente](media/0b79704b46b4670fdfba8bb1ae4bcaf0.png)
 
 ![Texto Descripción generada automáticamente con confianza baja](media/f9a4c3d26ed5e4394fb1c47c22374d57.png)
-  4.1.5 **Bounded Context Canvases:**
+      ### 4.1.5 **Bounded Context Canvases:**
 
 ![PictoAI- Bounded Context Canvases](https://media.discordapp.net/attachments/1255409286146687043/1255565866787930283/IASA_-_Bounded_Context_Canvas_by_IASA_Global.jpg?ex=667d9855&is=667c46d5&hm=b6d5a7ac11eea5353ff389b23f8db552d7de0692ac92d54ed70b54461e9a73df&=&format=webp&width=621&height=417)
-   4.2.5 **Context Mapping:**
+       ### 4.2.5 **Context Mapping:**
    ![Context Mapping PICTO AI](https://media.discordapp.net/attachments/1255409286146687043/1255567365236719826/image.png?ex=667d99bb&is=667c483b&hm=6079a754a0750930f189215ab98a6191ba135a22cb46fff2730da92bd7a0c288&=&format=webp&quality=lossless&width=651&height=417)
 
 
