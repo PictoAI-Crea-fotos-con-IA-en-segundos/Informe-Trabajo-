@@ -1276,7 +1276,7 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 - El objetivo principal del Sprint #2 es implementar las funcionalidades avanzadas de edición de fotografías y mejorar la interfaz de usuario. A continuación se presenta un screenshot del Board en Trello junto con el URL público del Board.
   - URL: [https://trello.com/b/iS0ztjoS](https://trello.com/b/iS0ztjoS)
 
-![Sprint 2 Board](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/a83b7b7c-bdf5-43cf-b4c8-115a9b5fe236)
+![Sprint 2 Board](https://media.discordapp.net/attachments/1255409286146687043/1255577444254224458/image.png?ex=667da31e&is=667c519e&hm=9726aba660c4f7b84cab495b827eb77e85331ad58e1e470f5b60f8cd19d083f5&=&format=webp&quality=lossless&width=308&height=417)
 
 **User Stories Asignadas al Sprint #2**
 
@@ -1336,6 +1336,7 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 
 - Elección de plan 
   ![9](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/a8680b71-09d0-47a3-8d4e-6814b7b35977)
+  
 - Entrenamiento de rostro
   ![10](https://media.discordapp.net/attachments/1255409286146687043/1255575798232907886/image.png?ex=667da195&is=667c5015&hm=44c7e246e1dd36bb526375d1ba60c4c0ffe2f1a27f7a4cc63809bf69ceb570cb&=&format=webp&quality=lossless&width=793&height=417)
 
@@ -1354,9 +1355,11 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
   -<img width="218" alt="mis favoritos" src="https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/2ba51142-18e0-4c72-bd27-0344aa8427d2">
 
 - Eliminar favoritos
-  -<img width="157" alt="eliminar favorito" src="https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/179cc7a2-45ad-4771-81c7-bf00e66ae058">
+ -<img width="157" alt="eliminar favorito" src="https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/179cc7a2-45ad-4771-81c7-bf00e66ae058">
+
+
 - Descargar Imagen
-   ![13](https://media.discordapp.net/attachments/1255409286146687043/1255576367731310602/image.png?ex=667da21d&is=667c509d&hm=8cae232a43715089f3328fcf6cd9350d5c092b523af0c331b95d41c033f0f74c&=&format=webp&quality=lossless&width=183&height=417)
+  - ![13](https://media.discordapp.net/attachments/1255409286146687043/1255576367731310602/image.png?ex=667da21d&is=667c509d&hm=8cae232a43715089f3328fcf6cd9350d5c092b523af0c331b95d41c033f0f74c&=&format=webp&quality=lossless&width=183&height=417)
   
 
 ### 7.2.2.6 Services Documentation Evidence for Sprint Review  
