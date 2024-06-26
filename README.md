@@ -579,22 +579,10 @@ Se seleccionó los user stories con mayor relevancia para llevar a cabo esta sol
 
 ### Context Mapping
 
-**Bounded Context identificados:**
+  4.1.5 **Bounded Context Canvases:**
 
-1.  Generación de Fotos por IA: Encargado de procesar las fotos de entrada proporcionadas por los usuarios y utilizar modelos de inteligencia artificial para generar nuevas imágenes según las especificaciones dadas.
-2.  Gestión de Usuarios: Responsable de manejar el registro de usuarios, la autenticación, la gestión de perfiles y la configuración de preferencias de usuario.
-3.  Almacenamiento de Fotos: Este "bounded context" se ocupará del almacenamiento y la gestión de las fotos de los usuarios.
-4.  Interfaz de Usuario: Este contexto estaría enfocado en proporcionar una interfaz de usuario intuitiva y fácil de usar para que los usuarios ingresen fotos, especifiquen características y visualicen las fotos generadas.
-5.  Acceso a Modelos de IA en Stable Diffusion: Encargado de la interacción con el API
-6.  Gestión de Integración con Stable Diffusion: Responsable de la conexión y comunicación con el API
+![PictoAI- Bounded Context Canvases](https://media.discordapp.net/attachments/1255409286146687043/1255565866787930283/IASA_-_Bounded_Context_Canvas_by_IASA_Global.jpg?ex=667d9855&is=667c46d5&hm=b6d5a7ac11eea5353ff389b23f8db552d7de0692ac92d54ed70b54461e9a73df&=&format=webp&width=621&height=417)
 
-![Diagrama Descripción generada automáticamente](media/2a08ca316b97d925fa72f54357be263c.png)
-
-**Relaciones:**
-
--   "Generación de Fotos por IA" se comunica con "Integración con Modelos de IA" para enviar fotos de entrada y recibir fotos generadas.
--   "Generación de Fotos por IA" y "Almacenamiento de Fotos" comparten información sobre las fotos generadas y almacenadas.
--   "Interfaz de Usuario" interactúa con "Almacenamiento de Fotos" para mostrar las fotos almacenadas y permitir a los usuarios cargar nuevas fotos.
 
 ## Software Architecture
 
