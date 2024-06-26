@@ -615,16 +615,27 @@ Estos diagramas representan la configuración física del sistema, mostrando có
 ### 5.1.1. Domain Layer.
 
 Esta capa representa el corazón del modelo de dominio de PictoAI, incluyendo las entidades, objetos de valor, y agregados. Estos son críticos para reflejar las reglas de negocio y el comportamiento de la aplicación.
+| Componente          | Descripción                                                                                                                           |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| **Entidad**         | Una entidad representa un objeto del dominio que tiene una identidad única y es mutable a lo largo de su ciclo de vida.               |
+| **Imagen**          | Representa una imagen generada por la aplicación. Contiene atributos como `id`, `url`, `fechaCreacion`, `prompt`, `usuarioId`.        |
+| **Usuario**         | Representa a los usuarios que interactúan con la aplicación. Contiene atributos como `id`, `nombre`, `tipoUsuario` (Entusiasta o Profesional). |
+| **Objeto de Valor** | Un objeto de valor es inmutable y se compara por su valor en lugar de por su identidad.                                               |
+| **Prompt**          | Representa el prompt proporcionado por el usuario para generar una imagen. Contiene atributos como `texto`, `lenguaje`.               |
+| **Agregado**        | Un agregado es un clúster de objetos asociados tratados como una unidad para fines de modificación de datos.                          |
+| **GeneradorImagen** | Agregado que incluye la lógica para la generación de imágenes a partir de prompts. Coordina las interacciones entre `Imagen` y `Prompt`. |
+| **GenerarImagenService** | Servicio de dominio que contiene la lógica de negocio para procesar prompts y generar imágenes.                                   |
+| **Repositorio**     | Un repositorio proporciona una abstracción para la persistencia de objetos del dominio.                                               |
+| **ImagenRepository**| Abstracción de persistencia para la entidad `Imagen`. Permite operaciones como guardar, buscar, y eliminar imágenes.                   |
+| **UsuarioRepository**| Abstracción de persistencia para la entidad `Usuario`. Permite operaciones como guardar, buscar, y eliminar usuarios.                   |
 
-![](media/c2c090354aef621d229c5e2e384fbdee.png)
+![](https://cdn.discordapp.com/attachments/1255409286146687043/1255585446709297203/-C4_Context_1.jpg?ex=667daa92&is=667c5912&hm=45a209b1b97655f95863318503286c8f72e9214fe277ad385b97cee8df3b9aa1&)
 
 ### 5.1.2. Interface Layer.
 
 En esta capa se manejan las interacciones externas con el sistema, gestiona la interacción entre el usuario y el sistema, facilitando las operaciones a través de interfaces gráficas o API.
 
-*![](media/8a08a337cf8a51b26109dee5c99caeac.png)*
-
-*![Diagrama Descripción generada automáticamente](media/bc8514cfbe85bdda664bd715a88e2c5a.png)*
+*![](https://cdn.discordapp.com/attachments/1255409286146687043/1255585471564873728/-C4_Context.jpg?ex=667daa98&is=667c5918&hm=495f54c528b186f9a8050acff13f5845fc7f7077249d3a21f41c6e1b0776871f&)*
 
 ### 5.1.3. Application Layer.
 
