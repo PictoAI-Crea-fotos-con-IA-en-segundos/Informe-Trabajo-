@@ -1423,6 +1423,7 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 
 
 - **Móvil**
+
 ![22](https://media.discordapp.net/attachments/1255409286146687043/1255579229047754853/image.png?ex=667da4c7&is=667c5347&hm=e63d1e7af320a50ce6b46088d8d808926c7d3d22f4938805d3b0ce3f8766848f&=&format=webp&quality=lossless)
 
 ### 7.2.2.8 Team Collaboration Insights for Sprint Review
@@ -1433,6 +1434,7 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 **Colaboración y Comunicación**
 - Herramientas de colaboración: Se utilizó Google Meet para la comunicación instantánea y Trello para la gestión de tareas y el seguimiento del Sprint Backlog.
 - Par de programación: Se implementó la técnica de par de programación en varias tareas críticas para fomentar el aprendizaje y reducir errores.
+
 ![23](https://media.discordapp.net/attachments/1255409286146687043/1255579913759752213/image.png?ex=667da56a&is=667c53ea&hm=b215f7b3bf6dd14a1fdd819ef2ab84bc6e2c9819d41c85185e765cbf5878b103&=&format=webp&quality=lossless&width=836&height=416)
 
 
