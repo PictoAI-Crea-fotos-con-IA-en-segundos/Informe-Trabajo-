@@ -142,10 +142,10 @@ Contenido
     - [6.4. Applications UX/UI Design.](#64-applications-uxui-design)
       - [6.4.1. Applications Wireframes.](#641-applications-wireframes)
       - [6.4.2. Applications Wireflow Diagrams.](#642-applications-wireflow-diagrams)
-- [7.1 Software Configuration Management](#71-software-configuration-management)
     - [6.4.2. Applications Mock-ups](#642-applications-mock-ups)
     - [6.4.3. Applications User Flow Diagrams.](#643-applications-user-flow-diagrams)
     - [6.5. Applications Prototyping](#65-applications-prototyping)
+- [7.1 Software Configuration Management](#71-software-configuration-management)
   - [7.1.1 Software Development Environment Configuration](#711-software-development-environment-configuration)
     - [Backend - Java con Spring Boot](#backend---java-con-spring-boot)
     - [Frontend - TypeScript, JavaScript, y CSS](#frontend---typescript-javascript-y-css)
@@ -953,11 +953,7 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
   
   - **User task:** El usuario inicia sesión y accede al    menú lateral, selecciona la opción "Favoritos". En la    pantalla de favoritos, el usuario puede ver una    galería de sus imágenes favoritas, con opciones para   descargar o eliminar cada imagen.
 ![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/0f8a1799-db9b-4c60-8de4-683600d2f2c5)
-
-
-
-  # 7.1 Software Configuration Management
-  ### 6.4.2. Applications Mock-ups
+### 6.4.2. Applications Mock-ups
      A continuación, se muestran los mockups para el segmento de usuario de la aplicación Picto AI.
 
     **Inicio de Sesión y Registro**
@@ -1090,8 +1086,7 @@ Link figma: https://www.figma.com/design/NcKQnnk8VCyAfQaTvfBsLX/profile-page-for
   Link figma: https://www.figma.com/design/MrYMo7tbBqNOXefGwZeRT3/profile-page-for-app-(Community)-(Copy)-(Copy)?node-id=0-1&t=tF0urqNbydCkK8F9-1 
 
 
-  
-
+# 7.1 Software Configuration Management  
 ## 7.1.1 Software Development Environment Configuration
 
 **Descripción del entorno de Desarrollo**  
