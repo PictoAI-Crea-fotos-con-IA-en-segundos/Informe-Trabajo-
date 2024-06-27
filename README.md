@@ -141,7 +141,7 @@ Para la primera entrega, nos enfocamos en establecer la estructura básica del i
 
 ### Entrega 2 (TP1)
 
-En la segunda entrega, ampliamos considerablemente el contenido del informe. Frank y Richard mejoró la sección de User Personas basándose en la retroalimentación recibida. Lino y Josef agregó la sección de Impact Mapping, fortaleciendo nuestro análisis estratégico. Angel también aplicó feedback en las secciones que se señalaron.
+En la segunda entrega, ampliamos considerablemente el contenido del informe. Frank y Richard mejoraron la sección de User Personas basándose en la retroalimentación recibida. Lino y Josef agregaron la sección de Impact Mapping, fortaleciendo nuestro análisis estratégico. Angel también aplicó feedback en las secciones que se señalaron.
 
 ### Entrega 3 (TB2)
 
