@@ -131,7 +131,7 @@ Contenido
 
 # Project Report Collaboration Insights
 
-URL de nuestro repositorio para el Project Report: [https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos)
+URL de nuestro repositorio para el Project Report: https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos
 
 ## Desarrollo de actividades y colaboración
 
