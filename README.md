@@ -863,69 +863,126 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
   #### 6.4.2. Applications Wireflow Diagrams.
 
   ![Captura de pantalla 2024-05-03 094709](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/978aafcb-9fe4-4a2b-ad34-a5b9d3c3875c)
+  Wireflow User Goal: Como usuario de Picto AI, deseo registrarme si no tengo una cuenta.
+●	User task: El usuario accede a la pantalla de inicio de sesión. Si no tiene una cuenta, selecciona la opción "Regístrate", lo que lo redirige a la pantalla de registro. En esta pantalla, el usuario completa su información personal, como nombre, apellido, correo electrónico y contraseña. Finalmente, hace clic en “Registrar” para crear su cuenta.
+
+  ![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/7ecada6b-76d6-484c-b9f9-c85d76a284c0)
+Wireflow User Goal: Como usuario, deseo poder iniciar sesión para acceder a las funcionalidades de la aplicación.
+●	User task: El usuario accede a la pantalla de inicio de sesión, ingresa su nombre de usuario y contraseña, y luego hace clic en “Iniciar Sesión”. Una vez autenticado, el usuario es redirigido a la pantalla principal donde puede navegar por las diferentes funcionalidades de la aplicación, como "Inicio", "Perfil", "Generar Imagen", "Favoritos", "Configuración" y "Cerrar sesión".
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/15369b9a-8b27-4348-8fac-f7185c6eb3b6)
+Wireflow User Goal:
+Como usuario, deseo ver mi información personal.
+●	User task: El usuario inicia sesión y accede al menú lateral donde selecciona la opción "Perfil". En la pantalla de perfil, el usuario puede ver y editar su información personal, como nombre, apellido, correo electrónico y estado. También puede navegar de regreso al menú principal para acceder a otras funcionalidades.
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/78c37d7d-e3ca-445f-98a5-23b9de2aa259)
+Wireflow User Goal: Como usuario, deseo generar una imagen en base a un prompt.
+●	User task: El usuario inicia sesión y accede al menú lateral, selecciona la opción "Generar Imagen". En la pantalla correspondiente, el usuario ingresa un prompt en el campo de texto y hace clic en "Generar Imagen". La aplicación procesa el prompt y muestra la imagen generada. El usuario puede ver la imagen y añadirla a sus favoritos si lo desea
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/92bd78ba-7998-4e6c-8c8e-d9a9ea037ad7)
+Wireflow User Goal: Como usuario, deseo ver mis imágenes favoritas.
+●	User task: El usuario inicia sesión y accede al menú lateral, selecciona la opción "Favoritos". En la pantalla de favoritos, el usuario puede ver una galería de sus imágenes favoritas, con opciones para descargar o eliminar cada imagen.
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/0f8a1799-db9b-4c60-8de4-683600d2f2c5)
+
+
+
   # 7.1 Software Configuration Management
   ### 6.4.2. Applications Mock-ups
-  ![mcp 1](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/540ddae5-e398-4f75-a220-c3413893edec)
-  ![mck 2](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/cf845ca3-7f41-4379-abd1-8fd1605d539d)
-  ![mck 3](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/6658823f-939e-4489-b6e8-9d4d89aec267)
-  
-  ![mck 4](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/50476f9d-0c7b-4c28-892d-2d134966094f)
-  ![cmk 5](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/5ae2b30f-f2e0-46ac-a370-8553adcd0ae1)
-  ![mck 6](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/e236dd37-fca5-4678-920d-07abec02d00e)
-  
-  ![mck 7](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/0659f6dc-1754-4c22-ab54-f2f93d693c1d)
+     A continuación, se muestran los mockups para el segmento de usuario de la aplicación Picto AI.
+Inicio de Sesión y Registro
+La primera sección presenta la pantalla de Inicio de Sesión, donde el usuario puede ingresar su nombre de usuario y contraseña para acceder a la aplicación. En caso de no tener una cuenta, se ofrece una opción para Registrarse, que redirige al usuario a una nueva pantalla. En la pantalla de Registro, el usuario puede ingresar su información personal, como nombre, apellido, correo electrónico y crear una contraseña para completar el proceso de creación de cuenta.
+Navegación y Perfil
+Luego de iniciar sesión, el usuario accede a la pantalla principal con un menú lateral que incluye opciones como Inicio, Perfil, Generar Imagen, Favoritos, Configuración y Cerrar sesión. La sección de Perfil permite al usuario ver y editar su información personal, incluyendo nombre, apellido, correo electrónico y estado de la cuenta.
+Configuración
+En la sección de Configuración, el usuario puede personalizar varios aspectos de la aplicación, como activar el modo oscuro, gestionar notificaciones, seleccionar el idioma preferido, ajustar el tamaño de la fuente, y acceder a configuraciones de privacidad y almacenamiento de datos.
+Generar Imagen
+La sección Generar Imagen permite al usuario ingresar un prompt para generar una imagen usando inteligencia artificial. Una vez ingresado el prompt, se muestra la imagen generada, y el usuario tiene la opción de añadirla a sus favoritos.
+Favoritos
+En la sección de Favoritos, el usuario puede ver todas las imágenes que ha marcado como favoritas, con opciones para descargar o eliminar cada una de ellas.
+Estos mockups ilustran las principales funcionalidades y la navegación dentro de la aplicación Picto AI, proporcionando una experiencia de usuario completa y personalizada para la generación y gestión de imágenes.
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/419138a8-2931-4015-9874-4a5784907349)
+
 
   ### 6.4.3. Applications User Flow Diagrams.
 
-  
-1. **User Goal**: Registro de usuario en la aplicación móvil.
-
-   **User Persona**: Juan Pérez, 30 años, usuario habitual de aplicaciones móviles para gestionar sus tareas diarias.
-
-   ### **Flujos**:
-     - **Happy Path**:
-       1. El usuario abre la aplicación y selecciona "Registrarse".
-       2. Introduce sus datos personales (nombre, correo electrónico, contraseña).
-       3. Confirma los datos y selecciona "Enviar".
-       4. Recibe una confirmación de registro exitoso y es redirigido a la pantalla principal de la aplicación.
-  
-          ![aaaa](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/71df9f70-573e-4b08-914b-87231af1b287)
-
-        **Unhappy Path**:
-       1. El usuario abre la aplicación y selecciona "Registrarse".
-       2. Introduce sus datos personales, pero comete un error en la dirección de correo electrónico.
-       3. Recibe un mensaje de error indicando que la dirección de correo electrónico es inválida.
-       4. Corrige la dirección de correo electrónico y vuelve a intentar registrarse.
-       5. Completa el registro correctamente.
-
-      **User Persona**: Laura Martínez, 35 años, gerente de proyectos en una empresa tecnológica.
-
-     ### **Flujos**:
-     - **Happy Path**:
-       1. El usuario profesional abre la aplicación y selecciona "Registrarse".
-       2. Introduce sus datos profesionales 
-       3. Sube un documento de verificación profesional.
-       4. Confirma los datos y selecciona "Registrarse".
-       5. Recibe un mensaje de éxito en el registro y es redirigido al panel de control profesional.
-      
-        ![aaaa](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/56949276/329399fd-cd42-4fda-8941-ef7b54187b27)
-
-     
-        **Unhappy Path**:
-       1. El usuario abre la aplicación y selecciona "Registrarse".
-       2. Introduce sus datos personales, pero comete un error en la dirección de correo electrónico.
-       3. Recibe un mensaje de error indicando que la dirección de correo electrónico es inválida.
-       4. Corrige la dirección de correo electrónico y vuelve a intentar registrarse.
-       5. Completa el registro correctamente.     
+  Segmento de Usuario de Picto AI
+User Goal 1
+Como usuario de Picto AI, deseo poder registrarme si no tengo cuenta.
+●	Happy path:
+○	El usuario abre la aplicación y selecciona "Regístrate" en la pantalla de inicio de sesión.
+○	El usuario es redirigido a la pantalla de registro.
+○	El usuario ingresa su nombre, apellido, correo electrónico y contraseña.
+○	El usuario hace clic en "Registrar".
+○	La cuenta se crea exitosamente y el usuario es redirigido a la pantalla de inicio de sesión para que pueda iniciar sesión.
+●	Unhappy path:
+○	El usuario abre la aplicación y selecciona "Regístrate" en la pantalla de inicio de sesión.
+○	El usuario es redirigido a la pantalla de registro.
+○	El usuario intenta registrarse pero ingresa información incorrecta o incompleta.
+○	La aplicación muestra un mensaje de error indicando qué información necesita corregirse.
+○	El usuario corrige la información y vuelve a intentar registrarse.
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/e4d93e6c-2ef8-4ed3-87fd-702179f8a93b)
+User Goal 2
+Como usuario, deseo poder iniciar sesión para acceder a las funcionalidades de la aplicación.
+●	Happy path:
+○	El usuario abre la aplicación e ingresa su nombre de usuario y contraseña.
+○	El usuario hace clic en "Iniciar Sesión".
+○	El usuario inicia sesión exitosamente y es redirigido a la pantalla principal.
+○	El usuario puede navegar por las opciones del menú lateral, como "Inicio", "Perfil", "Generar Imagen", "Favoritos", "Configuración" y "Cerrar sesión".
+●	Unhappy path:
+○	El usuario abre la aplicación e ingresa su nombre de usuario y contraseña.
+○	El usuario hace clic en "Iniciar Sesión".
+○	La aplicación muestra un mensaje de error indicando que el nombre de usuario o la contraseña son incorrectos.
+○	El usuario verifica sus credenciales y vuelve a intentar iniciar sesión.
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/93317f4e-933b-4a4e-a4f4-f11e8d3ec02b)
+User Goal 3
+Como usuario, deseo ver mi información personal.
+●	Happy path:
+○	El usuario inicia sesión y selecciona la opción "Perfil" en el menú lateral.
+○	El usuario es redirigido a la pantalla de perfil.
+○	El usuario puede ver y editar su información personal, como nombre, apellido, correo electrónico y estado de la cuenta.
+●	Unhappy path:
+○	El usuario inicia sesión y selecciona la opción "Perfil" en el menú lateral.
+○	La aplicación no puede cargar la información del perfil debido a un error de red o de servidor.
+○	El usuario recibe un mensaje de error indicando que no se puede cargar la información del perfil en ese momento.
+○	El usuario intenta nuevamente más tarde.
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/649197e6-8a6e-4ccb-bbab-27e6f95b1f44)
+User Goal 4
+Como usuario, deseo generar una imagen en base a un prompt.
+●	Happy path:
+○	El usuario inicia sesión y selecciona la opción "Generar Imagen" en el menú lateral.
+○	El usuario ingresa un prompt en el campo de texto.
+○	El usuario hace clic en "Generar Imagen".
+○	La aplicación procesa el prompt y muestra la imagen generada.
+○	El usuario puede añadir la imagen a sus favoritos.
+●	Unhappy path:
+○	El usuario inicia sesión y selecciona la opción "Generar Imagen" en el menú lateral.
+○	El usuario ingresa un prompt en el campo de texto.
+○	El usuario hace clic en "Generar Imagen".
+○	La aplicación muestra un mensaje de error indicando que no se pudo generar la imagen debido a un problema técnico.
+○	El usuario intenta nuevamente más tarde o ingresa un nuevo prompt.
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/b295d3a5-cec9-4b3f-ac3f-7001d71536be)
+User Goal 5
+Como usuario, deseo ver mis imágenes favoritas.
+●	Happy path:
+○	El usuario inicia sesión y selecciona la opción "Favoritos" en el menú lateral.
+○	El usuario es redirigido a la pantalla de favoritos.
+○	El usuario puede ver todas las imágenes que ha marcado como favoritas.
+○	El usuario tiene opciones para descargar o eliminar cada imagen.
+●	Unhappy path:
+○	El usuario inicia sesión y selecciona la opción "Favoritos" en el menú lateral.
+○	La aplicación no puede cargar la lista de imágenes favoritas debido a un error de red o de servidor.
+○	El usuario recibe un mensaje de error indicando que no se pueden cargar las imágenes favoritas en ese momento.
+○	El usuario intenta nuevamente más tarde.
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/7fced14d-52b4-47f5-bc2c-b12f42c4a02c)
+Link figma: https://www.figma.com/design/NcKQnnk8VCyAfQaTvfBsLX/profile-page-for-app-(Community)-(Copy)?node-id=0-1&t=TXQIpa06yc0WNn0O-1 
   
     
           
   ### 6.5. Applications Prototyping
 
   Para el prototipo se utilizo figma:
-  Link: [Professional User Flow Design on Figma](https://www.figma.com/design/T5SUxWQSfjQem0eSIFw2iv/Untitled?node-id=0-1&t=sdqJQr0qNip4fuCW-1)
 
-  
+  ![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/e02dce52-e2ec-442b-afcc-e8bdb0466b46)
+
+
+  Link figma: https://www.figma.com/design/MrYMo7tbBqNOXefGwZeRT3/profile-page-for-app-(Community)-(Copy)-(Copy)?node-id=0-1&t=tF0urqNbydCkK8F9-1 
 
 
   
@@ -1067,6 +1124,9 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 3. Railway.app se encargará de desplegar automáticamente la aplicación basándose en el archivo `pom.xml` y las configuraciones proporcionadas.
 4. Railway.app permite la configuración de bases de datos directamente desde su plataforma, facilitando la integración y el despliegue.
 
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/bb46559a-7c21-487d-a847-6582ca1d26f5)
+
+
 ### Frontend
 
 **Pasos para el Despliegue:**
@@ -1074,6 +1134,7 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
 2. Seleccionar el framework Next.js en la configuración de Vercel.
 3. Establecer las variables de entorno necesarias en el panel de control de Vercel.
 4. Vercel se encargará del despliegue continuo basándose en los cambios realizados en el repositorio.
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/828a373d-7255-41ef-a209-b3c99f8e5bcf)
 
 # 7.2 Solution Implementation
 
