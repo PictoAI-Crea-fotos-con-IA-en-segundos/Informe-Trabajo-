@@ -8,7 +8,7 @@ Informe de Trabajo Final
 
 **Carrera:** Ingeniería de Software
 
-**Ciclo:** 07
+**Ciclo:** 08
 
 **Sección:** SW82
 
@@ -49,6 +49,15 @@ Lino Abraham Quenta Leon (U20211F978)
 
 Contenido
 
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [Desarrollo de actividades y colaboración](#desarrollo-de-actividades-y-colaboración)
+    - [Entrega 1 (TB1)](#entrega-1-tb1)
+    - [Entrega 2 (TP1)](#entrega-2-tp1)
+    - [Entrega 3 (TB2)](#entrega-3-tb2)
+    - [Entrega 4 (TF1)](#entrega-4-tf1)
+  - [Evidencia de colaboración](#evidencia-de-colaboración)
+- [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [Startup Profile](#startup-profile)
     - [Descripción de Startup](#descripción-de-startup)
@@ -83,38 +92,45 @@ Contenido
     - [Attribute-Driven Design Inputs](#attribute-driven-design-inputs)
     - [Architectural Drivers Backlog](#architectural-drivers-backlog)
     - [Architectural Design Decisions](#architectural-design-decisions)
-    - [Quality Attribute Scenario Refinements](#quality-attribute-scenario-refinements)
   - [Strategic-Level Domain-Driven Design](#strategic-level-domain-driven-design)
     - [EventStorming](#eventstorming)
     - [Candidate Context Discovery](#candidate-context-discovery)
     - [Domain Message Flows Modeling](#domain-message-flows-modeling)
-    - [Context Mapping](#context-mapping)
+    - [4.1.5 **Bounded Context Canvases:**](#415-bounded-context-canvases)
+    - [4.2.5 **Context Mapping:**](#425-context-mapping)
   - [Software Architecture](#software-architecture)
     - [Software Architecture System Landscape Diagram](#software-architecture-system-landscape-diagram)
     - [Software Architecture Context Level Diagrams](#software-architecture-context-level-diagrams)
     - [Software Architecture Container Level Diagrams](#software-architecture-container-level-diagrams)
     - [Software Architecture Deployment Diagrams](#software-architecture-deployment-diagrams)
-- [Capítulo V: Tactical-Level Software ![Interfaz de usuario gráfica Descripción generada automáticamente con confianza baja](media/b083affb6155b5203b7a589180585271.png)Design.](#capítulo-v-tactical-level-software-design)
-
-    - [5.1. Bounded Context: PhotoRepository](#51-bounded-context-photorepository)
-
-      - [5.1.1. Domain Layer.](#511-domain-layer)
-
-      - [5.1.2. Interface Layer.](#512-interface-layer)
-
-      - [5.1.3. Application Layer.](#513-application-layer)
-
-      - [5.1.4. Infrastructure Layer.](#514-infrastructure-layer)
-
-      - [5.1.6. Bounded Context Software Architecture Component Level Diagrams.](#516-bounded-context-software-architecture-component-level-diagrams)
-
-      - [5.1.7. Bounded Context Software Architecture Code Level Diagrams.](#517-bounded-context-software-architecture-code-level-diagrams)
-
+- [Capítulo V: Tactical-Level Software Design.](#capítulo-v-tactical-level-software-design)
+  - [5.1. Bounded Context: PhotoRepository](#51-bounded-context-photorepository)
+    - [5.1.1. Domain Layer.](#511-domain-layer)
+    - [5.1.2. Interface Layer.](#512-interface-layer)
+    - [5.1.3. Application Layer](#513-application-layer)
+      - [Command Handlers](#command-handlers)
+      - [Event Handlers](#event-handlers)
+    - [Detalles de los Componentes](#detalles-de-los-componentes)
+      - [EditPhotoCommand](#editphotocommand)
+      - [PhotoEditedEvent](#photoeditedevent)
+      - [Edit](#edit)
+    - [5.1.4. Infrastructure Layer.](#514-infrastructure-layer)
+    - [5.1.6. Bounded Context Software Architecture Component Level Diagrams.](#516-bounded-context-software-architecture-component-level-diagrams)
+    - [5.1.7. Bounded Context Software Architecture Code Level Diagrams.](#517-bounded-context-software-architecture-code-level-diagrams)
 - [Capítulo VI: Solution UX Design.](#capítulo-vi-solution-ux-design)
-
   - [6.1. Style Guidelines.](#61-style-guidelines)
-    - [6.1.1. General Style Guidelines.](#611-general-style-guidelines)
-    - [6.1.2. Web, Mobile & Devices Style Guidelines.](#612-web-mobile--devices-style-guidelines)
+    - [6.1.2. Web, Mobile \& Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)
+      - [Interfaces Web Responsivas:](#interfaces-web-responsivas)
+      - [Interfaces Nativas para Móviles:](#interfaces-nativas-para-móviles)
+      - [Consistencia:](#consistencia)
+      - [Feedback Visual:](#feedback-visual)
+    - [Tipografía y Iconografía](#tipografía-y-iconografía)
+      - [Tipografía](#tipografía)
+      - [Iconografía](#iconografía)
+    - [Paleta de Colores](#paleta-de-colores)
+    - [Detalles de Diseño](#detalles-de-diseño)
+      - [Colores Primarios](#colores-primarios)
+      - [Animaciones y Feedback Visual](#animaciones-y-feedback-visual)
   - [6.2. Information Architecture](#62-information-architecture)
     - [6.2.2. Labeling Systems.](#622-labeling-systems)
     - [6.2.3. SEO Tags and Meta Tags.](#623-seo-tags-and-meta-tags)
@@ -126,8 +142,63 @@ Contenido
     - [6.4. Applications UX/UI Design.](#64-applications-uxui-design)
       - [6.4.1. Applications Wireframes.](#641-applications-wireframes)
       - [6.4.2. Applications Wireflow Diagrams.](#642-applications-wireflow-diagrams)
-        
-- [ANEXO.](#anexo)
+- [7.1 Software Configuration Management](#71-software-configuration-management)
+    - [6.4.2. Applications Mock-ups](#642-applications-mock-ups)
+    - [6.4.3. Applications User Flow Diagrams.](#643-applications-user-flow-diagrams)
+    - [6.5. Applications Prototyping](#65-applications-prototyping)
+  - [7.1.1 Software Development Environment Configuration](#711-software-development-environment-configuration)
+    - [Backend - Java con Spring Boot](#backend---java-con-spring-boot)
+    - [Frontend - TypeScript, JavaScript, y CSS](#frontend---typescript-javascript-y-css)
+    - [Móvil - Dart con Flutter](#móvil---dart-con-flutter)
+    - [Backend](#backend)
+    - [Frontend](#frontend)
+    - [Móvil](#móvil)
+  - [7.1.2 Source Code Management](#712-source-code-management)
+  - [7.1.3 Source Code Style Guide \& Conventions](#713-source-code-style-guide--conventions)
+    - [Estructura del Proyecto](#estructura-del-proyecto)
+    - [Nomenclatura y Convenciones](#nomenclatura-y-convenciones)
+    - [Estructura del Proyecto](#estructura-del-proyecto-1)
+    - [Nomenclatura y Convenciones](#nomenclatura-y-convenciones-1)
+    - [Estructura del Proyecto](#estructura-del-proyecto-2)
+    - [Nomenclatura y Convenciones](#nomenclatura-y-convenciones-2)
+  - [7.1.4 Software Deployment Configuration](#714-software-deployment-configuration)
+    - [Backend](#backend-1)
+    - [Frontend](#frontend-1)
+- [7.2 Solution Implementation](#72-solution-implementation)
+  - [7.2.1 Sprint #1](#721-sprint-1)
+    - [7.2.1.1 Sprint Planning](#7211-sprint-planning)
+    - [7.2.1.2 Sprint Backlog #1](#7212-sprint-backlog-1)
+    - [7.2.1.3 Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
+    - [7.2.1.4 Testing Suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
+    - [7.2.1.5 Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)
+    - [7.2.1.6 Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)
+    - [7.2.1.7 Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)
+    - [7.2.1.8 Team Collaboration Insights for Sprint Review](#7218-team-collaboration-insights-for-sprint-review)
+- [7.2.2 Sprint 2](#722-sprint-2)
+    - [7.2.2.1 Sprint Planning](#7221-sprint-planning)
+    - [7.2.2.2 Sprint Backlog #2](#7222-sprint-backlog-2)
+    - [7.2.2.3 Development Evidence for Sprint Review](#7223-development-evidence-for-sprint-review)
+    - [7.2.2.4 Testing Suite Evidence for Sprint Review](#7224-testing-suite-evidence-for-sprint-review)
+    - [7.2.2.5 Execution Evidence for Sprint Review](#7225-execution-evidence-for-sprint-review)
+    - [7.2.2.6 Services Documentation Evidence for Sprint Review](#7226-services-documentation-evidence-for-sprint-review)
+    - [7.2.2.7 Software Deployment Evidence for Sprint Review](#7227-software-deployment-evidence-for-sprint-review)
+    - [7.2.2.8 Team Collaboration Insights for Sprint Review](#7228-team-collaboration-insights-for-sprint-review)
+- [7.3 Validation Interviews](#73-validation-interviews)
+  - [7.3.1 Diseño de entrevistas](#731-diseño-de-entrevistas)
+    - [Preguntas para el Usuario Entusiasta](#preguntas-para-el-usuario-entusiasta)
+    - [Preguntas para el Usuario Profesional](#preguntas-para-el-usuario-profesional)
+  - [7.3.2 Registro de Entrevistas](#732-registro-de-entrevistas)
+    - [Entrevistas Usuario Entusiasta](#entrevistas-usuario-entusiasta)
+    - [Entrevistas Usuario Profesional](#entrevistas-usuario-profesional)
+  - [7.3.3 Evaluación según Heurísticas](#733-evaluación-según-heurísticas)
+      - [3. Resultados de la Evaluación](#3-resultados-de-la-evaluación)
+  - [7.4. Video About-the-Product](#74-video-about-the-product)
+    - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+      - [Conclusiones](#conclusiones)
+      - [Recomendaciones](#recomendaciones)
+  - [Video About-the-Team.](#video-about-the-team)
+    - [Bibliografía](#bibliografía)
+- [Anexo](#anexo)
 
 # Project Report Collaboration Insights
 
@@ -863,22 +934,24 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
   #### 6.4.2. Applications Wireflow Diagrams.
 
   ![Captura de pantalla 2024-05-03 094709](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/978aafcb-9fe4-4a2b-ad34-a5b9d3c3875c)
-  Wireflow User Goal: Como usuario de Picto AI, deseo registrarme si no tengo una cuenta.
-●	User task: El usuario accede a la pantalla de inicio de sesión. Si no tiene una cuenta, selecciona la opción "Regístrate", lo que lo redirige a la pantalla de registro. En esta pantalla, el usuario completa su información personal, como nombre, apellido, correo electrónico y contraseña. Finalmente, hace clic en “Registrar” para crear su cuenta.
+  **Wireflow User Goal:** Como usuario de Picto AI, deseo registrarme si no tengo una cuenta.
+
+    ●	**User task:** El usuario accede a la pantalla de     inicio de sesión. Si no tiene una cuenta, selecciona    la opción "Regístrate", lo que lo redirige a la   pantalla de registro. En esta pantalla, el usuario     completa su información personal, como nombre,    apellido, correo electrónico y contraseña.    Finalmente, hace clic en “Registrar” para crear su   cuenta.
 
   ![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/7ecada6b-76d6-484c-b9f9-c85d76a284c0)
-Wireflow User Goal: Como usuario, deseo poder iniciar sesión para acceder a las funcionalidades de la aplicación.
-●	User task: El usuario accede a la pantalla de inicio de sesión, ingresa su nombre de usuario y contraseña, y luego hace clic en “Iniciar Sesión”. Una vez autenticado, el usuario es redirigido a la pantalla principal donde puede navegar por las diferentes funcionalidades de la aplicación, como "Inicio", "Perfil", "Generar Imagen", "Favoritos", "Configuración" y "Cerrar sesión".
+  **Wireflow User Goal:** Como usuario, deseo poder iniciar sesión para acceder a las funcionalidades de la aplicación.
+  **●	User task:** El usuario accede a la pantalla de inicio de sesión, ingresa su nombre de usuario y contraseña, y luego hace clic en “Iniciar Sesión”. Una vez autenticado, el usuario es redirigido a la pantalla principal donde puede navegar por las diferentes funcionalidades de la aplicación, como "Inicio", "Perfil", "Generar Imagen", "Favoritos", "Configuración" y "Cerrar sesión".
 ![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/15369b9a-8b27-4348-8fac-f7185c6eb3b6)
-Wireflow User Goal:
-Como usuario, deseo ver mi información personal.
-●	User task: El usuario inicia sesión y accede al menú lateral donde selecciona la opción "Perfil". En la pantalla de perfil, el usuario puede ver y editar su información personal, como nombre, apellido, correo electrónico y estado. También puede navegar de regreso al menú principal para acceder a otras funcionalidades.
+  **Wireflow User Goal:** Como usuario, deseo ver mi información personal.
+
+  - **User task:** El usuario inicia sesión y accede al   menú lateral donde selecciona la opción "Perfil". En  la pantalla de perfil, el usuario puede ver y editar   su información personal, como nombre, apellido,   correo electrónico y estado. También puede navegar de   regreso al menú principal para acceder a otras  funcionalidades.
 ![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/78c37d7d-e3ca-445f-98a5-23b9de2aa259)
-Wireflow User Goal: Como usuario, deseo generar una imagen en base a un prompt.
-●	User task: El usuario inicia sesión y accede al menú lateral, selecciona la opción "Generar Imagen". En la pantalla correspondiente, el usuario ingresa un prompt en el campo de texto y hace clic en "Generar Imagen". La aplicación procesa el prompt y muestra la imagen generada. El usuario puede ver la imagen y añadirla a sus favoritos si lo desea
+  **Wireflow User Goal:** Como usuario, deseo generar una imagen en base a un prompt.
+  - **User task:** El usuario inicia sesión y accede al    menú lateral, selecciona la opción "Generar Imagen".   En la pantalla correspondiente, el usuario ingresa un  prompt en el campo de texto y hace clic en "Generar   Imagen". La aplicación procesa el prompt y muestra la  imagen generada. El usuario puede ver la imagen y   añadirla a sus favoritos si lo desea
 ![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/92bd78ba-7998-4e6c-8c8e-d9a9ea037ad7)
-Wireflow User Goal: Como usuario, deseo ver mis imágenes favoritas.
-●	User task: El usuario inicia sesión y accede al menú lateral, selecciona la opción "Favoritos". En la pantalla de favoritos, el usuario puede ver una galería de sus imágenes favoritas, con opciones para descargar o eliminar cada imagen.
+  **Wireflow User Goal:** Como usuario, deseo ver mis imágenes favoritas.
+  
+  - **User task:** El usuario inicia sesión y accede al    menú lateral, selecciona la opción "Favoritos". En la    pantalla de favoritos, el usuario puede ver una    galería de sus imágenes favoritas, con opciones para   descargar o eliminar cada imagen.
 ![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/0f8a1799-db9b-4c60-8de4-683600d2f2c5)
 
 
@@ -886,90 +959,122 @@ Wireflow User Goal: Como usuario, deseo ver mis imágenes favoritas.
   # 7.1 Software Configuration Management
   ### 6.4.2. Applications Mock-ups
      A continuación, se muestran los mockups para el segmento de usuario de la aplicación Picto AI.
-Inicio de Sesión y Registro
-La primera sección presenta la pantalla de Inicio de Sesión, donde el usuario puede ingresar su nombre de usuario y contraseña para acceder a la aplicación. En caso de no tener una cuenta, se ofrece una opción para Registrarse, que redirige al usuario a una nueva pantalla. En la pantalla de Registro, el usuario puede ingresar su información personal, como nombre, apellido, correo electrónico y crear una contraseña para completar el proceso de creación de cuenta.
-Navegación y Perfil
-Luego de iniciar sesión, el usuario accede a la pantalla principal con un menú lateral que incluye opciones como Inicio, Perfil, Generar Imagen, Favoritos, Configuración y Cerrar sesión. La sección de Perfil permite al usuario ver y editar su información personal, incluyendo nombre, apellido, correo electrónico y estado de la cuenta.
-Configuración
-En la sección de Configuración, el usuario puede personalizar varios aspectos de la aplicación, como activar el modo oscuro, gestionar notificaciones, seleccionar el idioma preferido, ajustar el tamaño de la fuente, y acceder a configuraciones de privacidad y almacenamiento de datos.
-Generar Imagen
-La sección Generar Imagen permite al usuario ingresar un prompt para generar una imagen usando inteligencia artificial. Una vez ingresado el prompt, se muestra la imagen generada, y el usuario tiene la opción de añadirla a sus favoritos.
-Favoritos
-En la sección de Favoritos, el usuario puede ver todas las imágenes que ha marcado como favoritas, con opciones para descargar o eliminar cada una de ellas.
-Estos mockups ilustran las principales funcionalidades y la navegación dentro de la aplicación Picto AI, proporcionando una experiencia de usuario completa y personalizada para la generación y gestión de imágenes.
+
+    **Inicio de Sesión y Registro**
+
+    La primera sección presenta la pantalla de Inicio de    Sesión, donde el usuario puede ingresar su nombre de    usuario y contraseña para acceder a la aplicación. En    caso de no tener una cuenta, se ofrece una opción    para Registrarse, que redirige al usuario a una nueva    pantalla. En la pantalla de Registro, el usuario   puede ingresar su información personal, como nombre,     apellido, correo electrónico y crear una contraseña     para completar el proceso de creación de cuenta.
+
+    **Navegación y Perfil**
+
+    Luego de iniciar sesión, el usuario accede a la     pantalla principal con un menú lateral que incluye    opciones como Inicio, Perfil, Generar Imagen,   Favoritos, Configuración y Cerrar sesión. La sección     de Perfil permite al usuario ver y editar su    información personal, incluyendo nombre, apellido,    correo electrónico y estado de la cuenta.
+
+    **Configuración**
+
+    En la sección de Configuración, el usuario puede    personalizar varios aspectos de la aplicación, como   activar el modo oscuro, gestionar notificaciones,    seleccionar el idioma preferido, ajustar el tamaño de   la fuente, y acceder a configuraciones de privacidad     y almacenamiento de datos.
+
+    **Generar Imagen**
+
+    La sección Generar Imagen permite al usuario ingresar     un prompt para generar una imagen usando inteligencia     artificial. Una vez ingresado el prompt, se muestra     la imagen generada, y el usuario tiene la opción de     añadirla a sus favoritos.
+
+    **Favoritos**
+
+    En la sección de Favoritos, el usuario puede ver    todas las imágenes que ha marcado como favoritas, con   opciones para descargar o eliminar cada una de ellas.
+    Estos mockups ilustran las principales    funcionalidades y la navegación dentro de la    aplicación Picto AI, proporcionando una experiencia    de usuario completa y personalizada para la    generación y gestión de imágenes.
 ![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/419138a8-2931-4015-9874-4a5784907349)
 
 
   ### 6.4.3. Applications User Flow Diagrams.
 
-  Segmento de Usuario de Picto AI
-User Goal 1
-Como usuario de Picto AI, deseo poder registrarme si no tengo cuenta.
-●	Happy path:
-○	El usuario abre la aplicación y selecciona "Regístrate" en la pantalla de inicio de sesión.
-○	El usuario es redirigido a la pantalla de registro.
-○	El usuario ingresa su nombre, apellido, correo electrónico y contraseña.
-○	El usuario hace clic en "Registrar".
-○	La cuenta se crea exitosamente y el usuario es redirigido a la pantalla de inicio de sesión para que pueda iniciar sesión.
-●	Unhappy path:
-○	El usuario abre la aplicación y selecciona "Regístrate" en la pantalla de inicio de sesión.
-○	El usuario es redirigido a la pantalla de registro.
-○	El usuario intenta registrarse pero ingresa información incorrecta o incompleta.
-○	La aplicación muestra un mensaje de error indicando qué información necesita corregirse.
-○	El usuario corrige la información y vuelve a intentar registrarse.
+  **Segmento de Usuario de Picto AI**
+
+  **User Goal 1**
+
+  Como usuario de Picto AI, deseo poder registrarme si  no tengo cuenta.
+
+  - **Happy path:**  
+    - 	El usuario abre la aplicación y
+    selecciona      "Regístrate" en la pantalla de
+    inicio de sesión.
+    
+    - 	El usuario es redirigido a la pantalla de    
+    registro.
+    
+    - El usuario ingresa su nombre, apellido,
+    correo      electrónico y contraseña.
+    
+    - El usuario hace clic en "Registrar".
+    
+    -  La cuenta se crea exitosamente y el usuario
+    es      redirigido a la pantalla de inicio de
+    sesión para     que  pueda iniciar sesión.
+
+  - **Unhappy path:**
+
+    
+    -  El usuario abre la aplicación y selecciona    "Regístrate" en la pantalla de inicio de sesión.
+    
+     - El usuario es redirigido a la pantalla de  registro.
+    
+      - El usuario intenta registrarse pero ingresa     información incorrecta o incompleta.
+    
+       - 	La aplicación muestra un mensaje de error   indicando   qué información necesita corregirse.
+    
+     - 	El usuario corrige la información y vuelve a    intentar registrarse.
+    
 ![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/e4d93e6c-2ef8-4ed3-87fd-702179f8a93b)
-User Goal 2
-Como usuario, deseo poder iniciar sesión para acceder a las funcionalidades de la aplicación.
-●	Happy path:
-○	El usuario abre la aplicación e ingresa su nombre de usuario y contraseña.
-○	El usuario hace clic en "Iniciar Sesión".
-○	El usuario inicia sesión exitosamente y es redirigido a la pantalla principal.
-○	El usuario puede navegar por las opciones del menú lateral, como "Inicio", "Perfil", "Generar Imagen", "Favoritos", "Configuración" y "Cerrar sesión".
-●	Unhappy path:
-○	El usuario abre la aplicación e ingresa su nombre de usuario y contraseña.
-○	El usuario hace clic en "Iniciar Sesión".
-○	La aplicación muestra un mensaje de error indicando que el nombre de usuario o la contraseña son incorrectos.
-○	El usuario verifica sus credenciales y vuelve a intentar iniciar sesión.
+
+**User Goal 2**
+    Como usuario, deseo poder iniciar sesión para acceder a las funcionalidades de la aplicación.
+  - **Happy path:**
+    - 	El usuario abre la aplicación e ingresa su nombre de usuario y contraseña.
+    - 	El usuario hace clic en "Iniciar Sesión".
+    - 	El usuario inicia sesión exitosamente y es redirigido a la pantalla principal.
+    - 	El usuario puede navegar por las opciones del menú lateral, como "Inicio", "Perfil", "Generar Imagen",    "Favoritos", "Configuración" y "Cerrar sesión".
+  - **Unhappy path:**
+     - 	El usuario abre la aplicación e ingresa su nombre de usuario y contraseña.
+    - El usuario hace clic en "Iniciar Sesión".
+    - La aplicación muestra un mensaje de error indicando que el nombre de usuario o la contraseña son incorrectos.
+    - El usuario verifica sus credenciales y vuelve a intentar iniciar sesión.
 ![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/93317f4e-933b-4a4e-a4f4-f11e8d3ec02b)
-User Goal 3
-Como usuario, deseo ver mi información personal.
-●	Happy path:
-○	El usuario inicia sesión y selecciona la opción "Perfil" en el menú lateral.
-○	El usuario es redirigido a la pantalla de perfil.
-○	El usuario puede ver y editar su información personal, como nombre, apellido, correo electrónico y estado de la cuenta.
-●	Unhappy path:
-○	El usuario inicia sesión y selecciona la opción "Perfil" en el menú lateral.
-○	La aplicación no puede cargar la información del perfil debido a un error de red o de servidor.
-○	El usuario recibe un mensaje de error indicando que no se puede cargar la información del perfil en ese momento.
-○	El usuario intenta nuevamente más tarde.
+    **User Goal 3**
+    Como usuario, deseo ver mi información personal.
+  - **Happy path:**
+    - 	El usuario inicia sesión y selecciona la opción "Perfil" en el menú lateral.
+    - El usuario es redirigido a la pantalla de perfil.
+    - 	El usuario puede ver y editar su información personal, como nombre, apellido, correo electrónico y estado de la cuenta.
+ - **Unhappy path:**
+    - El usuario inicia sesión y selecciona la opción "Perfil" en el menú lateral.
+    - 	La aplicación no puede cargar la información del perfil debido a un error de red o de servidor.
+    - El usuario recibe un mensaje de error indicando que no se puede cargar la información del perfil en ese momento.
+    - 	El usuario intenta nuevamente más tarde.
 ![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/649197e6-8a6e-4ccb-bbab-27e6f95b1f44)
-User Goal 4
-Como usuario, deseo generar una imagen en base a un prompt.
-●	Happy path:
-○	El usuario inicia sesión y selecciona la opción "Generar Imagen" en el menú lateral.
-○	El usuario ingresa un prompt en el campo de texto.
-○	El usuario hace clic en "Generar Imagen".
-○	La aplicación procesa el prompt y muestra la imagen generada.
-○	El usuario puede añadir la imagen a sus favoritos.
-●	Unhappy path:
-○	El usuario inicia sesión y selecciona la opción "Generar Imagen" en el menú lateral.
-○	El usuario ingresa un prompt en el campo de texto.
-○	El usuario hace clic en "Generar Imagen".
-○	La aplicación muestra un mensaje de error indicando que no se pudo generar la imagen debido a un problema técnico.
-○	El usuario intenta nuevamente más tarde o ingresa un nuevo prompt.
+**User Goal 4**
+  Como usuario, deseo generar una imagen en base a un prompt.
+  - **Happy path:**
+    - El usuario inicia sesión y selecciona la opción "Generar  Imagen" en el menú lateral.
+    - El usuario ingresa un prompt en el campo de texto.
+    - El usuario hace clic en "Generar Imagen".
+    - La aplicación procesa el prompt y muestra la imagen   generada.
+    - El usuario puede añadir la imagen a sus favoritos.
+  - **Unhappy path:**
+    - El usuario inicia sesión y selecciona la opción "Generar  Imagen" en el menú lateral.
+    - El usuario ingresa un prompt en el campo de texto.
+    - El usuario hace clic en "Generar Imagen".
+    - La aplicación muestra un mensaje de error indicando que no  se pudo generar la imagen debido a un problema técnico.
+    - El usuario intenta nuevamente más tarde o ingresa un nuevo prompt.
 ![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/b295d3a5-cec9-4b3f-ac3f-7001d71536be)
-User Goal 5
-Como usuario, deseo ver mis imágenes favoritas.
-●	Happy path:
-○	El usuario inicia sesión y selecciona la opción "Favoritos" en el menú lateral.
-○	El usuario es redirigido a la pantalla de favoritos.
-○	El usuario puede ver todas las imágenes que ha marcado como favoritas.
-○	El usuario tiene opciones para descargar o eliminar cada imagen.
-●	Unhappy path:
-○	El usuario inicia sesión y selecciona la opción "Favoritos" en el menú lateral.
-○	La aplicación no puede cargar la lista de imágenes favoritas debido a un error de red o de servidor.
-○	El usuario recibe un mensaje de error indicando que no se pueden cargar las imágenes favoritas en ese momento.
-○	El usuario intenta nuevamente más tarde.
+  **User Goal 5**
+  Como usuario, deseo ver mis imágenes favoritas.
+- **Happy path:**
+  - El usuario inicia sesión y selecciona la opción "Favoritos" en el menú lateral.
+  - El usuario es redirigido a la pantalla de favoritos.
+  - El usuario puede ver todas las imágenes que ha marcado como favoritas.
+  - El usuario tiene opciones para descargar o eliminar cada imagen.
+- **Unhappy path:**
+  - El usuario inicia sesión y selecciona la opción "Favoritos" en el menú lateral.
+  - La aplicación no puede cargar la lista de imágenes favoritas debido a un error de red o de servidor.
+  - El usuario recibe un mensaje de error indicando que no se pueden cargar las imágenes favoritas en ese momento.
+  - El usuario intenta nuevamente más tarde.
 ![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/7fced14d-52b4-47f5-bc2c-b12f42c4a02c)
 Link figma: https://www.figma.com/design/NcKQnnk8VCyAfQaTvfBsLX/profile-page-for-app-(Community)-(Copy)?node-id=0-1&t=TXQIpa06yc0WNn0O-1 
   
