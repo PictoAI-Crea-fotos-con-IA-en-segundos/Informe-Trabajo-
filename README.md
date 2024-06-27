@@ -4,7 +4,7 @@
 
 **SI728 Arquitecturas De Software Emergentes**
 
-Informe del trabajo TP
+Informe del trabajo Trabajo Final
 
 **Carrera:** Ingeniería de Software
 
