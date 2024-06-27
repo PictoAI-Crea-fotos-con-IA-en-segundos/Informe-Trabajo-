@@ -954,28 +954,28 @@ Las etiquetas meta juegan un papel crucial al incrementar la visibilidad online 
   - **User task:** El usuario inicia sesión y accede al    menú lateral, selecciona la opción "Favoritos". En la    pantalla de favoritos, el usuario puede ver una    galería de sus imágenes favoritas, con opciones para   descargar o eliminar cada imagen.
 ![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/0f8a1799-db9b-4c60-8de4-683600d2f2c5)
 ### 6.4.2. Applications Mock-ups
-     A continuación, se muestran los mockups para el segmento de usuario de la aplicación Picto AI.
+  A continuación, se muestran los mockups para el segmento deusuario de la aplicación Picto AI.
 
-    **Inicio de Sesión y Registro**
+   **Inicio de Sesión y Registro**
 
-    La primera sección presenta la pantalla de Inicio de    Sesión, donde el usuario puede ingresar su nombre de    usuario y contraseña para acceder a la aplicación. En    caso de no tener una cuenta, se ofrece una opción    para Registrarse, que redirige al usuario a una nueva    pantalla. En la pantalla de Registro, el usuario   puede ingresar su información personal, como nombre,     apellido, correo electrónico y crear una contraseña     para completar el proceso de creación de cuenta.
+   La primera sección presenta la pantalla de Inicio de   Sesión, donde el usuario puede ingresar su nombre de   usuario y contraseña para acceder a la aplicación. En   caso de no tener una cuenta, se ofrece una opción    paraRegistrarse, que redirige al usuario a una nueva   pantalla. En la pantalla de Registro, el usuario   puedeingresar su información personal, como nombre,    apellido, correo electrónico y crear una contraseña    para completar el proceso de creación de cuenta.
 
-    **Navegación y Perfil**
+   **Navegación y Perfil**
 
-    Luego de iniciar sesión, el usuario accede a la     pantalla principal con un menú lateral que incluye    opciones como Inicio, Perfil, Generar Imagen,   Favoritos, Configuración y Cerrar sesión. La sección     de Perfil permite al usuario ver y editar su    información personal, incluyendo nombre, apellido,    correo electrónico y estado de la cuenta.
+   Luego de iniciar sesión, el usuario accede a la    pantalla principal con un menú lateral que incluye   opciones como Inicio, Perfil, Generar Imagen,   Favoritos,Configuración y Cerrar sesión. La sección     de Perfilpermite al usuario ver y editar su    información personal,incluyendo nombre, apellido,    correo electrónico y estadode la cuenta.
 
-    **Configuración**
+   **Configuración**
 
-    En la sección de Configuración, el usuario puede    personalizar varios aspectos de la aplicación, como   activar el modo oscuro, gestionar notificaciones,    seleccionar el idioma preferido, ajustar el tamaño de   la fuente, y acceder a configuraciones de privacidad     y almacenamiento de datos.
+   En la sección de Configuración, el usuario puede   personalizar varios aspectos de la aplicación, como  activar el modo oscuro, gestionar notificaciones,   seleccionar el idioma preferido, ajustar el tamaño de   lafuente, y acceder a configuraciones de privacidad     yalmacenamiento de datos.
 
-    **Generar Imagen**
+   **Generar Imagen**
 
-    La sección Generar Imagen permite al usuario ingresar     un prompt para generar una imagen usando inteligencia     artificial. Una vez ingresado el prompt, se muestra     la imagen generada, y el usuario tiene la opción de     añadirla a sus favoritos.
+   La sección Generar Imagen permite al usuario ingresar    un prompt para generar una imagen usando inteligencia    artificial. Una vez ingresado el prompt, se muestra     laimagen generada, y el usuario tiene la opción de    añadirla a sus favoritos.
 
-    **Favoritos**
+   **Favoritos**
 
-    En la sección de Favoritos, el usuario puede ver    todas las imágenes que ha marcado como favoritas, con   opciones para descargar o eliminar cada una de ellas.
-    Estos mockups ilustran las principales    funcionalidades y la navegación dentro de la    aplicación Picto AI, proporcionando una experiencia    de usuario completa y personalizada para la    generación y gestión de imágenes.
+   En la sección de Favoritos, el usuario puede ver    todaslas imágenes que ha marcado como favoritas, con   opcionespara descargar o eliminar cada una de ellas.
+   Estos mockups ilustran las principales    funcionalidades yla navegación dentro de la    aplicación Picto AI,proporcionando una experiencia    de usuario completa ypersonalizada para la    generación y gestión de imágenes.
 ![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89095496/419138a8-2931-4015-9874-4a5784907349)
 
 
