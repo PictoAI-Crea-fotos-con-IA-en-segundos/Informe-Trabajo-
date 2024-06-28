@@ -628,28 +628,32 @@ Se seleccionó los user stories con mayor relevancia para llevar a cabo esta sol
 
 ### EventStorming
 
-![Un letrero de color blanco Descripción generada automáticamente con confianza baja](media/990bd9e8e780204557672598e8b18237.png)
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/841e4c23-2458-4aea-934f-ff730f7bf23b)
 
-![Diagrama Descripción generada automáticamente](media/02b181e019fc68bbe5711dad61bf1069.png)
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/f7e4e703-ee99-4f92-8f3c-ae75740b12b5)
 
-![Gráfico, Gráfico en cascada Descripción generada automáticamente](media/07e7381246e1f8b0bf883b30dff15495.png)
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/c223bf0f-3d28-4203-aec2-5fe61f894639)
+
 
 ### Candidate Context Discovery
 
-![Diagrama Descripción generada automáticamente](media/34d18d26f6395f048583b527dbb62402.png)
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/2948f5cb-1439-4508-abbc-cbb621779ab4)
 
-![Diagrama Descripción generada automáticamente](media/729150ae817f275d8a372e7f92387c8c.png)
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/69f02b7b-8a0f-4b8b-9582-de0a5d748972)
 
-![Diagrama Descripción generada automáticamente](media/4232e126edef61969a2d7482a5f8b3f2.png)
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/1c417962-d7b6-40c7-8d1c-7ec1eb290b67)
+
 
 ### Domain Message Flows Modeling
 
-![Diagrama Descripción generada automáticamente](media/0b79704b46b4670fdfba8bb1ae4bcaf0.png)
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/134a4fba-b156-4987-bbab-99a3df147248)
 
-![Texto Descripción generada automáticamente con confianza baja](media/f9a4c3d26ed5e4394fb1c47c22374d57.png)
+
 ### 4.1.5 **Bounded Context Canvases:**
 
-![PictoAI- Bounded Context Canvases](https://media.discordapp.net/attachments/1255409286146687043/1255565866787930283/IASA_-_Bounded_Context_Canvas_by_IASA_Global.jpg?ex=667d9855&is=667c46d5&hm=b6d5a7ac11eea5353ff389b23f8db552d7de0692ac92d54ed70b54461e9a73df&=&format=webp&width=621&height=417)
+![image](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/111524705/03d52214-cc15-47fd-83ff-b66d40ee64db)
+
+
 ### 4.2.5 **Context Mapping:**
    ![Context Mapping PICTO AI](https://media.discordapp.net/attachments/1255409286146687043/1255567365236719826/image.png?ex=667d99bb&is=667c483b&hm=6079a754a0750930f189215ab98a6191ba135a22cb46fff2730da92bd7a0c288&=&format=webp&quality=lossless&width=651&height=417)
 
