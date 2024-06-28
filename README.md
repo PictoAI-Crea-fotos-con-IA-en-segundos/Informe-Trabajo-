@@ -704,7 +704,7 @@ Esta capa representa el corazón del modelo de dominio de PictoAI, incluyendo la
 | **ImagenRepository**| Abstracción de persistencia para la entidad `Imagen`. Permite operaciones como guardar, buscar, y eliminar imágenes.                   |
 | **UsuarioRepository**| Abstracción de persistencia para la entidad `Usuario`. Permite operaciones como guardar, buscar, y eliminar usuarios.                   |
 
-![](https://cdn.discordapp.com/attachments/1255409286146687043/1255585446709297203/-C4_Context_1.jpg?ex=667daa92&is=667c5912&hm=45a209b1b97655f95863318503286c8f72e9214fe277ad385b97cee8df3b9aa1&)
+![-C4 Context (1)](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89022073/9988a9a8-a453-4647-8060-727327b7c4ea)
 
 ### 5.1.2. Interface Layer.
 
@@ -716,7 +716,7 @@ En esta capa se manejan las interacciones externas con el sistema, gestiona la i
 | **Controlador**           | Agregado   | Gestiona las solicitudes entrantes y coordina la interacción con los servicios del dominio.         |
 | **DTO (Data Transfer Object)** | Atributo   | Estructura de datos utilizada para transferir información entre la UI y el backend.                  |
 
-*![](https://cdn.discordapp.com/attachments/1255409286146687043/1255585471564873728/-C4_Context.jpg?ex=667daa98&is=667c5918&hm=495f54c528b186f9a8050acff13f5845fc7f7077249d3a21f41c6e1b0776871f&)*
+![Account Context](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89022073/3beef9b7-16b5-4229-807c-22bfdd5eb21c)
 
 ### 5.1.3. Application Layer
 
@@ -762,6 +762,8 @@ La Application Layer juega un papel crucial en la integración de la interfaz de
 
 La Capa de Infraestructura de nuestro proyecto de generación de fotos con IA es la fundación tecnológica que soporta todas las operaciones de nuestra aplicación. En esta capa, las clases y componentes se encargan de la comunicación con servicios externos, tales como bases de datos para almacenar información persistente, sistemas de mensajería para la gestión de colas y procesamiento asincrónico, y servicios de correo electrónico para la interacción con los usuarios.
 
+![-C4 Context](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89022073/a238242d-8089-4b71-883a-0e4207605e99)
+
 *Componentes Clave*
 
 -   Usuario: Clase central que representa a los usuarios finales, manejando la identidad y acciones que pueden realizar dentro del sistema.
@@ -775,7 +777,6 @@ La Capa de Infraestructura de nuestro proyecto de generación de fotos con IA es
 -   Sistemas de Mensajería (Mensajería): Proporciona la infraestructura para enviar y recibir mensajes asincrónicos, facilitando tareas como la confirmación de acciones o la ejecución de trabajos en segundo plano.
 -   Servicios de Correo (Correo): Permite enviar notificaciones y comunicaciones a los usuarios, como confirmaciones de registro o notificaciones de cambios en sus fotos.
 
-![](https://cdn.discordapp.com/attachments/1255409286146687043/1255585446709297203/-C4_Context_1.jpg?ex=667daa92&is=667c5912&hm=45a209b1b97655f95863318503286c8f72e9214fe277ad385b97cee8df3b9aa1&)
 
 El diagrama muestra de manera simplificada cómo las clases definidas interactúan con los servicios externos:
 
@@ -787,9 +788,12 @@ El diagrama muestra de manera simplificada cómo las clases definidas interactú
 
 ### 5.1.7. Bounded Context Software Architecture Code Level Diagrams.
 -  Bounded Context: Account
-![](https://cdn.discordapp.com/attachments/1255409286146687043/1255585543698251806/Untitled_Diagram.jpg?ex=667daaa9&is=667c5929&hm=070c3dfe39156cb1b185e7d9007fb6b27d310991fa7e19926d7b840b66d6243d&)
+
+![Untitled Diagram drawio](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89022073/6d09c46b-7eae-4c55-8cb7-77f5433f4a31)
+
 -  Bounded Context: Image Generation
-![](https://cdn.discordapp.com/attachments/1255409286146687043/1255585512769720422/Account_Context.jpg?ex=667daaa1&is=667c5921&hm=0d11bb2b9092acdef2ff1cb23c5b37a0c4e36f337fb9dc2ee2d798ddd3cc0215&)
+
+![Account_Context](https://github.com/PictoAI-Crea-fotos-con-IA-en-segundos/Informe-Trabajo-/assets/89022073/1fd91aa1-5b83-4eba-b624-5f6731f59e40)
 
 # Capítulo VI: Solution UX Design.
 
